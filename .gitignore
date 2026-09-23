@@ -1,0 +1,7 @@
+site/
+.cache/
+__pycache__/
+preview-*.png
+.codex/
+ornek_gitbook_sitesi/
+ornek_mozilla_sites/

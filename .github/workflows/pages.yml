@@ -1,0 +1,46 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Bağımlılıkları kur
+        run: pip install -r requirements.txt
+      - name: Siteyi üret
+        run: mkdocs build --strict
+      - name: Pages çıktısını yükle
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: GitHub Pages'a yayınla
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{# CSS owns sidebar geometry. Do not mount Material's window-scroll sidebar controller. #}
+{% block site_nav %}
+  {% if nav %}
+    <aside class="md-sidebar md-sidebar--primary" data-md-type="navigation" {% if page.meta and 'navigation' in page.meta.get('hide', []) %}hidden{% endif %}>
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner">
+          {% include "partials/nav.html" %}
+        </div>
+      </div>
+    </aside>
+  {% endif %}
+  <aside class="md-sidebar md-sidebar--secondary" data-md-type="toc" {% if page.meta and 'toc' in page.meta.get('hide', []) %}hidden{% endif %}>
+    <div class="md-sidebar__scrollwrap">
+      <div class="md-sidebar__inner">
+        {% include "partials/toc.html" %}
+      </div>
+    </div>
+  </aside>
+{% endblock %}

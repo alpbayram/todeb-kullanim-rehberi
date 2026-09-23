@@ -1,0 +1,48 @@
+site_name: TÖDEB Kullanım Rehberi
+site_description: TÖDEB dijital hizmetleri için video destekli kullanım rehberleri
+site_url: https://alpbayram.github.io/todeb-kullanim-rehberi/
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: tr
+  logo: assets/images/todeb-logo-header.webp
+  favicon: assets/images/todeb-logo-header.webp
+  font: false
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.indexes
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+
+nav:
+  - Ana Sayfa: index.md
+  - TÖDEB Akademi:
+      - Eğitime kayıt olma: akademi/egitime-kayit-olma.md
+  - Rehber Standardı:
+      - Örnek kullanım kılavuzu: standart/ornek-kullanim-kilavuzu.md
+      - İçerik bileşenleri: standart/icerik-bilesenleri.md
+
+plugins: []
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: Bu sayfada
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/navigation.js
+
+extra:
+  generator: false
+
+copyright: TÖDEB — Türkiye Ödeme ve Elektronik Para Kuruluşları Birliği
+
+use_directory_urls: true
+strict: true
