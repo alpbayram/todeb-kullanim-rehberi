@@ -355,6 +355,15 @@ input {
   background: var(--todeb-primary-dark);
 }
 
+.guide-video--placeholder {
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: var(--todeb-surface-muted);
+  color: var(--todeb-primary-dark);
+  text-align: center;
+}
+
 .guide-video video {
   display: block;
   width: 100%;
