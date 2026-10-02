@@ -23,8 +23,10 @@ nav:
   - Üye Portalı:
       - İlk giriş: uye-portali/ilk-giris.md
       - Üyelik başvurusu: uye-portali/uyelik-basvurusu.md
+      - Portalı tanıyalım: uye-portali/portali-taniyalim.md
       - Kuruluş bilgileri: uye-portali/kurulus-bilgileri.md
-      - Personel ve yetkiler: uye-portali/personel-ve-yetkiler.md
+      - Kullanıcılar: uye-portali/kullanicilar.md
+      - Roller ve yetkiler: uye-portali/roller-ve-yetkiler.md
       - Destek talepleri: uye-portali/destek-talepleri.md
       - Duyurular: uye-portali/duyurular.md
       - Dosyalar: uye-portali/dosyalar.md
@@ -34,12 +36,13 @@ nav:
       - Eğitimler: uye-portali/egitimler.md
       - Komiteler: uye-portali/komiteler.md
       - Çalışma grupları: uye-portali/calisma-gruplari.md
+      - Bildirimler: uye-portali/bildirimler.md
       - Profil ve hesap işlemleri: uye-portali/profil-ve-hesap-islemleri.md
-  - TÖDEB Akademi:
-      - Eğitime kayıt olma: akademi/egitime-kayit-olma.md
-  - Rehber Standardı:
+      - Oturum ve güvenlik: uye-portali/oturum-ve-guvenlik.md
+  - Rehber Standardı ve Örnekler:
       - Örnek kullanım kılavuzu: standart/ornek-kullanim-kilavuzu.md
       - İçerik bileşenleri: standart/icerik-bilesenleri.md
+      - Akademi kayıt örneği: akademi/egitime-kayit-olma.md
 
 plugins: []
 
@@ -56,8 +59,6 @@ extra_javascript:
 
 extra:
   generator: false
-
-copyright: TÖDEB — Türkiye Ödeme ve Elektronik Para Kuruluşları Birliği
 
 use_directory_urls: true
 strict: true

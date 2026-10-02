@@ -1,3 +1,6 @@
 # Personel ve yetkiler
 
-Bu rehber hazırlanmaktadır. İlgili ekranlar incelendikten sonra kullanım adımları ve video anlatımı eklenecektir.
+Bu konu iki ayrı rehberde anlatılmaktadır:
+
+- [Kullanıcılar](kullanicilar.md)
+- [Roller ve yetkiler](roller-ve-yetkiler.md)

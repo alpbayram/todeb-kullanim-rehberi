@@ -1,4 +1,13 @@
-# Eğitime kayıt olma
+# Akademi kayıt örneği
+
+
+
+<!-- REVIEW:START ORNEK-01 -->
+<div class="review-note" data-review-id="ORNEK-01" role="note">
+<strong>[Conflict] ORNEK-01</strong>
+<p>Bu sayfa başlangıçta tasarımı denemek için hazırlanmış örnektir; gerçek kayıt akışı doğrulanmış değildir. Üye Portalı → Eğitimler rehberiyle karıştırılmamalı. Nihai teslimde kaldırılması veya doğrulanarak ayrı akademi rehberine dönüştürülmesi kararlaştırılacak.</p>
+</div>
+<!-- REVIEW:END ORNEK-01 -->
 
 Bu rehber, TÖDEB Akademi’de başvurusu açık bir eğitim programını bulup kayıt işlemini tamamlamanızı anlatır.
 

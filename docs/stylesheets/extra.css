@@ -79,7 +79,7 @@ input {
   background: #fff;
 }
 
-/* Desktop shell: header and footer surround three independent scroll columns.
+/* Desktop shell: three independent scroll columns fill the area below the header.
    Sidebar dimensions are owned by CSS, not Material's sidebar controller. */
 @media screen and (min-width: 76.25em) {
   html,
@@ -108,7 +108,7 @@ input {
     flex: 1 1 auto;
     height: auto;
     display: grid;
-    grid-template-rows: minmax(0, 1fr) auto;
+    grid-template-rows: minmax(0, 1fr);
     min-height: 0;
     overflow: hidden;
   }
@@ -381,18 +381,6 @@ input {
   margin-bottom: 1rem;
 }
 
-.md-footer,
-.md-footer-meta {
-  background: var(--todeb-primary-dark);
-}
-
-.md-footer-meta__inner {
-  width: 100%;
-  max-width: var(--docs-shell-max);
-  margin-inline: auto;
-  padding-inline: 16px;
-}
-
 @media screen and (max-width: 44.9844em) {
   .md-content__inner {
     padding: 2.25rem 1rem 4rem;
@@ -419,4 +407,19 @@ input {
   [dir="rtl"] [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
     transform: translateX(-320px);
   }
+}
+
+/* Temporary review notes: remove after editorial sign-off. */
+.md-typeset .review-note {
+  margin-block: 1rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #b68a36;
+  border-left-width: 4px;
+  border-radius: 4px;
+  background: #fff8e8;
+  color: #493710;
+  font-size: 0.75rem;
+}
+.md-typeset .review-note p {
+  margin: 0.4rem 0 0;
 }
