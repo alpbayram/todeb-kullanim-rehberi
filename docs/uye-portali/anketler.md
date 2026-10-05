@@ -1,63 +1,75 @@
 # Anketler
 
-Bu rehber, kuruluşunuza gönderilen anketleri yanıtlamanızı anlatır.
+Bu rehber, TÖDEB’in üyelere yönelik hazırladığı anketleri portal üzerinden görüntülemenizi, yanıtlamanızı ve yanıtladığınız anketin durumunu takip etmenizi açıklamaktadır.
 
-**Gerekli yetki:** Portal kullanıcısı
+## Anketler sayfasına ulaşma
+
+Sol menüde **İŞLEMLER** başlığı altında yer alan **Anketler** seçeneğine tıklayın.
 
 ## Video anlatım
 
 <div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Anketler — video eklenecek.</span>
+  <span>Anketler sayfasının tanıtımı ve bir anketin yanıtlanması — video eklenecek.</span>
 </div>
 
-<!-- REVIEW:START ANKET-01 -->
-<div class="review-note" data-review-id="ANKET-01" role="note">
-<strong>[Conflict] ANKET-01</strong>
-<p>Tek yanıt sınırı kişi başına mı kuruluş başına mı, belgede açık değil. Koşullu ankette geri dönüş ve yarıda bırakınca kayıt davranışı da uygulamada doğrulanmalı.</p>
+## Sayfada neler yer almaktadır?
+
+Sayfada, size açılmış anketler listelenir. Her anket için **Başlık**, **Yayın Tarihi**, **Akış Tipi** (ör. **Standart**) ve **Durum** bilgisi görüntülenir.
+
+- **Arama kutusu:** “Anket başlığında ara…” alanına anketin başlığını yazarak listeyi daraltabilirsiniz. Eşleşen anket yoksa “Henüz görüntülenecek anket bulunmuyor.” ifadesi görüntülenir.
+- **Cevapla düğmesi:** Henüz yanıtlamadığınız anketlerin satırında yer alır.
+- **Durum:** Yanıtlamadığınız anketlerde bu alan boştur (“-”). Yanıtladığınız anketlerde **Tamamlandı** olarak görüntülenir.
+
+> **Bilgi:** Bir anket, TÖDEB tarafından belirlenen **başlangıç tarih ve saatinde** listenizde görünür hâle gelir. Yeni bir anket bekliyorsanız ve henüz göremiyorsanız, belirtilen başlangıç zamanından sonra sayfayı yenileyin.
+
+## Anketi yanıtlama
+
+<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
+  <span>Anket sorularını yanıtlama ve gönderme — video eklenecek.</span>
 </div>
-<!-- REVIEW:END ANKET-01 -->
 
-## Başlamadan önce
+1. Yanıtlamak istediğiniz anketin satırındaki **Cevapla** düğmesine tıklayın. Sağdan anketin başlığını taşıyan bir panel açılır ve sorular sırasıyla listelenir.
+2. Her soruyu yanıtlayın. Soru türüne göre yanıtlama şekli değişir:
+   - **Evet/Hayır:** Seçeneklerden birini işaretleyin.
+   - **Tek seçim:** Seçeneklerden yalnızca birini işaretleyin.
+   - **Çoklu seçim:** Uygun olan tüm seçenekleri işaretleyin.
+   - **Açık uçlu:** Yanıtınızı kutuya yazın.
+   - **Dosya yükleme:** Soruda bir şablon dosya yer alıyorsa dosyanın adına tıklayarak indirebilir, hazırladığınız dosyayı **Dosya seçmek için tıklayın** alanından yükleyebilirsiniz. Desteklenen dosya türleri soruda belirtilir (ör. PDF, DOC, XLS, JPG, PNG).
+3. Soru metninin sonunda **\*** işareti bulunan sorular **zorunludur**; bu soruları yanıtlamadan anketi gönderemezsiniz.
+4. Tüm yanıtlarınızı kontrol ettikten sonra panelin altındaki **Yanıtı Gönder** düğmesine tıklayın.
 
-- Her anket yalnızca **bir kez** yanıtlanabilir. Gönderdikten sonra yanıtlarınızı değiştiremezsiniz.
-- Dosya yükleme sorusu içeren anketlerde yükleyeceğiniz belgeyi (PDF, DOC, XLS, JPG, PNG) hazırlayın.
+### Zorunlu soruları atladıysanız
 
-## Anket yanıtlama adımları
+Zorunlu bir soruyu yanıtlamadan **Yanıtı Gönder** düğmesine tıkladığınızda ekranda **“Lütfen zorunlu soruları yanıtlayın.”** uyarısı görüntülenir. Yanıtlanmamış zorunlu soruları işaretleyip yeniden gönderin.
 
-1. **Anketler sayfasını açın.**
-   Sol menüden **İşlemler** ve ardından **Anketler**'i seçin. Anket başlığına göre arama yapabilirsiniz.
-2. **Yanıtlamak istediğiniz anketi açın.**
-   Anketin satırındaki **Cevapla** düğmesine tıklayın.
-3. **Açıklamayı ve varsa ek dosyayı inceleyin.**
-4. **Soruları yanıtlayın.**
-   **\*** işaretli sorular zorunludur. Soru tiplerine göre:
-   - **Evet / Hayır** ve **Tek Seçim:** Bir seçenek işaretleyin.
-   - **Çoklu Seçim:** Birden fazla seçenek işaretleyebilirsiniz.
-   - **Metin:** Yanıtınızı kutuya yazın.
-   - **Dosya Yükleme:** Varsa **Şablon Dosyası**'nı indirip doldurun, ardından **Dosya seçmek için tıklayın** alanından dosyanızı yükleyin.
-5. **Varsa KVKK metnini onaylayın.**
-   Alt kısımdaki KVKK kutusuna tıklayın, açılan metni sonuna kadar kaydırın ve **Kabul Et**'i seçin.
-6. **Anketi gönderin.**
-   - **Standart** anketlerde tüm sorular tek sayfadadır; **Yanıtı Gönder**'e tıklayın.
-   - **Koşullu** anketlerde sorular tek tek gelir; her soruda **Sonraki**'ye tıklayın. Bir sonraki soru verdiğiniz cevaba göre belirlenir ve önceki soruya geri dönülemez.
+## Koşullu akışlı anketler
 
-## Beklenen sonuç
+Listede **Akış Tipi** sütununda **Koşullu** yazan anketlerde sorular tek tek gösterilir ve bir sonraki soru, verdiğiniz yanıta göre belirlenir.
 
-"Yanıtınız başarıyla gönderildi." bildirimi görünür, ekranda **Yanıtınız alındı** kutusu ve verdiğiniz yanıtların özeti yer alır. Listede anketin durumu **Tamamlandı** olarak değişir.
+<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
+  <span>Koşullu akışlı anketin yanıtlanması — video eklenecek.</span>
+</div>
 
-> **Dikkat:** Standart bir anketi **Yanıtı Gönder**'e basmadan kapatırsanız verdiğiniz yanıtlar kaydedilmez.
+1. **Cevapla** düğmesine tıklayın. Panelde yalnızca ilk soru görüntülenir.
+2. Soruyu yanıtlayıp **Sonraki** düğmesine tıklayın. Verdiğiniz yanıta bağlı olarak bir sonraki soru görüntülenir; farklı yanıtlar farklı sorulara yönlendirebilir.
+3. Son soruyu yanıtlayıp **Sonraki** düğmesine tıkladığınızda yanıtınız otomatik olarak gönderilir; ayrıca **Yanıtı Gönder** düğmesine tıklamanız gerekmez.
 
-## Anket gönderilemiyorsa
+Yanıt gönderildikten sonra panelde **“Yanıtınız alındı – Bu anket için tekrar yanıt gönderemezsiniz.”** bilgisi görüntülenir. Koşullu akışlı anketlerde **Yanıtlarınız** bölümünde yanıt özeti görüntülenmez (“Bu tarayıcıda kayıtlı yanıt özeti bulunmuyor.” ifadesi çıkar).
 
-- **"Lütfen zorunlu soruları yanıtlayın.":** \* işaretli soruları kontrol edin.
-- **"Lütfen zorunlu dosya yükleme sorularını yanıtlayın.":** Dosya yüklemeniz gereken soru var.
-- **"Önce KVKK metnini onaylamalısınız.":** KVKK kutusunu onaylayın.
-- **"Dosya yüklenemedi, lütfen tekrar deneyin.":** Dosyayı tekrar yükleyin.
+## Anket yanıtınız gönderildikten sonra
 
-## Bağlantıyla gelen anketler
+Yanıtınız gönderildiğinde ekranda **“Yanıtınız başarıyla gönderildi.”** bildirimi görüntülenir. Panelde **“Yanıtınız alındı – Bu anket için tekrar yanıt gönderemezsiniz.”** bilgisi ile birlikte **Yanıtlarınız** bölümü açılır; bu bölümde gönderim tarihi ve verdiğiniz yanıtlar listelenir.
 
-Bazı anketler size e-posta ile bir bağlantı olarak gönderilebilir. Bu anketler için giriş yapmanız gerekmez. Bağlantıyı açtığınızda **Katılımcı Bilgileri** bölümünde ad, soyad ve e-posta adresinizi girip soruları yukarıdaki gibi yanıtlayın.
+Anket listesinde ilgili anketin durumu **Tamamlandı** olur ve **Cevapla** düğmesi kaldırılır. **Bir anketi yalnızca bir kez yanıtlayabilirsiniz; gönderdiğiniz yanıt sonradan değiştirilemez.** Anket yanıtı **kişi bazındadır**: kuruluşunuzdaki başka bir kullanıcının anketi yanıtlamış olması, sizin aynı anketi yanıtlamanıza engel olmaz.
+
+<!-- REVIEW:START ANKET-02 -->
+<div class="review-note" data-review-id="ANKET-02" role="note">
+<strong>[Karar bekliyor] ANKET-02</strong>
+<p>Anketin <strong>KVKK dokümanı onayı</strong> istemesi (KVKK metinleri hazır olduğunda panelde bir onay adımı bekleniyor), <strong>Herkese Açık</strong> anketlerin portal dışında bir bağlantıyla yanıtlanması ve bitiş tarihi geçen anketin listeden kalkması ekranda üretilmedi; bu bölümler yazılım tarafında netleştiğinde eklenecek. Yanıt gönderirken dosya boyutu/tür hata metinleri de görülmedi. Anketler menüsü için Roller sayfasında ayrı bir yetki grubu bulunmuyor (anketler tüm rollere açıktır).</p>
+</div>
+<!-- REVIEW:END ANKET-02 -->
 
 ## İlgili rehberler
 
+- [Duyurular](duyurular.md)
 - [Bildirimler](bildirimler.md)

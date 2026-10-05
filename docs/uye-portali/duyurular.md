@@ -1,33 +1,46 @@
 # Duyurular
 
-Bu rehber, TÖDEB duyurularını okumanızı ve etkinlik duyurularından takvime geçmenizi anlatır.
+Bu rehber, TÖDEB’in üyelere yönelik yayımladığı duyuruları portal üzerinden görüntülemenizi ve okumanızı açıklamaktadır.
 
-**Gerekli yetki:** Portal kullanıcısı
+## Duyurular sayfasına ulaşma
+
+Sol menüde **İŞLEMLER** başlığı altında yer alan **Duyurular** seçeneğine tıklayın.
 
 ## Video anlatım
 
 <div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Duyurular — video eklenecek.</span>
+  <span>Duyurular sayfasının tanıtımı ve duyuru okuma — video eklenecek.</span>
 </div>
 
-## Duyuruları okuma
+## Sayfada neler yer almaktadır?
 
-1. **Duyurular sayfasını açın.**
-   Sol menüden **İşlemler** ve ardından **Duyurular**'ı seçin. Menüdeki kırmızı nokta okunmamış duyurunuz olduğunu gösterir.
-2. **Bir duyuru seçin.**
-   Duyurular en yeniden eskiye sıralanır. Okunmamış duyurular **YENİ** rozetiyle vurgulanır. Okumak istediğiniz duyuruya tıklayın.
-3. **Duyuruyu okuyun.**
-   Sağdan açılan panelde duyurunun tam metni, görselleri ve varsa videoları görünür.
+Sayfada, TÖDEB tarafından üyelere özel olarak yayımlanan duyurular, **en yeni duyuru en üstte olacak şekilde** listelenir. TÖDEB bir duyuru için bitiş tarihi belirlemişse, duyuru bu tarihten sonra listeden kalkar; bitiş tarihi belirlenmeyen duyurular süresiz olarak listede kalır. Her duyuru için şu bilgiler görüntülenir:
 
-## Etkinlik duyuruları
+- Duyurunun **yayın tarihi** (ör. “05 Ekim 2026”)
+- **Duyuru başlığı**
+- Duyuru yeni yayımlandıysa başlığın yanında **YENİ** etiketi
+- Duyuru metninin kısa bir özeti
 
-**Etkinlik** rozetli duyurular bir etkinliğe bağlıdır. Panelin altındaki **Takvimde İncele** düğmesine tıkladığınızda takvim açılır ve etkinliğin detayları görünür. Etkinliğe başvurmak için [Takvim](takvim.md) rehberindeki adımları izleyin. **Etkinlik Tamamlandı** rozeti, etkinliğin sona erdiğini gösterir.
+> **Bilgi:** Yalnızca **herkese açık** olarak yayımlanan duyurular TÖDEB internet sitesinde görüntülenir. Üyelere özel (veya üyelere ve iş ortaklarına özel) duyuruları portalda bu sayfadan okuyabilirsiniz.
 
-## Beklenen sonuç
+## Duyuruyu okuma
 
-Okuduğunuz duyurular **YENİ** rozetini kaybeder. Tüm yeni duyuruları okuduğunuzda, başka bir sayfaya geçince menüdeki kırmızı nokta kaybolur.
+1. Listede okumak istediğiniz duyuruya tıklayın.
+2. Sağdan bir panel açılır. Panelde duyurunun **başlığı**, **yayın tarihi ve saati**, varsa **YENİ** etiketi ve **tam metni** görüntülenir.
+3. Paneli kapatmak için sağ üstteki **×** simgesine tıklayın.
+
+## Etkinlik kayıt duyuruları
+
+TÖDEB, başvurusu açık etkinlikleri de bu sayfada duyurur. Tamamlanan etkinlikler için **ETKİNLİK TAMAMLANDI** etiketli duyurular da yayımlanır. Bu duyurular başlığın yanındaki **ETKİNLİK KAYIT ALINIYOR** etiketiyle ayırt edilir. Duyuruya tıkladığınızda açılan panelde, duyuru metninin altında **Etkinlik Bilgileri** (**Etkinlik Adı**, **Etkinlik Tarihi**, **Başvuru Tarihleri**, **Konum**, **Açıklama**) ve **Başvur** ile **Takvimde İncele** düğmeleri yer alır. Başvuru adımları için [Etkinlikler](etkinlikler.md) rehberine bakın.
+
+## Yeni duyurulardan haberdar olma
+
+TÖDEB yeni bir duyuru yayımladığında, ekranın sağ üstündeki **zil simgesinde** kırmızı bir nokta belirir. Zile tıkladığınızda **“Yeni Duyuru – Yeni bir duyuru yayınlandı.”** bildirimi görüntülenir. Bildirimin görüntülenmesi, duyurunun yayımlanmasından birkaç dakika sürebilir. Bildirimlerinizin tamamını görmek için [Bildirimler](bildirimler.md) rehberine bakabilirsiniz.
+
+Bildirime tıkladığınızda **Duyurular** sayfası açılır ve ilgili duyurunun metni sağdaki panelde görüntülenir. Yeni duyurular, listede başlığın yanındaki **YENİ** etiketiyle de belirtilir.
+
 
 ## İlgili rehberler
 
-- [Takvim](takvim.md)
 - [Bildirimler](bildirimler.md)
+- [Dosyalar](dosyalar.md)

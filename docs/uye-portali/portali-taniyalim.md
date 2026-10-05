@@ -17,17 +17,14 @@ Bu bölüm, portala giriş yaptıktan sonra karşınıza çıkan ekranın genel 
 - **Üst çubuk:** Solda bulunduğunuz sayfanın adı, sağda **Bildirimler** (zil) simgesi ve profil fotoğrafınız yer alır.
 - **Sol alt köşe:** Adınız ve e-posta adresiniz. Tıkladığınızda **Profil** ve **Çıkış Yap** seçenekleri açılır.
 
-<!-- REVIEW:START YETKI-01 -->
-<div class="review-note" data-review-id="YETKI-01" role="note">
-<strong>[Conflict] YETKI-01</strong>
-<p>Belgede Kullanıcılar ve Roller yalnız ana hesaba açık deniyor; Roller bölümünde aynı ekranlara yetki verilebildiği de yazıyor. Menü görünürlüğünü ana hesap ve personel hesabıyla karşılaştıracağız. Dış kullanıcıya Genel Bilgiler görünmezken yetkisiz erişimde oraya yönlendirme ifadesi de kontrol edilmeli.</p>
-</div>
-<!-- REVIEW:END YETKI-01 -->
 
 ## Menüde neden bazı modülleri göremiyorum?
 
-Menüde gördüğünüz modüller hesabınızın türüne göre değişir:
+Menüde ve ekranda gördükleriniz, hesabınıza atanan **role** bağlıdır:
 
-- **Kullanıcılar** ve **Roller** yalnızca kuruluşun ana hesabında (kuruluş yetkilisi) görünür.
-- **Genel Bilgiler** dış kullanıcı hesaplarında görünmez.
-- Yetkiniz olmayan bir sayfanın adresini doğrudan açarsanız Genel Bilgiler sayfasına yönlendirilirsiniz.
+- **Kullanıcılar** ve **Roller** menüleri yalnızca kuruluşun ana hesabında ve bu yetkilerin verildiği rollerde görünür. Rolünüzde bu yetkiler yoksa menüde yer almaz.
+- Ekranın sağ üstündeki **zil simgesi** (**Bildirimler**) yalnızca bildirim yetkisi olan kullanıcılarda görünür.
+- Diğer menü başlıkları (**Genel Bilgiler**, **Destek Talepleri**, **Duyurular**, **Anketler**, **Takvim**, **Etkinlikler**, **Dosya Alanı**, **Komite / Çalışma Grupları**) tüm kullanıcılarda görünür; ancak ilgili yetkiniz yoksa sayfalar boş görüntülenir.
+- Yetkiniz olmayan bir sayfanın adresini doğrudan açarsanız **Genel Bilgiler** sayfasına yönlendirilirsiniz.
+
+Rollerin nasıl tanımlanacağı için [Roller ve yetkiler](roller-ve-yetkiler.md), bir kullanıcıya rol atamak için [Kullanıcılar](kullanicilar.md) rehberine bakın.

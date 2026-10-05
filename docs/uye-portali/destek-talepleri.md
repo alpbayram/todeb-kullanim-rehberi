@@ -1,81 +1,94 @@
 # Destek talepleri
 
-Bu rehber, TÖDEB'e destek bildirimi oluşturmanızı, bildiriminizin durumunu takip etmenizi ve TÖDEB ekibiyle mesajlaşmanızı anlatır.
+Bu rehber, TÖDEB’e soru, talep veya ihtiyaçlarınızı portal üzerinden iletmenizi, talebinizin durumunu takip etmenizi ve TÖDEB’den gelen yanıtlara cevap vermenizi açıklamaktadır.
 
-**Gerekli yetki:** Portal kullanıcısı
+Hangi koordinatörlükle iletişime geçmeniz gerektiğini bilmiyorsanız da talebinizi tek bir kanaldan iletebilirsiniz. Talebiniz için konuya en uygun kategoriyi seçmeniz yeterlidir; talep, ilgili koordinatörlüğe yönlendirilir.
+
+## Destek Talepleri sayfasına ulaşma
+
+Sol menüde **İŞLEMLER** başlığı altında yer alan **Destek Talepleri** seçeneğine tıklayın. Sayfanın başlığı “Destek Talepleri – Kurumunuz Adına Oluşturulan Destek Bildirimlerinin Listesi” şeklindedir ve kuruluşunuz adına oluşturulmuş talepler listelenir. Personel hesabıyla giriş yaptığınızda sayfa başlığı “Oluşturduğunuz Destek Bildirimlerinin Listesi” şeklindedir ve yalnızca **kendi oluşturduğunuz** talepler görüntülenir; ana hesabın veya diğer kullanıcıların talepleri bu listede yer almaz.
 
 ## Video anlatım
 
 <div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Destek talepleri — video eklenecek.</span>
+  <span>Destek Talepleri sayfasının tanıtımı — video eklenecek.</span>
 </div>
 
-<!-- REVIEW:START DESTEK-01 -->
-<div class="review-note" data-review-id="DESTEK-01" role="note">
-<strong>[Conflict] DESTEK-01</strong>
-<p>Kurumsal duyurunun amacı kullanıcının doğru koordinatörlüğü bilmeden destek alabilmesi. Kategori/alt başlık zorunluysa bilmeyen kişinin hangi seçeneği kullanacağı belirlenmeli. Dosya/karakter limitleri ve kapalı talebe yanıt davranışı da test bekliyor.</p>
+## Sayfada neler yer almaktadır?
+
+- **Firma:** Kuruluşunuzun adı.
+- **Arama kutusu:** “Talep no veya konu ara…” alanına talep numarasını veya konunun bir bölümünü yazarak listeyi daraltabilirsiniz. Eşleşen talep yoksa “Arama kriterlerine uygun bildirim bulunamadı.” ifadesi görüntülenir.
+- **Gelişmiş Filtreler:** Talepleri **Koordinatörlük** bilgisine göre listelemenizi sağlar.
+- **Tüm listeyi Excel olarak indir:** Listelenen talepleri Excel dosyası olarak indirmenizi sağlar.
+- **Yeni Bildirim:** Yeni bir destek talebi oluşturmanızı sağlar.
+- **Talep listesi:** Her talep için **Talep No**, **Konu**, **Oluşturan**, **Kategori**, **Alt Başlık**, **Koordinatörlük**, **Öncelik**, **Durum**, **Güncelleme Tarihi** ve **Oluşturulma Tarihi** bilgileri gösterilir. **Öncelik**, **Güncelleme Tarihi** ve **Oluşturulma Tarihi** sütun başlıklarındaki ok simgeleriyle listeyi sıralayabilirsiniz. Listenin altından sayfa başına gösterilecek kayıt sayısını (varsayılan 25) değiştirebilirsiniz.
+
+### Durum ve öncelik
+
+Her talebin yanında renkli etiketle gösterilen bir **durum** ve bir **öncelik** bilgisi yer alır.
+
+- **Durum:** **Yeni**, **Cevaplandı**, **Beklemede**, **Tamamlandı** veya **Kapatıldı**. Talebiniz oluşturulduğunda durumu **Yeni**’dir.
+- **Öncelik:** **Düşük**, **Orta**, **Yüksek** veya **Kritik**. Talebi oluştururken önceliği siz seçersiniz.
+
+## Yeni destek talebi oluşturma
+
+<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
+  <span>Yeni destek talebi oluşturma — video eklenecek.</span>
 </div>
-<!-- REVIEW:END DESTEK-01 -->
 
-## Başlamadan önce
+1. Sayfanın sağ üstünde yer alan **Yeni Bildirim** düğmesine tıklayın. Sağdan **Yeni Destek Bildirimi** paneli açılır. Panelin üst kısmında kuruluşunuzun adı, talebi oluşturan kullanıcı ve tarih otomatik olarak gösterilir.
+2. **Bildirim Bilgileri** bölümünde sırasıyla şu alanları doldurun:
+   - **Kategori** (zorunlu): Listeden talebinizin konusuna en uygun kategoriyi seçin.
+   - **Alt Başlık** (zorunlu): Kategoriyi seçtikten sonra, o kategoriye ait alt başlıkları listeden seçin.
+   - **Derece** (zorunlu): Talebin önceliğini (Düşük, Orta, Yüksek veya Kritik) seçin.
+   - **Konu** (zorunlu): Talebinizi kısaca özetleyen bir başlık yazın (en fazla 50 karakter).
+   - **Mesaj** (zorunlu): Talebinizi ayrıntılı olarak yazın (en fazla 1000 karakter).
+3. Gerekiyorsa **Dosya Ekle** düğmesiyle talebinize bir veya birden fazla dosya ekleyin. Eklenen dosyaların adları düğmenin altında görüntülenir.
+4. **Gönder** düğmesine tıklayın. Alanları temizlemek için **Temizle**, vazgeçmek için **İptal** düğmesini kullanın.
 
-- Talebinizin hangi kategoriye girdiğini düşünün (ör. Bilgi Sistemleri, Üye İlişkileri, Finans, Akademi).
-- Göndermek istediğiniz ekran görüntüsü veya belge varsa hazırlayın. Bir bildirime en fazla 5 dosya eklenebilir.
+Talebiniz oluşturulduğunda ekranda **“Bildirim başarıyla oluşturuldu”** bildirimi görüntülenir ve talep listenin başına **#TDM-000001** gibi bir talep numarasıyla, **Yeni** durumunda eklenir. Talebiniz alındığında üst çubuktaki zil simgesinde **“Destek Talebiniz Alındı”** bildirimi de görüntülenir.
 
-## Yeni destek bildirimi oluşturma
+### Form uyarıları
 
-1. **Destek Talepleri sayfasını açın.**
-   Sol menüden **İşlemler** ve ardından **Destek Talepleri**'ni seçin.
-2. **Yeni Bildirim** düğmesine tıklayın.
-   **Yeni Destek Bildirimi** paneli açılır. Firma, oluşturan ve tarih bilgileri otomatik doldurulur.
-3. **Kategori ve alt başlığı seçin.**
-   Önce **Kategori**'yi, ardından **Alt Başlık**'ı seçin.
-4. **Dereceyi belirleyin.**
-   **Derece** alanından talebinizin önemini seçin: **Düşük**, **Orta**, **Yüksek** veya **Kritik**.
-5. **Konu ve mesajı yazın.**
-   **Konu** alanına kısa bir başlık (en fazla 50 karakter), **Mesaj** alanına sorununuzun ayrıntılı açıklamasını (en fazla 1000 karakter) yazın.
-6. **Gerekirse dosya ekleyin.**
-   **Dosya Ekle** düğmesiyle en fazla 5 dosya ekleyebilirsiniz.
-7. **Gönder** düğmesine tıklayın.
+Eksik bilgi bırakıp **Gönder** düğmesine bastığınızda ilgili alanın altında şu uyarılar görüntülenir:
 
-## Beklenen sonuç
+- **“Kategori seçimi zorunludur.”**
+- **“Alt başlık seçimi zorunludur.”**
+- **“Derece seçimi zorunludur.”**
+- **“Konu zorunludur.”**
+- **“Mesaj zorunludur.”**
 
-"Bildirim başarıyla oluşturuldu" bildirimi görünür. Talebiniz listede **Yeni** durumuyla yer alır ve TÖDEB'de ilgili koordinatörlüğe iletilir.
+Uyarıları gideren alanları doldurduktan sonra yeniden **Gönder** düğmesine tıklayın.
 
-## Bildirim durumları
+## Talep detayını görüntüleme ve yanıtlama
 
-- **Yeni:** Talep oluşturuldu, henüz yanıtlanmadı.
-- **Cevaplandı:** TÖDEB ekibi yanıt verdi.
-- **Beklemede:** Talep beklemeye alındı.
-- **Tamamlandı:** Talep çözüldü.
-- **Kapatıldı:** Talep kapatıldı.
+<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
+  <span>Talep detayı ve TÖDEB yanıtlarının takibi — video eklenecek.</span>
+</div>
 
-## Bildirimi takip etme ve cevap yazma
+1. Listede talebin satırına tıklayın. Sağdan **Talep Detay** paneli açılır.
+2. **Talep Bilgileri** bölümünde talep numarası, durum, öncelik, koordinatörlük, kategori, alt başlık, konu, oluşturulma ve güncelleme tarihi görüntülenir.
+3. **Ekler** bölümünü açarak talebe eklenen dosyaları görebilirsiniz.
+4. **Mesajlar** bölümünde, sizin ve TÖDEB’in mesajları sırasıyla listelenir. Her mesajın üstünde gönderen ve zaman bilgisi yer alır.
+5. TÖDEB’e yanıt vermek veya ek bilgi iletmek için panelin altındaki **Cevabınızı yazın…** alanına mesajınızı yazın ve gönder simgesine tıklayın. Dosya eklemek için ataç simgesini kullanın. Mesajınız iletildiğinde **“Cevabınız başarıyla gönderildi”** bildirimi görüntülenir.
+6. Talep ve yazışmalarının bir kopyasını almak için panelin sağ üstündeki indirme simgesini kullanabilirsiniz (PDF).
 
-1. Listede bildiriminizin satırına tıklayın. **Talep Detay** paneli açılır.
-2. **Talep Bilgileri** bölümünde durum, öncelik, koordinatörlük ve tarihleri görün. **Ekler** bölümünden bildirime eklenen tüm dosyalara ulaşın.
-3. **Mesajlar** bölümünde yazışmaları okuyun. TÖDEB ekibinin mesajları solda, sizin mesajlarınız sağda görünür.
-4. Alttaki **Cevabınızı yazın...** kutusuna mesajınızı yazın. Dosya eklemek için ataş simgesine tıklayın.
-5. Göndermek için Enter tuşuna basın veya gönder simgesine tıklayın. Yeni satıra geçmek için Shift + Enter kullanın.
+## TÖDEB yanıt verdiğinde
 
-> **Bilgi:** **Tamamlandı** veya **Kapatıldı** durumundaki bildirimlere cevap yazılamaz. Aynı konuda yardıma ihtiyacınız varsa yeni bir bildirim oluşturun.
+TÖDEB talebinize yanıt verdiğinde, ekranın sağ üstündeki **zil simgesinde** kırmızı bir nokta belirir. Zile tıkladığınızda **“Destek Talebiniz Yanıtlandı”** bildirimi görüntülenir. Bildirime tıkladığınızda talebin detay paneli açılır ve yanıtı okuyabilirsiniz. Bildirimlerinizin tamamını görmek için [Bildirimler](bildirimler.md) rehberine bakabilirsiniz.
 
-## Diğer işlemler
+## Kuruluşunuzun tüm destek talepleri
 
-- **Arama:** Arama kutusuna talep numarası veya konu yazın.
-- **Filtreleme (kuruluş sahibi):** **Gelişmiş Filtreler** ile listeyi koordinatörlüğe göre süzün.
-- **Excel'e aktarma:** **Tüm listeyi Excel olarak indir** ile listeyi indirin.
-- **PDF olarak kaydetme:** Talep Detay panelindeki indirme simgesi yazdırma penceresini açar; buradan PDF olarak kaydedebilirsiniz.
+Bildirime tıkladığınızda açılan **Kurum Bildirimleri** sayfasında, kuruluşunuzdaki **tüm kullanıcılar** tarafından oluşturulan destek talepleri listelenir. Bu listede **Firma** ve **Oluşturan** bilgileri de görünür. Bu sayfada yeni talep oluşturulamaz; yalnızca mevcut talepleri inceleyebilirsiniz. Sayfa, ana hesabın yanı sıra personel hesaplarında da açılır ve ana hesabın veya diğer kullanıcıların oluşturduğu talepleri de listeler. Sol menüde bu sayfaya giden ayrı bir bağlantı bulunmaz; sayfaya destek talebi bildirimlerinden ulaşırsınız.
 
-> **Kuruluş sahipleri için:** Ana hesapla giriş yaptığınızda listede kuruluşunuz adına oluşturulan tüm bildirimleri ve **Oluşturan** sütununu görürsünüz. Diğer kullanıcılar yalnızca kendi oluşturdukları bildirimleri görür.
-
-## Bildirim gönderilemiyorsa
-
-- **"Kategori seçimi zorunludur." / "Alt başlık seçimi zorunludur." / "Derece seçimi zorunludur.":** İlgili alanı seçin.
-- **"İlk öncelikle kategori seçmelisiniz.":** Alt başlıktan önce kategori seçin.
-- **"Ek dosya gönderim sınırına ulaştınız.":** Bir bildirime en fazla 5 dosya eklenebilir.
-- **"Dosya boyutu 50MB'ı aşamaz":** Daha küçük bir dosya seçin.
+<!-- REVIEW:START DESTEK-02 -->
+<div class="review-note" data-review-id="DESTEK-02" role="note">
+<strong>[Karar bekliyor] DESTEK-02</strong>
+<p>Talep durumlarının renkleri (yalnızca <strong>Yeni</strong> mavi ve <strong>Orta</strong> sarı görüldü) ve durum değişikliğinde bildirim/e-posta gönderilmesi ekranda üretilemediği için yazılmadı; kapalı veya tamamlanmış taleplere yanıt yazılabilmesi de görülmedi. Kategori ve alt başlık listeleri TÖDEB tarafından belirlenir; yayına çıkmadan önce gerçek kategori adlarıyla güncellenecek (şu an örnek veridir).</p>
+</div>
+<!-- REVIEW:END DESTEK-02 -->
 
 ## İlgili rehberler
 
 - [Bildirimler](bildirimler.md)
+- [Genel Bilgiler](kurulus-bilgileri.md)

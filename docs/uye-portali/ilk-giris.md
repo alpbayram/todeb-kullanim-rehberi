@@ -1,10 +1,10 @@
 # Üye Portalı’na ilk giriş
 
-Bu rehber, kuruluş ana hesabınızla Üye Portalı’na ilk kez giriş yapıp üyelik başvuru formuna ulaşmanızı anlatır.
+Bu rehber, kuruluş ana hesabınızla Üye Portalı’na ilk girişinizi gerçekleştirerek üyelik başvuru formuna ulaşmanız için gerekli adımları açıklamaktadır.
 
 ## Başlamadan önce
 
-Hesabınız oluşturulduğunda giriş e-posta adresiniz ve parolanız e-postayla iletilir. Giriş sırasında bu bilgileri kullanın.
+Hesabınız oluşturulduğunda, giriş için kullanacağınız e-posta adresi ve parola tarafınıza e-posta yoluyla iletilir. Üye Portalı’na giriş yaparken bu bilgileri kullanmanız gerekecektir.
 
 ## Video anlatım
 
@@ -18,7 +18,7 @@ Hesabınız oluşturulduğunda giriş e-posta adresiniz ve parolanız e-postayla
 ## İlk giriş adımları
 
 1. **Üye Portalı’nı açın.**  
-   TÖDEB ana sayfasındaki **Üye Portalı** bağlantısına tıklayın.
+   TÖDEB ana sayfasında yer alan **Üye Portalı** butonuna tıklayarak Üye Portalı’na erişin.
 
 2. **Hesabınıza giriş yapın.**  
    Açılan ekranda, size gönderilen e-postada belirtilen adresi **İş e-posta adresinizi girin** alanına, parolayı ise **Şifre** alanına yazın. **Giriş Yap** düğmesine tıklayın.

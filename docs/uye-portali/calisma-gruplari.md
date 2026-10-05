@@ -1,27 +1,38 @@
 # Çalışma grupları
 
-Komiteye bağlı çalışma gruplarının bilgilerini ve belgelerini bu alandan inceleyebilirsiniz.
+Bu rehber, kuruluşunuzun katılımcısı olduğu TÖDEB çalışma gruplarını portal üzerinden görüntülemenizi, çalışma grubunun üyelerine, toplantılarına ve belgelerine ulaşmanızı açıklamaktadır.
+
+Çalışma grupları, portalda komitelerle **aynı sayfada** listelenir ve aynı biçimde kullanılır. Bu nedenle ayrıntılı kullanım adımları için [Komiteler](komiteler.md) rehberine de bakabilirsiniz.
+
+## Çalışma gruplarına ulaşma
+
+Sol menüde **KURULUŞ** başlığı altında yer alan **Komite / Çalışma Grupları** seçeneğine tıklayın. **Aktif Komiteler** listesinde, komitelerle birlikte çalışma grupları da yer alır (ör. “Mevzuat ve Düzenleme Çalışma Grubu”).
 
 ## Video anlatım
 
 <div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Çalışma gruplarını inceleme — video eklenecek.</span>
+  <span>Çalışma gruplarının görüntülenmesi — video eklenecek.</span>
 </div>
 
-## Çalışma grubunu açma
+## Çalışma grubunu görüntüleme
 
-1. Sol menüden **Kuruluş → Komite / Çalışma Grupları** sayfasını açın.
-2. Erişebildiğiniz komiteyi açın ve **Çalışma Grupları** sekmesine geçin.
-3. İncelemek istediğiniz çalışma grubuna tıklayın. Kaynak kılavuza göre burada üyeler, dosyalar ve yoklama bilgileri bulunur.
-4. Komiteye dönmek için geri okunu kullanın.
+1. Kuruluşunuzun üyesi olduğu çalışma grubunun kartına tıklayın. Kartta **Üyesiniz** etiketi görüntülenir. **Üye Değilsiniz** etiketli çalışma gruplarının ayrıntısı açılmaz.
+2. Sağdan çalışma grubunun adını taşıyan bir panel açılır. Panelin üst bölümünde **Durum**, **Başlangıç Tarihi** ve **Bitiş Tarihi** yer alır. Bu bölümdeki ad alanının etiketi komitelerde olduğu gibi **Komite Adı** olarak görüntülenir.
+3. Sekmelerden ilgili bilgiye ulaşın:
+   - **Üyeler:** Çalışma grubunun üyeleri, kuruluşları ve **Rol / Görev** bilgileri (ör. Koordinatör, Koordinatör Yardımcısı, Katılımcı).
+   - **Toplantılar:** Toplantıların **Tarih ve Saat**, **Durum**, **Toplantı Türü** (Yüz Yüze veya Çevrimiçi) ve **Konum / Bağlantı** bilgileri.
+   - **Alt Çalışma Grubu:** Çalışma grubuna bağlı alt gruplar; her satırda sıra numarası, **Alt Çalışma Grubu Adı** ve **Üyelik Durumu** (ör. **Üye Değilsiniz**) görüntülenir. Alt grup yoksa “Bu komiteye ait alt çalışma grubu bulunmuyor.” ifadesi görüntülenir.
+   - **Dosyalar:** Çalışma grubuyla paylaşılan belgeler. Bir belgeyi indirmek için satırındaki **İndir** düğmesine tıklayın.
+   - **Yoklama:** Toplantı katılım özeti.
 
-<!-- REVIEW:START GRUP-01 -->
-<div class="review-note" data-review-id="GRUP-01" role="note">
-<strong>[Conflict] GRUP-01</strong>
-<p>Yeni belge komite içindeki her çalışma grubunun açılabildiği izlenimini veriyor. Önceki kararlarda gruba üye olmayan komite katılımcılarının ayrıntılara erişimi sınırlıydı. Grup üyesi ve üye olmayan hesapla kontrol edilmeli. Rehber menüsünde ayrı başlık kullanıyoruz; portalda ayrı menü bulunduğunu iddia etmiyoruz.</p>
+<!-- REVIEW:START GRUP-02 -->
+<div class="review-note" data-review-id="GRUP-02" role="note">
+<strong>[Karar bekliyor] GRUP-02</strong>
+<p>Çalışma grubunun bağlı olduğu komiteyle ilişkisi (üst komite adı) ve gruba üye olmayan komite katılımcılarının grup ayrıntılarına erişimi ekranda görülmedi. Alt çalışma grubunun ayrıntısının açılıp açılmadığı ve üyelik durumu **Üye Değilsiniz** iken içeriğe erişim kuralı yazılım tarafında netleştiğinde eklenecek.</p>
 </div>
-<!-- REVIEW:END GRUP-01 -->
+<!-- REVIEW:END GRUP-02 -->
 
 ## İlgili rehberler
 
 - [Komiteler](komiteler.md)
+- [Takvim](takvim.md)

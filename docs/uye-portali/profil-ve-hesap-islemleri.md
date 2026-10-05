@@ -1,8 +1,6 @@
 # Profil ve hesap işlemleri
 
-Bu rehber, kişisel bilgilerinizi güncellemenizi, profil fotoğrafı eklemenizi, şifrenizi değiştirmenizi ve portaldan çıkış yapmanızı anlatır.
-
-**Gerekli yetki:** Portal kullanıcısı
+Bu rehber, **Profil** sayfasında kişisel bilgilerinizi güncellemenizi, profil fotoğrafı eklemenizi, şifrenizi değiştirmenizi ve portaldan çıkış yapmanızı açıklamaktadır.
 
 ## Video anlatım
 
@@ -12,57 +10,79 @@ Bu rehber, kişisel bilgilerinizi güncellemenizi, profil fotoğrafı eklemenizi
 
 ## Profil sayfasını açma
 
-Sol menünün altındaki adınıza tıklayın ve **Profil**'i seçin. Aynı seçeneğe üst çubuktaki profil fotoğrafınızdan da ulaşabilirsiniz.
+1. Sol menünün en altında yer alan, adınızın ve e-posta adresinizin göründüğü alana tıklayın. Aynı menüye, ekranın sağ üstündeki profil simgenize tıklayarak da ulaşabilirsiniz.
+2. Açılan menüden **Profil** seçeneğine tıklayın.
 
-<!-- REVIEW:START PROFIL-01 -->
-<div class="review-note" data-review-id="PROFIL-01" role="note">
-<strong>[Conflict] PROFIL-01</strong>
-<p>Kullanıcılar sayfasında e-posta değiştirilemez denirken burada kişinin değiştirebildiği yazıyor; farklı yetki olabilir. İzin verilen alan adları ve değişiklik sonrası giriş/doğrulama davranışı açıklanmamış.</p>
-</div>
-<!-- REVIEW:END PROFIL-01 -->
+Aynı menüde **Çıkış Yap** seçeneği de bulunur.
+
+Profil sayfasında üç kart yer alır: **Kişisel Bilgiler**, **Güvenlik** ve **Profil Fotoğrafı**.
 
 ## Kişisel bilgileri güncelleme
 
+<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
+  <span>Kişisel bilgilerin güncellenmesi — video eklenecek.</span>
+</div>
+
 1. **Kişisel Bilgiler** kartında **Düzenle** düğmesine tıklayın.
-2. **E-posta**, **Ad**, **Soyad** ve **Telefon** alanlarını güncelleyin. Kuruluş bilgisi değiştirilemez.
-3. **Kaydet** düğmesine tıklayın. "Profil bilgileri başarıyla güncellendi" bildirimi görünür.
+2. Güncellemek istediğiniz alanları değiştirin: **E-posta**, **Ad**, **Soyad** ve **Telefon**. **Kuruluş** alanı değiştirilemez.
+3. **Kaydet** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın. Bilgileriniz kaydedildiğinde **“Profil bilgileri başarıyla güncellendi”** bildirimi görüntülenir.
+
+> **Bilgi:** **Soyad** alanı zorunludur. Boş bırakırsanız **“Soyad zorunludur”** uyarısı görüntülenir ve bilgileriniz kaydedilmez.
+
+### E-posta adresini değiştirme
+
+E-posta adresiniz, yalnızca kuruluşunuzun kayıtlı alan adlarından birini taşıyan bir adresle değiştirilebilir. Örneğin kuruluşunuzun alan adı `ornek.com.tr` ise `kisi@ornek.com.tr` adresi kabul edilir; `kisi@gmail.com` gibi bir adres kabul edilmez.
+
+Kayıt başarılı olduğunda **“Profil bilgileri başarıyla güncellendi”** bildirimi görüntülenir ve oturumunuz açık kalır; sonraki girişlerinizde yeni e-posta adresinizi kullanın. E-posta adresinde **@** işaretinden önce **+** karakteri kullanılamaz; kullanırsanız **“E-posta adresinde "@" işaretinden önce "+" kullanılamaz.”** uyarısı görüntülenir.
+
+Kuruluşunuza ait olmayan bir alan adıyla kaydetmeye çalıştığınızda **“E-posta adresiniz organizasyonunuzun domain’ine ait olmalıdır.”** uyarısı görüntülenir.
 
 ## Profil fotoğrafı ekleme
 
-1. **Profil Fotoğrafı** kartında **Fotoğraf Yükle** (fotoğrafınız varsa **Fotoğrafı Değiştir**) düğmesine tıklayın.
-2. JPG, PNG veya WebP formatında, en fazla 50 MB boyutunda bir fotoğraf seçin.
-3. "Fotoğraf güncellendi" bildirimi görünür. Fotoğrafınızı kaldırmak için fotoğraf üzerindeki çöp kutusu simgesine tıklayıp **Kaldır**'ı seçin.
+1. **Profil Fotoğrafı** kartında **Fotoğraf Yükle** düğmesine tıklayın.
+2. JPG, PNG veya WebP biçiminde, en fazla **50 MB** büyüklüğünde bir fotoğraf seçin.
+3. Ekranda **“Fotoğraf güncellendi”** bildirimi görüntülenir. Fotoğrafınız profil sayfasında, sol menünün altında ve ekranın sağ üstündeki simgede görünür.
+
+Fotoğrafınızı değiştirmek için **Fotoğrafı Değiştir** düğmesini kullanın. Fotoğrafı kaldırmak için fotoğrafın sağ üstündeki çöp kutusu simgesine tıklayın ve açılan **Fotoğrafı Kaldır** penceresinde **Kaldır** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın. Fotoğraf kaldırıldığında ayrıca bir bildirim görüntülenmez; fotoğrafınızın yerine adınızın baş harfleri gösterilir.
 
 ## Şifre değiştirme
 
-1. **Güvenlik** kartında **Mevcut Şifre** alanına şu anki şifrenizi yazın.
-2. **Yeni Şifre** alanına yeni şifrenizi yazın. Altta görünen **Şifre gereksinimleri** listesindeki tüm maddelerin yeşil olduğundan emin olun.
+<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
+  <span>Şifre değiştirme — video eklenecek.</span>
+</div>
+
+**Güvenlik** kartında şifrenizin geçerlilik bilgileri yer alır: **Şifre Geçerlilik Tarihi** ve **Kalan Süre**. Şifrenizi değiştirmek için:
+
+1. **Mevcut Şifre** alanına şu anda kullandığınız şifreyi yazın.
+2. **Yeni Şifre** alanına yeni şifrenizi yazın. Bu alanın altında **Şifre gereksinimleri** listesi görüntülenir; yazdıkça karşılanan koşullar işaretlenir.
 3. **Yeni Şifre (Tekrar)** alanına yeni şifrenizi tekrar yazın.
-4. **Şifreyi Güncelle** düğmesine tıklayın. "Şifre başarıyla güncellendi" bildirimi görünür.
+4. **Şifreyi Güncelle** düğmesine tıklayın. Şifreniz değiştirildiğinde **“Şifre başarıyla güncellendi”** bildirimi görüntülenir; oturumunuz açık kalır, yeniden giriş yapmanız gerekmez. Bir sonraki girişinizde yeni şifrenizi kullanın.
 
-Şifrenizin ne zamana kadar geçerli olduğunu **Şifre Geçerlilik Tarihi** ve **Kalan Süre** alanlarından takip edebilirsiniz.
+Alanların sağındaki göz simgesine tıklayarak yazdığınız şifreyi görüntüleyebilirsiniz.
 
-## Şifre kuralları
+**Şifreyi Güncelle** düğmesi, alanların üçü de doldurulana kadar pasif durumdadır.
+
+### Şifre kuralları
 
 Yeni şifreniz şunları içermelidir:
 
 - En az 10 karakter
-- En az 1 büyük harf (A–Z)
-- En az 1 küçük harf (a–z)
+- En az 1 büyük harf
+- En az 1 küçük harf
 - En az 1 rakam
-- En az 1 özel karakter (ör. ! @ # $ % * ? .)
+- En az 1 özel karakter
 
-> **Dikkat:** Türkçe karakterler (Ç, Ş, Ğ, İ, Ö, Ü) büyük veya küçük harf kuralını karşılamaz. Daha önce kullandığınız bir şifreyi tekrar belirleyemezsiniz.
+### Şifre değiştirilemiyorsa
 
-## Şifre değiştirilemiyorsa
-
-- **"Mevcut şifre hatalı":** Şu anki şifrenizi kontrol edin.
-- **"Bu şifreyi daha önce kullandınız. Lütfen farklı bir şifre belirleyin.":** Yeni bir şifre belirleyin.
-- **"Şifreler eşleşmiyor":** Yeni şifre ve tekrarı aynı olmalıdır.
+- **“Mevcut şifre hatalı”:** **Mevcut Şifre** alanına yazdığınız şifreyi kontrol edin.
+- **“Şifreler eşleşmiyor”:** **Yeni Şifre** ve **Yeni Şifre (Tekrar)** alanlarına aynı şifreyi yazmanız gerekmektedir.
+- **“Bu şifre yakın zamanda kullanılmış. Lütfen farklı bir şifre seçin.”:** Yakın zamanda kullandığınız bir şifreyi yeniden belirleyemezsiniz; daha önce kullanmadığınız farklı bir şifre yazın.
+- Şifre gereksinimleri listesindeki maddelerden biri karşılanmıyorsa, yeni şifrenizi listeye uygun olacak şekilde düzenleyin.
 
 ## Çıkış yapma
 
-Sol menünün altındaki adınıza veya üst çubuktaki profil fotoğrafınıza tıklayın ve **Çıkış Yap**'ı seçin. Ortak kullanılan bilgisayarlarda işiniz bittiğinde mutlaka çıkış yapın.
+Sol menünün altındaki adınıza veya sağ üstteki profil simgenize tıklayın ve **Çıkış Yap** seçeneğini seçin. Ortak kullanılan bilgisayarlarda işiniz bittiğinde çıkış yapmanız önerilir.
+
 
 ## İlgili rehberler
 

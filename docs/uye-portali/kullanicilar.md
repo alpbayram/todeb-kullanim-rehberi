@@ -1,77 +1,93 @@
 # Kullanıcılar
 
-Bu rehber, kuruluşunuzdaki çalışanlar için portal hesabı oluşturmanızı, bilgilerini düzenlemenizi, hesaplarını pasif/aktif yapmanızı ve silmenizi anlatır.
+Bu rehber, kuruluşunuzdaki çalışanlar için portal hesabı oluşturmanızı, bilgilerini düzenlemenizi ve hesaplarını pasif veya aktif duruma getirmenizi açıklamaktadır.
 
-**Gerekli yetki:** Kuruluşun ana hesabı (kuruluş sahibi). Bu menü diğer kullanıcılarda görünmez.
+## Kullanıcılar sayfasına ulaşma
+
+Sol menüde **KURULUŞ** başlığı altında yer alan **Kullanıcılar** seçeneğine tıklayın.
+
+Sayfada kuruluşunuzun portal kullanıcıları listelenir. Listede her kullanıcının **Ad Soyad** (e-posta adresiyle birlikte) ve **Durum** (**Aktif** veya **Pasif**) bilgisi görüntülenir. Sayfanın üstündeki arama kutusuna kullanıcının adını, soyadını veya e-posta adresini yazarak listeyi daraltabilirsiniz. Aramanızla eşleşen kullanıcı yoksa “Kayıt bulunamadı” ifadesi görüntülenir. Listenin altından sayfa başına gösterilecek kayıt sayısını değiştirebilirsiniz.
 
 ## Video anlatım
 
 <div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Kullanıcılar — video eklenecek.</span>
+  <span>Kullanıcılar sayfasının tanıtımı — video eklenecek.</span>
 </div>
-
-<!-- REVIEW:START KULLANICI-01 -->
-<div class="review-note" data-review-id="KULLANICI-01" role="note">
-<strong>[Conflict] KULLANICI-01</strong>
-<p>Yeni belge T.C. kimlik numarasını zorunlu sayıyor; eski geliştirme notlarında alt kullanıcılarda TCKN alınmaması kararı vardı. Güncel form ve onaylı ihtiyaç kontrol edilmeli. E-posta alan adı sınırlaması da bu belgede yeterince açıklanmıyor.</p>
-</div>
-<!-- REVIEW:END KULLANICI-01 -->
 
 ## Başlamadan önce
 
-- Ekleyeceğiniz kişinin ad, soyad, kurumsal e-posta adresi ve T.C. kimlik numarasını hazırlayın.
-- Kişiye atayacağınız rolün [Roller](roller-ve-yetkiler.md) sayfasında tanımlı olduğundan emin olun.
+- Eklemek istediğiniz kişinin ad, soyad, e-posta adresi ve **T.C. kimlik numarasını** hazırlayın.
+- Kişiye vereceğiniz rolün [Roller](roller-ve-yetkiler.md) sayfasında tanımlı olduğundan emin olun. Başka bir rol tanımlamadıysanız yalnızca **Organizasyon Yöneticisi** rolü seçilebilir.
 
 ## Yeni kullanıcı ekleme
 
-1. **Kullanıcılar sayfasını açın.**
-   Sol menüden **Kuruluş** ve ardından **Kullanıcılar**'ı seçin.
-2. **Yeni Kullanıcı** düğmesine tıklayın.
-3. **Kullanıcı bilgilerini girin.**
-   - **Ad**, **Soyad**, **E-posta** ve **Rol** alanlarını doldurun.
-   - Üye kuruluşlarda ayrıca **TC Kimlik No** (11 hane, zorunlu), **Unvan** ve **Telefon Numarası** (isteğe bağlı) alanları bulunur.
-4. **Oluştur** düğmesine tıklayın.
+<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
+  <span>Yeni kullanıcı ekleme — video eklenecek.</span>
+</div>
 
-## Beklenen sonuç
+1. Sayfanın sağ üstünde yer alan **Yeni Kullanıcı** düğmesine tıklayın. Sağdan bir form paneli açılır.
+2. Aşağıdaki alanları doldurun:
+   - **Ad** ve **Soyad** (zorunlu). Soyad, yazdığınız gibi büyük harfe çevrilir.
+   - **E-posta** (zorunlu)
+   - **Rol** (zorunlu). Listeden kullanıcıya vereceğiniz rolü seçin.
+   - **Unvan** (isteğe bağlı)
+   - **Telefon Numarası** (isteğe bağlı)
+   - **T.C. Kimlik No** (zorunlu, 11 hane)
+3. **Oluştur** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın.
 
-"Kullanıcı başarıyla oluşturuldu" bildirimi görünür ve kişi listeye **Aktif** durumda eklenir.
+Kullanıcı oluşturulduğunda ekranda **“Kullanıcı başarıyla oluşturuldu”** bildirimi görüntülenir ve kullanıcı listeye **Aktif** durumda eklenir.
 
-## Kullanıcıyı görüntüleme ve düzenleme
+### Form uyarıları
 
-1. Listede kullanıcının satırına tıklayın veya **⋯** menüsünden **Düzenle**'yi seçin.
-2. Açılan panelde **Düzenle** düğmesine tıklayın.
-3. Ad, soyad, rol ve diğer bilgileri güncelleyin. **E-posta adresi değiştirilemez.**
-4. **Kaydet** düğmesine tıklayın. "Kullanıcı güncellendi" bildirimi görünür.
+**Oluştur** düğmesine bastığınızda eksik veya hatalı alanların altında uyarı görüntülenir:
 
-> **Bilgi:** Kullanıcının rolünü değiştirmek için bu düzenleme ekranındaki **Rol** alanını kullanın.
+- **“Ad zorunludur”**, **“Soyad zorunludur”:** İlgili alanı doldurun.
+- **“Geçerli bir e-posta giriniz”:** E-posta adresinin biçimini kontrol edin.
+- **“11 haneli TC Kimlik numaranızı giriniz”:** T.C. kimlik numarasını 11 hane olarak yazın.
+- **“Bu e-posta adresiyle bir kullanıcı zaten mevcut.”:** Yazdığınız e-posta adresiyle daha önce bir kullanıcı oluşturulmuştur. Farklı bir e-posta adresi yazın.
+
+## Kullanıcıyı görüntüleme
+
+Listede kullanıcının satırına tıkladığınızda sağdan kullanıcının bilgilerini gösteren bir panel açılır: **Ad Soyad**, **E-posta**, **Rol**, **Unvan**, **Telefon Numarası**, **T.C. Kimlik No** ve **Durum**.
+
+## Kullanıcı bilgilerini düzenleme
+
+1. Kullanıcının satırında yer alan **işlemler (⋯)** menüsünden **Düzenle** seçeneğine tıklayın. Kullanıcının bilgi paneli açılır.
+2. Panelin altındaki **Düzenle** düğmesine tıklayın.
+3. **Kullanıcıyı Düzenle** formunda **Ad**, **Soyad**, **Rol**, **Unvan**, **Telefon Numarası** ve **T.C. Kimlik No** alanlarını güncelleyin.
+4. **Kaydet** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın.
+
+Ekranda **“Kullanıcı güncellendi”** bildirimi görüntülenir.
+
+> **Bilgi:** Kullanıcının **e-posta adresi**, hesap oluşturulduktan sonra değiştirilemez; düzenleme formunda e-posta alanı bulunmaz. Kullanıcının rolünü değiştirmek için aynı formdaki **Rol** alanını kullanın.
 
 ## Kullanıcıyı pasif veya aktif yapma
 
-1. Kullanıcının satırındaki **⋯** menüsünden **Pasif Yap** (veya **Aktif Yap**) seçeneğine tıklayın.
-2. Açılan pencerede **Onayla**'yı seçin.
-
-Pasif yapılan kullanıcı portala giriş yapamaz; dilediğiniz zaman tekrar aktif yapabilirsiniz.
-
-<!-- REVIEW:START KULLANICI-02 -->
-<div class="review-note" data-review-id="KULLANICI-02" role="note">
-<strong>[Conflict] KULLANICI-02</strong>
-<p>Silmenin geri alınamaz olması ve pasif hesabın giriş yapamaması belgede anlatılıyor; henüz test edilmedi. Gerçek kullanıcı silmeden test hesabında doğrulanmalı.</p>
+<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
+  <span>Kullanıcıyı pasif ve aktif yapma — video eklenecek.</span>
 </div>
-<!-- REVIEW:END KULLANICI-02 -->
 
-## Kullanıcıyı silme
+1. Kullanıcının satırında yer alan **işlemler (⋯)** menüsünden **Pasif Yap** seçeneğine tıklayın. Kullanıcı pasifse bu seçeneğin adı **Aktif Yap** olarak görünür.
+2. Açılan pencerede, kullanıcının adı ve “adlı kullanıcının durumunu değiştirmek istediğinize emin misiniz?” sorusu görüntülenir. **Onayla** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın.
 
-1. **⋯** menüsünden **Sil** seçeneğine tıklayın.
-2. Açılan pencerede **Sil**'i seçin. **Bu işlem geri alınamaz.**
+İşlem sonunda kullanıcının **Durum** bilgisi listede **Pasif** veya **Aktif** olarak güncellenir. Hesabı kullanıma kapatmanız gerektiğinde kullanıcıyı pasif yapabilir, daha sonra tekrar aktif yapabilirsiniz. Ekranda **“Kullanıcı pasif yapıldı”** veya **“Kullanıcı aktif yapıldı”** bildirimi görüntülenir.
 
-> **Bilgi:** Kendi hesabınızı pasif yapamaz veya silemezsiniz.
+Pasif yapılan kullanıcı portala giriş yapmaya çalıştığında **“Hesabınız devre dışı bırakıldı. Lütfen destek ile iletişime geçin.”** uyarısını görür ve giriş yapamaz. Kullanıcı yeniden aktif yapıldığında önceki şifresiyle giriş yapabilir.
 
-## Kullanıcı oluşturulamıyorsa
+> **Bilgi:** Bu sayfada kullanıcıyı silme seçeneği bulunmaz. Ayrıca kendi hesabınızın (kuruluşun ana hesabı) satırındaki işlemler menüsü kullanılamaz; kendi bilgilerinizi [Profil](profil-ve-hesap-islemleri.md) sayfasından güncelleyebilirsiniz.
 
-- **"Geçerli bir e-posta giriniz":** E-posta biçimini kontrol edin.
-- **"11 haneli TC Kimlik numaranızı giriniz" / "Geçerli bir TC Kimlik numarası giriniz":** Kimlik numarasını kontrol edin.
-- **"Rol seçiniz":** Rol alanını boş bırakmayın.
-- E-posta adresi başka bir hesapta kullanılıyorsa sistem hata mesajı gösterir.
+## Personelin ilk girişi
+
+Yeni eklenen kullanıcıya, giriş bilgileri kayıtlı e-posta adresine iletilir. Kullanıcı bu bilgilerle giriş yaptığında, geçici şifresini değiştirmesi zorunludur; yeni şifre belirlendikten sonra **“Şifreniz güncellendi. Lütfen tekrar giriş yapın.”** mesajı görüntülenir ve kullanıcının yeni şifresiyle yeniden giriş yapması gerekir.
+
+> **Bilgi:** Personel hesapları **Kullanıcılar** ve **Roller** menülerini görmez; bu sayfalar yalnızca kuruluşun ana hesabı içindir. Personel, bu adreslere doğrudan gitmeye çalışırsa **Genel Bilgiler** sayfasına yönlendirilir.
+
+<!-- REVIEW:START KULLANICI-03 -->
+<div class="review-note" data-review-id="KULLANICI-03" role="note">
+<strong>[Karar bekliyor] KULLANICI-03</strong>
+<p>Personelin ilk girişinde, kuruluşun ana hesabında görüntülenen KVKK metni görülmedi. Personel için de KVKK onayı isteniyorsa metin geldiğinde bu bölüme eklenecek (bkz. KVKK metinleri).</p>
+</div>
+<!-- REVIEW:END KULLANICI-03 -->
 
 ## İlgili rehberler
 
