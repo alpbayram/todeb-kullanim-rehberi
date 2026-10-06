@@ -4,8 +4,8 @@ Bu sayfa yalnızca **toplantıda konuşulup kesinleşen** maddeleri içerir. Her
 
 **Terimler**
 
-- **Ana hesap (üye kuruluş yöneticisi):** TÖDEB üyeliği onaylanınca kuruluş için açılan ilk hesap (süper yönetici gibi çalışır).
-- **Alt kullanıcı:** Ana hesabın **Kullanıcılar** sayfasından oluşturduğu çalışan hesabı.
+- **Ana hesap (üye kuruluşun süper yöneticisi):** TÖDEB bir kuruluşun üyeliğini onayladığında o kuruluş için otomatik açılan ilk hesaptır. Kuruluşun portaldaki **tek süper yöneticisi** gibi çalışır: **Kullanıcılar** ve **Roller** sayfaları yalnızca bu hesapta bulunur, kuruluşun alt kullanıcılarını (çalışanlarını) oluşturan ve rollerini belirleyen bu hesaptır. Kuruluş adına giriş yapılan, ortak/kurumsal bir e-postayla açılan hesaptır; bu yüzden etkinlik ve eğitim gibi kişisel başvurulara katılamaz.
+- **Alt kullanıcı:** Ana hesabın **Kullanıcılar** sayfasından oluşturduğu çalışan hesabıdır (ör. kuruluşun İnsan Kaynakları çalışanı). Bir rolü vardır; etkinliklere ve eğitimlere başvuruları bu hesaplar yapar. Kullanıcı ve rol yönetimi yapamaz.
 - **Alan Adları kartı:** Portalda **Genel Bilgiler** sayfasındaki, kuruluşun beyan ettiği alan adlarının (ör. `kurulus.com.tr`) listelendiği kart.
 
 Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
@@ -21,8 +21,8 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 **Yapılacak:**
 1. Alt kullanıcı oluşturulurken e-posta alan adı, **Alan Adları kartındaki** alan adlarından biri değilse kayıt **yapılmamalı** ve şu anlamda bir uyarı çıkmalı: *“Lütfen beyan ettiğiniz alan adlarından birine ait bir e-posta adresi giriniz.”*
 2. Aynı kural **Profil**’de e-posta değiştirirken de aynı mesajla uygulanmalı (şu an farklı bir mesaj çıkıyor).
-3. **Katılımcı Ekle** penceresinde, kuruluşun alan adı dışında bir e-posta yazılınca **uyarı + yönlendirme** çıkmalı: kullanıcı yeni alan adı kullanmak yerine mevcut alan adlarından birini kullanmaya nazikçe teşvik edilmeli, uğraştırılmamalı. Mesajda **örnek alan adı yazılmayacak** (kullanıcı kendi alan adlarını kendisi kontrol edecek). Metni SHFT önerir, TÖDEB onaylar.
-4. **Başvuruları Gönder**’deki hata da aynı mantıkta olmalı (“eşleşmiyor” yerine beyan edilen alan adlarından birini kullanmasını isteyen bir cümle).
+3. **Katılımcı Ekle** penceresinde, kuruluşun alan adlarından birine ait olmayan bir e-posta yazılınca şu uyarı çıkmalı (örnek alan adı yazılmayacak; kullanıcı kendi alan adlarını kendisi kontrol eder): *“Girdiğiniz e-posta adresinin alan adı kuruluşunuzda tanımlı alan adları arasında yer almıyor. Lütfen kuruluşunuza ait alan adlarından birini kullanan bir e-posta adresi giriniz. Yeni bir alan adı kullanmanız gerekiyorsa Genel Bilgiler sayfasındaki Alan Adları bölümünden ekleyebilirsiniz.”* Uyarı bilgilendiricidir; kullanıcıyı mevcut alan adlarını kullanmaya yönlendirir.
+4. **Başvuruları Gönder** sırasında alan adı uyumsuzsa çıkan hata da aynı anlamda olmalı: *“Girilen e-posta adresi kuruluşunuzda tanımlı alan adlarından birine ait değil. Lütfen kuruluşunuza ait alan adlarından birini kullanan bir e-posta adresi giriniz.”* (şu an yalnızca “eşleşmiyor” yazıyor).
 
 **Nasıl kontrol edilir:** Ana hesapla kartta yalnızca `ornek.com.tr` varken `ali@gmail.com` ile alt kullanıcı oluşturmayı dene → engellenmeli. Aynı e-postayı Profil’de ve eğitim/etkinlik **Katılımcı Ekle**’de dene → aynı yönlendirme çıkmalı.
 
@@ -36,8 +36,8 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 
 **Yapılacak:**
 1. Başvuran kişi katılımcı olmak zorunda değil: **eğitimde de kullanıcı kendi satırını silebilmeli** (etkinlikteki gibi).
-2. Liste boşken **Başvuruları Gönder** pasif olmalı (etkinlikteki gibi).
-3. **Ana hesap** etkinliğe **ve eğitime** başvuramamalı: ana hesapta başvuru düğmesi **pasif (disabled)** olmalı. Başvuruyu yalnızca eklenen alt kullanıcılar yapabilmeli.
+2. Alt kullanıcı kendi satırını silip listeye başka kimseyi eklemediyse liste boş kalır ve **Başvuruları Gönder** düğmesi **pasif** olmalı (gönderilecek kimse yoksa başvuru yapılamamalı); etkinlikte bu zaten böyle çalışıyor.
+3. **Ana hesap** (üye kuruluşun süper yöneticisi) etkinliğe **ve eğitime** başvuramamalı: ana hesapta başvuru düğmesi **pasif (disabled)** olmalı. Başvuruyu yalnızca ana hesabın oluşturduğu **alt kullanıcılar** yapabilmeli.
 4. **Toplu başvuru yetkisi**, tanımlanacak **İK Yetkilisi** rolüne verilmeli. (İK Yetkilisi rolünün kapsamı ayrıca netleştirilecek.)
 
 **Nasıl kontrol edilir:** Alt kullanıcıyla eğitime gir, kendi satırını sil → silinmeli, **Başvuruları Gönder** pasif olmalı. Ana hesapla etkinlik ve eğitim detayına gir → başvuru düğmesi pasif olmalı.
@@ -80,19 +80,7 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 
 ---
 
-## 6. “Önemli Dosya” Dosya Alanı’nda görünmemeli — #66
-
-**Nerede:** Portal → **Dosya Alanı** listesi; panel → dosya yükleme → **Önemli Dosya**.
-
-**Şu an:** **Önemli Dosya** olarak işaretlenen dosya, üyelerin **Dosya Alanı listesinde** normal dosya gibi görünüyor.
-
-**Yapılacak:** Önemli Dosya, Dosya Alanı ile ilgili bir kavram değil; TÖDEB bu dosyayı üyeye **bağlantı (URL) ile iletecek**. Bu yüzden **Önemli Dosya** işaretli dosyalar üye kuruluşların **Dosya Alanı listesinde hiç görünmemeli**.
-
-**Nasıl kontrol edilir:** Panelden **Önemli Dosya** işaretiyle dosya yükle, yayınla → üye hesabının Dosya Alanı listesinde bu dosya görünmemeli.
-
----
-
-## 7. KEP adresi portalda boş geliyor — #12
+## 6. KEP adresi portalda boş geliyor — #12
 
 **Nerede:** Portal → **Genel Bilgiler** → Firma Bilgileri → **KEP Adresi**.
 
@@ -104,19 +92,19 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 
 ---
 
-## 8. Kullanıcı ve rol yönetimi yalnızca ana hesapta olacak — #73
+## 7. Kullanıcı ve rol yönetimi yalnızca ana hesapta olacak — #73
 
 **Nerede:** Portal → **Roller** → rol oluştur/düzenle → yetki ağacı (**Kullanıcılar** ve **Roller** grupları).
 
 **Şu an:** Rol oluştururken kullanıcı oluşturma/düzenleme/silme ve rol yönetimi için yetkiler seçilebiliyor; ancak tüm yetkilere sahip **Organizasyon Yöneticisi** rolündeki bir alt kullanıcı bile **Kullanıcılar** ve **Roller** menülerini görmüyor (adresi yazarsa sessizce Genel Bilgiler’e yönlendiriliyor). Yani bu yetkiler hiçbir işe yaramıyor.
 
-**Yapılacak:** Kullanıcı ve rol yönetimi **yalnızca ana hesapta** (üye kuruluş süper yöneticisi) olacak. Rol ekranından **kullanıcı yönetimi ve rol yönetimi yetkileri kaldırılmalı**. **Bildirimleri Görüntüleme** ve **Bildirimi Okundu Olarak İşaretleme** yetkileri kalmalı (bildirim zilini görmek için gerekiyorlar; ileride ayrı bir grupta toplanabilir).
+**Yapılacak:** Kullanıcı ve rol yönetimi **yalnızca ana hesapta** olacak. Ana hesap, TÖDEB üyeliği onaylandığında kuruluş için otomatik açılan ve kuruluşun **tek süper yöneticisi** olan hesaptır; alt kullanıcıları (çalışanları) yalnızca o oluşturur ve rollerini yalnızca o belirler. Hiçbir rolle alt kullanıcıya bu yetki verilmeyecek. Rol ekranından **kullanıcı yönetimi ve rol yönetimi yetkileri kaldırılmalı**. **Bildirimleri Görüntüleme** ve **Bildirimi Okundu Olarak İşaretleme** yetkileri kalmalı (bildirim zilini görmek için gerekiyorlar; ileride ayrı bir grupta toplanabilir).
 
 **Nasıl kontrol edilir:** Rol oluştururken yetki ağacında kullanıcı/rol yönetimi yetkileri görünmemeli; bildirim yetkileri seçilebilmeli.
 
 ---
 
-## 9. Komite “Yoklama” sekmesi bozuk — #37
+## 8. Komite “Yoklama” sekmesi bozuk — #37
 
 **Nerede:** Portal → Komite / Çalışma Grupları → komite → **Yoklama**.
 
@@ -128,7 +116,7 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 
 ---
 
-## 10. Türkçe karakterli klasör adları zip olarak indirilemiyor — #61
+## 9. Türkçe karakterli klasör adları zip olarak indirilemiyor — #61
 
 **Nerede:** Portal → **Dosya Alanı** → klasör satırındaki indirme simgesi.
 
@@ -140,7 +128,7 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 
 ---
 
-## 11. Koşullu ankette son soruda “Sonraki” yazıyor ve “özet bulunmuyor” mesajı çıkıyor — #69
+## 10. Koşullu ankette son soruda “Sonraki” yazıyor ve “özet bulunmuyor” mesajı çıkıyor — #69
 
 **Nerede:** Portal → **Anketler** → **Koşullu** akışlı anket.
 
@@ -152,19 +140,7 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 
 ---
 
-## 12. Yeni Eğitim formunda tarih seçilince bitiş saati başlangıçla aynı oluyor — #55
-
-**Nerede:** Yönetim paneli → TÖDEB Akademi → **Yeni Eğitim** → Tarihler.
-
-**Şu an:** Form varsayılan olarak **Eğitim Başlangıç 17:00 – Eğitim Bitiş 18:00** ile açılıyor. **Eğitim Başlangıç Tarihi**’ne başka bir gün seçilince **Bitiş Tarihi de aynı güne** kayıyor ve **bitiş saati başlangıç saatine eşitleniyor** (17:00 – 17:00). Kaydedince “Bitiş tarihi başlangıç tarihinden sonra olmalıdır.” hatası çıkıyor; kullanıcı saati elle düzeltmek zorunda kalıyor. Ayrıca **Son Başvuru Tarihi** eğitim başlangıcından sonraya seçilemiyor; günler pasif görünüyor ve bu kural formda anlatılmıyor.
-
-**Yapılacak:** Tarih seçildiğinde saatler **korunmalı** (bitiş saati başlangıçtan sonra kalmalı); son başvuru tarihi kuralı için formda kısa bir açıklama gösterilmeli.
-
-**Nasıl kontrol edilir:** Yeni Eğitim formunu aç, başlangıç tarihi olarak ileri bir gün seç → bitiş saati başlangıçtan sonra kalmalı (ör. 17:00 – 18:00); kayıt hatasız tamamlanmalı.
-
----
-
-## 13. Üyelik formunda aynı e-posta ikinci kez girilince ekranda uyarı çıkmıyor — #1
+## 11. Üyelik formunda aynı e-posta ikinci kez girilince ekranda uyarı çıkmıyor — #1
 
 **Nerede:** Üyelik başvurusu → **Bölüm 5 — İletişim Kişileri** → **Devam**.
 
@@ -176,7 +152,7 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 
 ---
 
-## 14. Ana hesapta Profil’de “Soyad zorunludur” hatası — #17
+## 12. Ana hesapta Profil’de “Soyad zorunludur” hatası — #17
 
 **Nerede:** Portal → **Profil** → Kişisel Bilgiler → **Düzenle** (ana hesapta).
 
@@ -188,7 +164,7 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 
 ---
 
-## 15. Kısıtlı dosyada “Eğitim” erişim kuralıyla yükleme hata veriyor — #68
+## 13. Kısıtlı dosyada “Eğitim” erişim kuralıyla yükleme hata veriyor — #68
 
 **Nerede:** Yönetim paneli → **Dosya Alanı** → **Dosya(ları) Yükle** → Görünürlük **Kısıtlı** → **Kural Ekle** → Kural Tipi **Eğitim**.
 
@@ -197,4 +173,3 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 **Yapılacak:** (1) **Eğitim** kuralıyla yükleme çalışmalı (panelin gönderdiği kural tipi değeri sunucunun tanıdığıyla eşleşmeli). (2) Hata mesajı kullanıcıya teknik değil anlaşılır olmalı. (3) **Kullanıcı Tipi** etiketinde seçilen tipin adı görünmeli (ör. “Kullanıcı: Üye Kuruluş”).
 
 **Nasıl kontrol edilir:** Kısıtlı bir dosyaya **Eğitim** kuralı ekleyip yükle → “Dosya başarıyla yüklendi.” çıkmalı; eğitime başvuran kullanıcı portalda dosyayı görmeli, başvurmayan görmemeli. Kullanıcı Tipi kuralı ekle → etiket seçilen tipin adını göstermeli.
-

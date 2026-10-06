@@ -63,7 +63,7 @@ Alt kullanıcıların kim olabileceği, e-posta alan adı kuralı ve bu kurallar
 - **Nerede:** Etkinlik/eğitim başvuru gönderimi.
 - **Ne oluyor:** Farklı alan adlı katılımcı eklenince başvuru ancak **Gönder** denince hata veriyor; formda kuralı anlatan bir bilgi yok.
 - **Ne olmalı:** Katılımcı Ekle penceresinde “E-posta adresi kuruluşunuzun alan adına ait olmalıdır” bilgisi ve alan hatalıysa **Ekle** aşamasında engel.
-- **Karar (6 Ekim):** Katılımcı Ekle penceresinde **uyarı + teşvik** verilmeli: kullanıcı yeni alan adı eklemek yerine **kuruluşun mevcut alan adlarından** birini kullanmaya yönlendirilmeli, ancak gerekirse yeni alan adını ekleyebilmeli; yani kullanıcı uğraştırılmamalı, nazik bir cümleyle yönlendirilmeli. Mesajda örnek alan adı yazılmayacak, kullanıcı kendi alan adlarını kendisi kontrol edecek. Yapılacak: SHFT metni yazar, TÖDEB onaylar.
+- **Karar (6 Ekim):** Katılımcı Ekle penceresinde **uyarı + yönlendirme** verilmeli: kullanıcı kuruluşun mevcut alan adlarından birini kullanmaya yönlendirilmeli, gerekirse yeni alan adını Genel Bilgiler’deki Alan Adları bölümünden ekleyebilmeli. Mesajda örnek alan adı yazılmayacak. Önerilen metin Nilay Hanım sayfasında yazılıdır. Yapılacak: SHFT.
 
 ### 🟠 #45 · ✔ Karar verildi — Ana hesap etkinliğe başvuramıyor ama düğme aktif görünüyor
 
@@ -270,7 +270,7 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Nerede:** Portal → Dosya Alanı listesi.
 - **Ne oluyor:** Panelde **Önemli Dosya** olarak işaretlenip yayınlanan dosya listede yalnızca **YENİ** etiketiyle görünüyor; “Önemli” etiketi yok. (Giriş anında “Yeni Önemli Dosyalar Mevcut” bildirimi geliyor ve bu çalışıyor.)
 - **Ne olmalı:** Önemli dosyalar listede belirgin etiketle ayrılmalı.
-- **Karar (6 Ekim):** **Önemli Dosya**, Dosya Alanı ile ilgili bir kavram değil; TÖDEB bu dosyayı üyeye **bağlantı (URL) ile iletecek**. Bu nedenle Önemli Dosya olarak işaretlenen dosyalar üye kuruluşların **Dosya Alanı listesinde görünmemeli**. Şu an listede görünüyor, bu bir hatadır. Yapılacak: SHFT listeden çıkarır.
+- **Karar (6 Ekim):** (Nilay Hanım’a şimdilik iletilmeyecek, sonra iletilecek.) **Önemli Dosya**, Dosya Alanı ile ilgili bir kavram değil; TÖDEB bu dosyayı üyeye **bağlantı (URL) ile iletecek**. Bu nedenle Önemli Dosya olarak işaretlenen dosyalar üye kuruluşların **Dosya Alanı listesinde görünmemeli**. Şu an listede görünüyor, bu bir hatadır. Yapılacak: SHFT listeden çıkarır.
 
 ### 🟠 #67 · ⏳ Sonra ele alınacak — Panelde girilen dosya başlığı/açıklaması portalda yok
 
@@ -373,12 +373,12 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Yanıtlanan anketin yanıtlarının sonradan görüntülenmesi bekleniyorsa eksik.
 - **Karar (6 Ekim):** Yanıtlanan anketin yanıtlarının **sonradan görülememesi sorun değil**; önemli olan sistemin çalışması.
 
-### 🟠 #55 · 🔎 Tekrarlandı, Nilay Hanım’a iletilecek — Yeni Eğitim formunda tarih seçilince bitiş saati bozuluyor
+### 🟠 #55 · 🔎 Tekrarlandı, sonra iletilecek — Yeni Eğitim formunda tarih seçilince bitiş saati bozuluyor
 
 - **Nerede:** Yönetim paneli → TÖDEB Akademi → **Yeni Eğitim** → Tarihler bölümü.
 - **Ne oluyor (tekrar denendi, aynen oluştu):** Form açıldığında varsayılan değerler **Eğitim Başlangıç 17:00 – Eğitim Bitiş 18:00** şeklinde. **Eğitim Başlangıç Tarihi** için başka bir gün seçilince **Eğitim Bitiş Tarihi de aynı güne** kayıyor ve **bitiş saati başlangıç saatine eşitleniyor** (17:00 – 17:00). Bu hâliyle kaydedilince “Bitiş tarihi başlangıç tarihinden sonra olmalıdır.” hatası çıkıyor; kullanıcı saati elle düzeltmek zorunda kalıyor. Ayrıca **Son Başvuru Tarihi** eğitimin başlangıcından sonraya seçilemiyor (günler pasif görünüyor) ve bu kural formda anlatılmıyor.
 - **Ne olmalı:** Tarih seçilince saatler korunmalı (bitiş saati başlangıçtan sonra kalmalı); son başvuru tarihi kuralı formda kısa bir ipucuyla belirtilmeli.
-- **Karar (6 Ekim):** Önemli olabilir diye tekrar denendi ve doğrulandı; Nilay Hanım’a iletilecek. Yapılacak: SHFT.
+- **Karar (6 Ekim):** Tekrar denendi ve doğrulandı. Tarih/saati yönetici elle düzeltebildiği için Nilay Hanım’a şimdilik iletilmeyecek, sonra iletilecek.
 
 ### 🟠 #44 · ✔ Bilerek böyle — Etkinlikler listesi neden boş?
 
