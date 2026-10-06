@@ -524,26 +524,26 @@ Bu bölümdeki konular **küçük form düzeltmeleridir**; hiçbiri başvuruyu e
 - **Ne olmalı:** İlgili e-posta alanının altında kırmızı uyarı.
 - **Karar (6 Ekim):** Hata olarak yazılacak: sunucu reddettiğinde ekranda ilgili e-posta alanının altında uyarı çıkmalı. Nilay Hanım’a iletilecek. Yapılacak: SHFT.
 
-### 🟠 #2 — “Birden fazla kişi” açıklaması çelişiyor
+### 🟠 #2 · ⏳ Sonra ele alınacak — “Birden fazla kişi” açıklaması çelişiyor
 
 - **Nerede:** Bölüm 5 başlığındaki **ⓘ**.
 - **Ne oluyor:** Başlıktaki açıklama “yalnızca İnsan Kaynakları için birden fazla kişi belirlenebilir” diyor; Pazarlama, Etkinlikler ve İhtisas kartlarındaki **ⓘ** “birden fazla yetkili bildirilebilir” diyor ve **Kişi Ekle** bu beş görev için ek kişiye izin veriyor.
 - **Ne olmalı:** Başlık açıklaması gerçek kurala göre düzeltilmeli.
-- **Bekleyen karar:** TÖDEB: hangi görevlerde birden fazla kişi? SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraya bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #3 — Hakem Heyeti uyarısında yanlış kurum adı
+### 🟠 #3 · ⏳ Sonra ele alınacak — Hakem Heyeti uyarısında yanlış kurum adı
 
 - **Nerede:** Bölüm 5 — Hakem Heyeti kartı.
 - **Ne oluyor:** **Kurumsal e-posta onayı** işaretlenmezse “Tahkim kurulu için kurumsal e-posta onayı zorunludur” yazıyor; kart adı “Bireysel Müşteri Hakem Heyeti”.
 - **Ne olmalı:** Uyarı metni kartla uyumlu olmalı.
-- **Bekleyen karar:** SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraya bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #6 · ⏳ Şimdilik böyle — Alan adı biçimi zorlanmıyor
+### 🟠 #6 · ⏳ Sonra ele alınacak — Alan adı biçimi zorlanmıyor
 
 - **Nerede:** Bölüm 7 — Dijital Kimlik → **Alan Adları**.
 - **Ne oluyor:** `https://ornek.com`, `ornek.com/yol`, `www.ornek.com` ve `ÖRNEK.COM.TR` kabul ediliyor, küçük harfe çevrilmiyor. Yalnızca “abc” gibi alan adı olmayan metin reddediliyor. Bu alan adları ileride e-posta doğrulamada (#57, #18) kullanılacağı için biçimi önemli.
 - **Ne olmalı:** Yalnızca `kurulus.com.tr` biçimi, küçük harf.
-- **Karar (6 Ekim):** Şimdilik kalsın, acil değil.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraya bırakıldı. Nilay Hanım’a iletilmeyecek.
 
 ### 🟠 #10 · 🗑 Geçerli değil — Alan adı etiketleri kaybolmuş gibi göründü (kesin değil)
 
