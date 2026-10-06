@@ -162,3 +162,39 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 
 **Nasıl kontrol edilir:** Yeni Eğitim formunu aç, başlangıç tarihi olarak ileri bir gün seç → bitiş saati başlangıçtan sonra kalmalı (ör. 17:00 – 18:00); kayıt hatasız tamamlanmalı.
 
+---
+
+## 13. Üyelik formunda aynı e-posta ikinci kez girilince ekranda uyarı çıkmıyor — #1
+
+**Nerede:** Üyelik başvurusu → **Bölüm 5 — İletişim Kişileri** → **Devam**.
+
+**Şu an:** Aynı görevlendirmede (ör. İnsan Kaynakları) iki kişiye aynı e-posta yazılıp **Devam**’a basılınca sunucu isteği reddediyor (“Aynı görevlendirme türü içinde aynı e-posta adresi birden fazla kez kullanılamaz.”, kod 400); ancak **ekranda hiçbir uyarı çıkmıyor**, sayfa yalnızca ilerlemiyor. Kullanıcı nedenini anlayamıyor.
+
+**Yapılacak:** İlgili e-posta alanının altında kırmızı bir uyarı gösterilmeli (ör. “Aynı e-posta adresini birden fazla kez kullanamazsınız.”).
+
+**Nasıl kontrol edilir:** Bölüm 5’te aynı görevlendirmeye iki kişi ekle, ikisine de aynı e-postayı yaz, **Devam**’a bas → alanın altında uyarı çıkmalı.
+
+---
+
+## 14. Ana hesapta Profil’de “Soyad zorunludur” hatası — #17
+
+**Nerede:** Portal → **Profil** → Kişisel Bilgiler → **Düzenle** (ana hesapta).
+
+**Şu an:** Ana hesap (üye kuruluş) oluşturulurken **Ad** alanına kuruluş adı yazılıyor, **Soyad** alanı boş (“—”) kalıyor. Kullanıcı ilk kez **Düzenle**’ye basıp kaydedince “Soyad zorunludur” uyarısı çıkıyor. Kuruluşun soyadı olmaz; ekran alt kullanıcılarla aynı bileşeni kullandığı için ana hesapta da Soyad zorunlu görünüyor.
+
+**Yapılacak:** Ana hesapta **Soyad zorunlu olmamalı** (alt kullanıcılarda kalabilir). Nasıl çözüleceği SHFT’e bırakılmıştır.
+
+**Nasıl kontrol edilir:** Ana hesapla Profil → Düzenle → başka bir alanı (ör. Telefon) değiştirip Kaydet → “Soyad zorunludur” uyarısı çıkmamalı.
+
+---
+
+## 15. Kısıtlı dosyada “Eğitim” erişim kuralıyla yükleme hata veriyor — #68
+
+**Nerede:** Yönetim paneli → **Dosya Alanı** → **Dosya(ları) Yükle** → Görünürlük **Kısıtlı** → **Kural Ekle** → Kural Tipi **Eğitim**.
+
+**Şu an:** Kural olarak belirli bir eğitim seçilip **Yükle**’ye basılınca dosya yüklenmiyor ve teknik bir hata çıkıyor: *“The JSON value could not be converted to Todeb.Domain.Shared.FileEntryAccessRules.FileAccessRuleType. Path: $.fileEntryAccessRules[0].fileAccessRuleType”*. Diğer kural tipleri (**Tüm Üyeler**, **Kullanıcı Tipi**, **Faaliyet**) çalışıyor ve portalda doğru kullanıcıya gösteriliyor; yalnızca **Eğitim** hata veriyor. Ayrıca **Kullanıcı Tipi** kuralı eklenince etiket **“Kullanıcı: {{label}}”** yazıyor (seçilen tipin adı yerine doldurulmamış şablon).
+
+**Yapılacak:** (1) **Eğitim** kuralıyla yükleme çalışmalı (panelin gönderdiği kural tipi değeri sunucunun tanıdığıyla eşleşmeli). (2) Hata mesajı kullanıcıya teknik değil anlaşılır olmalı. (3) **Kullanıcı Tipi** etiketinde seçilen tipin adı görünmeli (ör. “Kullanıcı: Üye Kuruluş”).
+
+**Nasıl kontrol edilir:** Kısıtlı bir dosyaya **Eğitim** kuralı ekleyip yükle → “Dosya başarıyla yüklendi.” çıkmalı; eğitime başvuran kullanıcı portalda dosyayı görmeli, başvurmayan görmemeli. Kullanıcı Tipi kuralı ekle → etiket seçilen tipin adını göstermeli.
+

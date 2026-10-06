@@ -121,12 +121,12 @@ Kullanıcının yaptığı bir işlemin sonucunu nereden göreceği. Şu an bir�
 - **Ne olmalı:** Başvuru sonrası kalıcı bir durum/bildirim; gerekiyorsa KVKK onayı adımı.
 - **Karar (6 Ekim):** Başvuru sonucu kullanıcıya **e-postayla iletildiği** için portalda ayrıca bildirim/durum gösterilmesi şimdilik gerekmiyor. (Başvuruda KVKK onayı konusu ayrıca konuşulmadı.)
 
-### 🟠 #47 — Etkinlik başvurusu sonrası da aynı belirsizlik
+### 🟠 #47 · ✔ Bilerek böyle — Etkinlik başvurusu sonrası da aynı belirsizlik
 
 - **Nerede:** Duyurular → etkinlik duyurusu → başvuru paneli.
 - **Ne oluyor:** Gönderilince geçici “N kişi için toplu başvuru alındı” mesajı çıkıyor; **Bildirimler**’de kayıt yok. Panel kapatılıp yeniden açılınca katılımcı listesi yeniden hazır geliyor ve **Başvuruları Gönder** aktif; başvurunun yapıldığı anlaşılmıyor. Aynı kişi tekrar başvurabiliyor gibi görünüyor (eğitimde tekrar başvuru engelleniyor).
 - **Ne olmalı:** Eğitimdeki gibi tekrar başvuru uyarısı + “Başvurdunuz” durumu + bildirim.
-- **Bekleyen karar:** SHFT; TÖDEB: etkinlikte onay/ret var mı (şu an yok görünüyor)?
+- **Karar (6 Ekim):** Başvuru sonucu e-postayla iletildiği için etkinlikte de portalda ayrıca durum gösterilmesi gerekmiyor (#71/#63 ile aynı).
 
 ### 🟠 #52 — Alt kullanıcıya “Yeni Duyuru” bildirimi (sonradan doğrulandı)
 
@@ -170,26 +170,26 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Yetkisi olmayan menü gizlenmeli ya da sayfada “Bu sayfayı görüntüleme yetkiniz yok” denmeli. Boş ekran, “yetki yok”u “içerik yok”tan ayırt edilebilir olmalı.
 - **Karar (6 Ekim):** Yetkisiz menülerin görünmesi **şimdilik böyle kalsın**.
 
-### 🟠 #72 — Bildirim yetkisi “Kullanıcılar” grubunun içinde
+### 🟠 #72 · ⏳ Sonra ele alınacak — Bildirim yetkisi “Kullanıcılar” grubunun içinde
 
 - **Nerede:** Roller → rol oluştur/düzenle → **Kullanıcılar** grubu.
 - **Ne oluyor:** **Bildirimleri Görüntüleme** ve **Bildirimi Okundu Olarak İşaretleme** yetkileri kullanıcı yönetimi yetkileriyle aynı grupta. Bildirim zilini görmek için bu iki yetkiyi tek tek işaretlemek gerekiyor. Yetkisi olmayan kullanıcıda zil hiç görünmüyor ve `/notifications` adresi sessizce **Genel Bilgiler**’e yönlendiriyor.
 - **Ne olmalı:** Bildirim yetkisi ayrı bir grup olmalı (ya da herkese varsayılan olmalı); yönlendirme yerine bir uyarı gösterilmeli.
-- **Bekleyen karar:** TÖDEB: bildirim herkese açık mı olmalı? SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #24 — Anketler için rol grubu yok
+### 🟠 #24 · ⏳ Sonra ele alınacak — Anketler için rol grubu yok
 
 - **Nerede:** Roller → yetki ağacı.
 - **Ne oluyor:** **Anketler** için yetki grubu bulunmuyor; anketler her role açık görünüyor.
 - **Ne olmalı:** Anketler yetkiyle kısıtlanacaksa grup eklenmeli; herkese açık olacaksa bu bilinçli karar olarak belgelenmeli.
-- **Bekleyen karar:** TÖDEB.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #50 — Alt kullanıcı yetkisiz sayfaya girince sessizce yönlendiriliyor; Genel Bilgiler’de düzenleme simgeleri
+### 🟠 #50 · ⏳ Şimdilik böyle — Alt kullanıcı yetkisiz sayfaya girince sessizce yönlendiriliyor; Genel Bilgiler’de düzenleme simgeleri
 
 - **Nerede:** Alt kullanıcı hesabı.
 - **Ne oluyor:** Alt kullanıcı **Kullanıcılar**/**Roller** menülerini görmüyor; adresi yazarsa hiçbir uyarı olmadan **Genel Bilgiler**’e yönlendiriliyor. Ayrıca **Genel Bilgiler** sayfasında alt kullanıcıya de 7 düzenleme (kalem) simgesi görünüyor.
 - **Ne olmalı:** Yönlendirme sırasında kısa bir uyarı; alt kullanıcının Genel Bilgiler’i düzenleyip düzenleyemeyeceği netleştirilmeli, düzenleyemiyorsa simgeler gizlenmeli.
-- **Bekleyen karar:** TÖDEB: alt kullanıcı kuruluş bilgisini düzenleyebilir mi? SHFT.
+- **Karar (6 Ekim):** Şimdilik böyle kalsın, acil değil; Nilay Hanım’a iletilmeyecek.
 
 ### 🟠 #26 · ✔ Karar verildi — Sistem rolü (Organizasyon Yöneticisi) düzenlenip silinebilir görünüyor
 
@@ -198,19 +198,19 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Sistem rolü korunmalı (yalnızca görüntülenebilmeli) ya da bilinçli olarak serbest bırakılmalı.
 - **Karar (6 Ekim):** TÖDEB, yönetim panelinden üye kuruluşlara **sistem rolleri** tanımlayabilmeli. Bu roller üye kuruluş tarafından **silinememeli ve düzenlenememeli**. Böyle bir talep daha önce de varmış. Yapılacak: SHFT (panelde rol atama + portalda korumalı rol).
 
-### 🟠 #21 — “Kullanıcı Silme” yetkisi var ama silme seçeneği yok
+### 🟠 #21 · ⏳ Sonra ele alınacak — “Kullanıcı Silme” yetkisi var ama silme seçeneği yok
 
 - **Nerede:** Roller → Kullanıcılar grubu ↔ Kullanıcılar sayfası satır menüsü.
 - **Ne oluyor:** Yetki listesinde **Üye Kuruluş Paneli Kullanıcısı Silme** var; kullanıcı satırında yalnızca **Düzenle** ve **Pasif/Aktif Yap** bulunuyor.
 - **Ne olmalı:** Silme hedefleniyorsa seçenek eklenmeli; hedeflenmiyorsa yetki listeden kalkmalı.
-- **Bekleyen karar:** TÖDEB.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #23 — Atanmış rol silinemeyince neden söylenmiyor
+### 🟠 #23 · ⏳ Sonra ele alınacak — Atanmış rol silinemeyince neden söylenmiyor
 
 - **Nerede:** Roller → çöp kutusu.
 - **Ne oluyor:** Kullanıcıya atanmış rolü silmeye çalışınca yalnızca “Rol silinemedi” yazıyor; nedeni (role atanmış kullanıcı) belirtilmiyor.
 - **Ne olmalı:** “Bu role atanmış kullanıcılar var; önce rollerini değiştirin.” gibi bir açıklama.
-- **Bekleyen karar:** SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
 ### 🟢 #64 — Rol değiştirilince açık panel eski rolü gösteriyor
 
@@ -245,12 +245,17 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 <a id="bolum-4"></a>
 ## 4. Dosya alanı
 
-### 🔴 #68 — Kısıtlı dosya yüklemesi hata veriyor (panel)
+### 🔴 #68 · 🔎 Kapsamlı denendi, Nilay Hanım’a iletilecek — Kısıtlı dosyada “Eğitim” erişim kuralı hata veriyor
 
-- **Nerede:** Yönetim paneli → Dosya Alanı → **Dosya(ları) Yükle** → Görünürlük **Kısıtlı** → Erişim Kuralı.
-- **Ne oluyor:** Erişim kuralı olarak **Eğitim** (belirli bir eğitim) seçilip **Yükle**’ye basılınca “The JSON value could not be converted to …FileAccessRuleType” gibi teknik bir hata çıkıyor ve dosya yüklenmiyor. **Tüm Üyeler** kuralıyla yükleme çalışıyor. Kullanıcı Tipi ve Faaliyet kuralları denenmedi.
-- **Ne olmalı:** Tüm kural tipleri çalışmalı. Kullanıcıya teknik hata değil anlaşılır mesaj gösterilmeli.
-- **Bekleyen karar:** SHFT (hata).
+- **Nerede:** Yönetim paneli → Dosya Alanı → **Dosya(ları) Yükle** → Görünürlük **Kısıtlı** → **Kural Ekle**.
+- **Kural tipleri ve sonuçları (tek tek denendi):**
+  - **Tüm Üyeler:** yükleme çalışıyor.
+  - **Kullanıcı Tipi:** çalışıyor (seçenekler: Root, Süper Admin, Yönetici, Personel, Üye Kuruluş, Ortak Kuruluş, Eğitmen, Kayıtlı Kullanıcı). “Üye Kuruluş” ve “Eğitmen” ile yayınlı dosya yüklendi; portalda ana hesap (Üye Kuruluş) yalnızca “Üye Kuruluş” kuralı olan dosyayı gördü, “Eğitmen” kuralı olanı **görmedi** → kural doğru işliyor.
+  - **Faaliyet** (bir etkinliğe bağlı kural): yükleme çalışıyor; etkinliğe katılmayan ana hesap bu dosyayı **görmedi** → doğru.
+  - **Eğitim** (belirli bir eğitime bağlı kural): **yükleme hata veriyor**. Hata metni: “The JSON value could not be converted to Todeb.Domain.Shared.FileEntryAccessRules.FileAccessRuleType. Path: $.fileEntryAccessRules[0].fileAccessRuleType”. Birkaç kez tekrarlandı, hep aynı. Yani panel, “Eğitim” kuralı için sunucuya sunucunun tanımadığı bir değer gönderiyor.
+- **Ek bulgu:** **Kullanıcı Tipi** kuralı eklendiğinde kural etiketi **“Kullanıcı: {{label}}”** olarak görünüyor; seçilen kullanıcı tipinin adı yerine doldurulmamış bir şablon yazıyor (Eğitim ve Faaliyet etiketleri doğru görünüyor).
+- **Ne olmalı:** Eğitim kuralıyla yükleme çalışmalı; hata mesajı teknik değil anlaşılır olmalı; Kullanıcı Tipi etiketinde seçilen tipin adı görünmeli.
+- **Karar (6 Ekim):** Nilay Hanım’a iletilecek. Yapılacak: SHFT.
 
 ### 🔴 #61 · 🔎 Neden bulundu, Nilay Hanım’a iletilecek — Türkçe karakterli klasör adları zip olarak indirilemiyor
 
@@ -267,12 +272,12 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Önemli dosyalar listede belirgin etiketle ayrılmalı.
 - **Karar (6 Ekim):** **Önemli Dosya**, Dosya Alanı ile ilgili bir kavram değil; TÖDEB bu dosyayı üyeye **bağlantı (URL) ile iletecek**. Bu nedenle Önemli Dosya olarak işaretlenen dosyalar üye kuruluşların **Dosya Alanı listesinde görünmemeli**. Şu an listede görünüyor, bu bir hatadır. Yapılacak: SHFT listeden çıkarır.
 
-### 🟠 #67 — Panelde girilen dosya başlığı/açıklaması portalda yok
+### 🟠 #67 · ⏳ Sonra ele alınacak — Panelde girilen dosya başlığı/açıklaması portalda yok
 
 - **Nerede:** Panel → dosya yüklerken **Dosya Başlığı** ve **Açıklama** ↔ portal liste/detay.
 - **Ne oluyor:** Portalda listede ve detay panelinde yüklenen **dosyanın adı** gösteriliyor; girilen başlık ve açıklama hiçbir yerde görünmüyor (panelde de liste dosya adını gösteriyor).
 - **Ne olmalı:** Başlık, kullanıcıya görünen ad olmalı; açıklama detayda gösterilmeli. Kullanılmayacaksa alanlar formdan kalkmalı.
-- **Bekleyen karar:** TÖDEB + SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
 ### 🟠 #33 · 🔎 Tekrarlanamadı — Panelde çoklu dosya yüklemesi
 
@@ -293,26 +298,26 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Durum seçildiğinde değişmeli, onay metni durumu içermeli. Portalda durumlar ve renkleri ancak böyle gözlenebilir (şu an yalnızca Yeni/Orta görüldü).
 - **Karar (6 Ekim):** Talep durumunun “Yeni”de kalması şimdilik kalsın; sistem çalışmaya başlayınca (ilk günlerde) çözülecek.
 
-### 🟠 #30 — Kurum Bildirimleri sayfasına menüden ulaşılamıyor
+### 🟠 #30 · ⏳ Sonra ele alınacak — Kurum Bildirimleri sayfasına menüden ulaşılamıyor
 
 - **Nerede:** Portal → Destek.
 - **Ne oluyor:** Kuruluştaki tüm kullanıcıların taleplerini gösteren **Kurum Bildirimleri** sayfası (`/support/organization-tickets`) soldaki menüde yok; yalnızca bildirime tıklayınca açılıyor. Sayfa hem ana hesapta hem alt kullanıcıda açılıyor.
 - **Ne olmalı:** Destek Talepleri sayfasında bu listeye giden bir bağlantı/sekme olmalı.
-- **Bekleyen karar:** TÖDEB: bu liste herkese mi açık olmalı? SHFT: bağlantı.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #31 — Destek listesinde durum filtresi yok
+### 🟠 #31 · ⏳ Sonra ele alınacak — Destek listesinde durum filtresi yok
 
 - **Nerede:** Portal → Destek Talepleri → **Gelişmiş Filtreler**.
 - **Ne oluyor:** Yalnızca **Koordinatörlük** filtresi var. PDF’te “kapalı ve tamamlananlar varsayılan olarak gösterilmesin” isteniyordu.
 - **Ne olmalı:** Durum filtresi ve varsayılan gizleme kuralı.
-- **Bekleyen karar:** TÖDEB + SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #36 — Destek kategorisi adı koordinatörlükler arasında benzersiz
+### 🟠 #36 · ⏳ Sonra ele alınacak — Destek kategorisi adı koordinatörlükler arasında benzersiz
 
 - **Nerede:** Yönetim paneli → Destek Talep Kategorileri.
 - **Ne oluyor:** Üst düzey kategori adı **koordinatörlükler arasında da** benzersiz olmak zorunda (“Bu kategori isminde aynı seviyede başka bir kategori mevcut.”). PDF’te kural “aynı koordinatörlük içinde” benzersizlik olarak tarif edilmişti.
 - **Ne olmalı:** Aynı adın farklı koordinatörlüklerde kullanılabilmesi gerekiyorsa kural koordinatörlük bazında olmalı.
-- **Bekleyen karar:** TÖDEB: kategori adları gerçekten tekrar edecek mi? SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
 ### 🟢 #29 — PDF indirme düğmesinde çevrilmemiş etiket
 
@@ -347,12 +352,12 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Sütunlar Türkçe (Katıldı / Mazeretli / Mazeretsiz), **Üye** sütununda üyenin adı, tüm üyeler listelenmeli.
 - **Karar (6 Ekim):** Önemli bir konu; detaylı inceleme yapıldı, bulgular Nilay Hanım’a iletilecek. Yapılacak: SHFT.
 
-### 🟠 #53 — Anket yanıtı kişi bazlı; kuruluş başına tek yanıt mı isteniyor?
+### 🟠 #53 · ⏳ Sonra ele alınacak — Anket yanıtı kişi bazlı; kuruluş başına tek yanıt mı isteniyor?
 
 - **Nerede:** Portal → Anketler.
 - **Ne oluyor:** Ana hesap anketi yanıtladıktan sonra aynı kuruluşun alt kullanıcısı de aynı anketi yanıtlayabiliyor (tek yanıt kuralı **kişi bazlı**).
 - **Ne olmalı:** Kuruluş başına tek yanıt isteniyorsa kural değişmeli; kişi bazlı isteniyorsa mevcut davranış doğru.
-- **Bekleyen karar:** TÖDEB.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
 ### 🟠 #69 · 🔎 İncelendi, Nilay Hanım’a iletilecek — Koşullu ankette gönderim kullanıcıyı şaşırtıyor
 
@@ -382,26 +387,26 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Bu ayrım kullanıcıya açıklanmalı (ör. sayfada “Tamamlanan etkinlikler”).
 - **Karar (6 Ekim):** Etkinlik, TÖDEB yönetim panelinden **elle “Tamamla”** denmeden Etkinlikler listesine girmez; tarihi geçse bile otomatik tamamlanmaz. Bu, Süheyda Hanım’ın özel isteğidir; bilerek böyle. Kendi denememde de tamamlanınca listeye girdi ve “ETKİNLİK TAMAMLANDI” duyurusu çıktı.
 
-### 🟠 #39 — Üye olunmayan komite kartı sessiz kalıyor
+### 🟠 #39 · ⏳ Sonra ele alınacak — Üye olunmayan komite kartı sessiz kalıyor
 
 - **Nerede:** Portal → Komite / Çalışma Grupları.
 - **Ne oluyor:** Üyesi olunmayan komite kartına tıklayınca hiçbir şey olmuyor (panel açılmıyor, uyarı yok).
 - **Ne olmalı:** “Yalnızca üyesi olduğunuz komitelerin ayrıntısı görüntülenir.” gibi bilgi.
-- **Bekleyen karar:** SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #51 — Komite üyeliği kişi bazlı
+### 🟠 #51 · ⏳ Sonra ele alınacak — Komite üyeliği kişi bazlı
 
 - **Nerede:** Alt kullanıcı hesabı → Komite / Çalışma Grupları.
 - **Ne oluyor:** Ana hesabın üyesi olduğu komitede alt kullanıcıda **Üye Değilsiniz** görünüyor; üyelik kişiye bağlı.
 - **Ne olmalı:** Kuruluş adına katılım bekleniyorsa alt kullanıcı de görmeli; kişiye özelse bilinçli karar olmalı.
-- **Bekleyen karar:** TÖDEB.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #60 — “Takvime Ekle” dosyası eksik bilgi içeriyor
+### 🟠 #60 · ⏳ Sonra ele alınacak — “Takvime Ekle” dosyası eksik bilgi içeriyor
 
 - **Nerede:** Portal → Takvim → kayıt → **Takvime Ekle**.
 - **Ne oluyor:** İnen **.ics** dosyasında açıklama ham HTML olarak (“<p></p>”) yazılıyor; toplantı bağlantısı ve konum dosyaya eklenmiyor. Dosya adı ve saat doğru.
 - **Ne olmalı:** Açıklama düz metin olmalı; online etkinliklerde bağlantı, yüz yüzede konum dosyada yer almalı.
-- **Bekleyen karar:** SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
 ### 🟢 #46 · 🔎 İncelenecek — Duyuru saati beklenenden farklı
 
@@ -471,33 +476,32 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Panelde girilen KEP adresi portalda da görünmeli.
 - **Karar (6 Ekim):** Panelde dolu olan KEP adresi portalda **görünmeli**; şu an alan doldurulmuyor, bu bir hatadır. Yapılacak: SHFT.
 
-### 🟠 #13 — İletişim kişilerinde “Unvan” yerine görevlendirme adı
+### 🟠 #13 · ⏳ Sonra ele alınacak — İletişim kişilerinde “Unvan” yerine görevlendirme adı
 
 - **Nerede:** Genel Bilgiler → İletişim Kişileri.
 - **Ne oluyor:** **Unvan** etiketinin altında, kullanıcının girdiği ünvan yerine **görevlendirme adı** (“Finans”, “Hakem Heyeti”) görünüyor. İhtisas Polisi/Jandarması kişisi için “Özel Emniyet ve Jandarma” yazıyor; başvuru formundaki ad “İhtisas Polisi ve İhtisas Jandarması Uygulaması İrtibat Kişisi”.
 - **Ne olmalı:** Etiket “Görev” olmalı ya da girilen ünvan gösterilmeli; ad tek biçimde yazılmalı.
-- **Bekleyen karar:** SHFT + TÖDEB (hangi bilgi gösterilecek).
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #14 — “Üye Aktif Faaliyetleri” düzenlenemiyor
+### 🟠 #14 · ⏳ Sonra ele alınacak — “Üye Aktif Faaliyetleri” düzenlenemiyor
 
 - **Nerede:** Genel Bilgiler → Kuruluşa İlişkin Diğer Bilgiler → düzenle.
 - **Ne oluyor:** Başvuru formunda seçilebilen **Üye Aktif Faaliyetleri**, düzenleme penceresinde yok (kart “Kayıtlı hizmet bulunmamaktadır” yazıyor).
 - **Ne olmalı:** Alan düzenlenebilir olmalı ya da neden gizlendiği netleştirilmeli.
-- **Bekleyen karar:** TÖDEB + SHFT.
+- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #16 — HMB IP değişikliği için iki farklı yönerge
+### 🟠 #16 · ✔ Bilerek böyle — HMB IP değişikliği için iki metin (aslında aynı şeyi söylüyor)
 
-- **Nerede:** Genel Bilgiler → HMB düzenleme penceresi ↔ Üyelik başvurusu Bölüm 6.
-- **Ne oluyor:** Genel Bilgiler’de “IP adresi HMB ile iletişime geçilerek değiştirilmiş olabilir… yeni IP’nin TÖDEB’e iletilmesine gerek yoktur” yazıyor; başvuru formunda “IP değişiklikleri vtm@hmb.gov.tr e-posta adresine bildirilmelidir.”
-- **Ne olmalı:** Tek ve doğru yönerge.
-- **Bekleyen karar:** TÖDEB (hangisi geçerli).
+- **Nerede:** (1) Üyelik başvurusu → Bölüm 6 → IP Adresi altındaki bilgi kutusu. (2) Portal → Genel Bilgiler → “Hazine ve Maliye Bakanlığına Yapılan Raporlama” kartı → kalem simgesi → **IP Adresi** altındaki açıklama.
+- **Ne oluyor:** (1) “Raporlama kapsamında IP değişiklikleri **vtm@hmb.gov.tr** adresine bildirilmelidir.” (2) “IP adresi kuruluşunuz tarafından doğrudan HMB Bilgi Teknolojileri Genel Müdürlüğü (**vtm@hmb.gov.tr**) ile iletişime geçilerek değiştirilmiş olabilir… Yeni IP adresinin TÖDEB’e iletilmesine gerek bulunmamaktadır.” İki metin de değişikliğin **HMB’ye** bildirileceğini, **TÖDEB’e bildirilmesinin gerekmediğini** söylüyor; çelişki yok, yalnızca anlatım farklı. Yanlış okuma ilk yazıdaki hatamdı.
+- **Karar (6 Ekim):** IP değişikliği HMB’ye bildirilir, TÖDEB’e değil; metinler bu anlamda tutarlı, değişiklik gerekmiyor. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #17 — Soyad zorunlu ama boş geliyor
+### 🟠 #17 · ✔ Karar verildi — Soyad zorunlu ama boş geliyor
 
 - **Nerede:** Profil → Kişisel Bilgiler → Düzenle.
 - **Ne oluyor:** Hesap oluşturulurken kullanıcının Ad alanına kuruluş adı, **Soyad** alanı boş (“—”) geliyor; ilk düzenlemede “Soyad zorunludur” uyarısı çıkıyor.
 - **Ne olmalı:** Ana hesap için soyad zorunlu olmamalı ya da hesap oluşturulurken doldurulmalı.
-- **Bekleyen karar:** SHFT.
+- **Karar (6 Ekim):** Hata olarak düzeltilmeli. Ana hesap (üye kuruluş) adına soyad olmaz; ekran alt kullanıcıyla aynı bileşeni kullandığı için Soyad zorunlu görünüyor. SHFT nasıl çözerse çözsün (ana hesapta soyad zorunlu olmamalı). Nilay Hanım’a iletilecek. Yapılacak: SHFT.
 
 ### 🟢 #15 — Onay bekleyen değişiklik kartta belli değil
 
@@ -513,12 +517,12 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 
 Bu bölümdeki konular **küçük form düzeltmeleridir**; hiçbiri başvuruyu engellemiyor.
 
-### 🔴 #1 — Aynı e-posta ikinci kez girilince hata görünmüyor
+### 🔴 #1 · ✔ Karar verildi — Aynı e-posta ikinci kez girilince hata görünmüyor
 
 - **Nerede:** Bölüm 5 — İletişim Kişileri → **Devam**.
 - **Ne oluyor:** Aynı görevlendirmede aynı e-posta iki kez girilince sunucu isteği reddediyor (“Aynı görevlendirme türü içinde aynı e-posta adresi birden fazla kez kullanılamaz.”) ama **ekranda hiçbir uyarı çıkmıyor**; sayfa yalnızca ilerlemiyor. Kullanıcı nedenini anlayamaz.
 - **Ne olmalı:** İlgili e-posta alanının altında kırmızı uyarı.
-- **Bekleyen karar:** SHFT.
+- **Karar (6 Ekim):** Hata olarak yazılacak: sunucu reddettiğinde ekranda ilgili e-posta alanının altında uyarı çıkmalı. Nilay Hanım’a iletilecek. Yapılacak: SHFT.
 
 ### 🟠 #2 — “Birden fazla kişi” açıklaması çelişiyor
 
@@ -534,26 +538,26 @@ Bu bölümdeki konular **küçük form düzeltmeleridir**; hiçbiri başvuruyu e
 - **Ne olmalı:** Uyarı metni kartla uyumlu olmalı.
 - **Bekleyen karar:** SHFT.
 
-### 🟠 #6 — Alan adı biçimi zorlanmıyor
+### 🟠 #6 · ⏳ Şimdilik böyle — Alan adı biçimi zorlanmıyor
 
 - **Nerede:** Bölüm 7 — Dijital Kimlik → **Alan Adları**.
 - **Ne oluyor:** `https://ornek.com`, `ornek.com/yol`, `www.ornek.com` ve `ÖRNEK.COM.TR` kabul ediliyor, küçük harfe çevrilmiyor. Yalnızca “abc” gibi alan adı olmayan metin reddediliyor. Bu alan adları ileride e-posta doğrulamada (#57, #18) kullanılacağı için biçimi önemli.
 - **Ne olmalı:** Yalnızca `kurulus.com.tr` biçimi, küçük harf.
-- **Bekleyen karar:** SHFT (öneri), TÖDEB onayı.
+- **Karar (6 Ekim):** Şimdilik kalsın, acil değil.
 
-### 🟠 #10 — Alan adı etiketleri kaybolmuş gibi göründü (kesin değil)
+### 🟠 #10 · 🗑 Geçerli değil — Alan adı etiketleri kaybolmuş gibi göründü (kesin değil)
 
 - **Nerede:** Bölüm 7 — Gönder.
 - **Ne oluyor:** Hatalı alanlarla **Gönder**’e basıldıktan sonra, eklenmiş **Alan Adları** etiketleri kaybolmuş gibi göründü (“En az bir alan adı girmelisiniz”). Tekrarlanmadı; pencere boyutu değişmiş olabilir.
 - **Ne olmalı:** Etiketler korunmalı. Önce tekrarlanabilirlik kontrol edilmeli.
-- **Bekleyen karar:** SHFT (kontrol).
+- **Karar (6 Ekim):** Kesin bir bulgu olmadığı için kapatıldı.
 
-### 🟠 #7 — Marka silme onay sormuyor
+### 🟠 #7 · ✔ Bilerek böyle — Marka silme onay sormuyor
 
 - **Nerede:** Bölüm 7 — Marka satırı çöp kutusu.
 - **Ne oluyor:** Onay istemeden siliyor; Bölüm 3 ve 5’teki silmeler onay istiyor.
 - **Ne olmalı:** Tutarlı olarak onay penceresi.
-- **Bekleyen karar:** SHFT.
+- **Karar (6 Ekim):** Marka silerken onay **sorulmayacak**; böyle kalsın.
 
 ### 🟢 #4 — IP alanının yer tutucusu ile açıklaması farklı
 
