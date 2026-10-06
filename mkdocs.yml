@@ -41,10 +41,6 @@ nav:
       - "✅ Oturum ve güvenlik": uye-portali/oturum-ve-guvenlik.md
   - "🔍 Kontrol edilecekler": kontrol-edilecekler.md
   - "📨 Nilay Hanım'a iletilecekler": nilay-hanima-iletilecekler.md
-  - Rehber Standardı ve Örnekler:
-      - Örnek kullanım kılavuzu: standart/ornek-kullanim-kilavuzu.md
-      - İçerik bileşenleri: standart/icerik-bilesenleri.md
-      - Akademi kayıt örneği: akademi/egitime-kayit-olma.md
 
 plugins: []
 

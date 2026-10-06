@@ -37,7 +37,3 @@ TÖDEB dijital hizmetlerinde yapmak istediğiniz işlemleri kısa video anlatım
     - [Bildirimler](uye-portali/bildirimler.md)
     - [Profil ve hesap işlemleri](uye-portali/profil-ve-hesap-islemleri.md)
     - [Oturum ve güvenlik](uye-portali/oturum-ve-guvenlik.md)
-- Rehber Standardı ve Örnekler
-    - [Örnek kullanım kılavuzu](standart/ornek-kullanim-kilavuzu.md)
-    - [İçerik bileşenleri](standart/icerik-bilesenleri.md)
-    - [Akademi kayıt örneği](akademi/egitime-kayit-olma.md)
