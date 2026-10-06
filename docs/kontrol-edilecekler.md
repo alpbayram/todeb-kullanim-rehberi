@@ -333,6 +333,13 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Zorunlu işareti eklenmeli.
 - **Bekleyen karar:** SHFT.
 
+### 🟠 #75 — Panelde Destek Talepleri → Gelişmiş Filtreler: açılıyor ama kullanımı zor
+
+- **Nerede:** Yönetim paneli → Destek Talepleri → **Gelişmiş Filtreler**.
+- **Ne oluyor (denendi):** Düğme açılıyor ve içindeki beş seçimin hepsi çalışıyor: **Durum** (Yeni, Cevaplandı, Beklemede, Tamamlandı, Kapatıldı; varsayılan olarak 3’ü seçili), **Koordinatörlük** (11 seçenek), **Üye Kuruluş** (3 kuruluş), **Partner Kuruluş** ve **Arşiv Durumu** (Tüm Durumlar, Arşivlenmemiş, Arşivli). Yani tamamen bozuk değil. Ancak kullanımda şu sorunlar var: (1) **Üye Kuruluş** ve **Partner Kuruluş** alanları soluk (pasif gibi) görünüyor, oysa çalışıyor. (2) Bir seçim listesi açıkken filtre kutusundaki diğer alanlar tıklanmıyor (listeyi önce kapatmak gerekiyor; bu durumda alanlar tıklamaya yanıt vermiyor gibi görünüyor). (3) Varsayılan filtreler (Durum: 3 seçili, Arşivlenmemiş) kutunun arkasında kalan etiketlerle gösteriliyor; hangi filtrenin uygulandığı kutu açıkken görülemiyor.
+- **Ne olmalı:** Alanlar canlı görünmeli; bir liste açıkken başka bir alana tıklamak listeyi kapatıp yenisini açmalı; uygulanan filtre etiketleri filtre kutusunun yanında görünür kalmalı.
+- **Bekleyen karar:** Bu sizin gördüğünüz sorunla aynı mı? Tarayıcı ve ekran boyutu bilgisi gerekebilir. SHFT.
+
 ---
 
 <a id="bolum-6"></a>
