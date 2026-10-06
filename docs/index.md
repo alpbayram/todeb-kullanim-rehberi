@@ -7,15 +7,6 @@ hide:
 
 TÖDEB dijital hizmetlerinde yapmak istediğiniz işlemleri kısa video anlatımları ve adım adım yönergelerle tamamlayın.
 
-
-
-<!-- REVIEW:START TASLAK-01 -->
-<div class="review-note" data-review-id="TASLAK-01" role="note">
-<strong>[Conflict] TASLAK-01</strong>
-<p>Bu sürüm inceleme taslağıdır. İlk giriş ve üyelik formunun doğrulanan kısmı korunmuştur; diğer anlatımlar yeni kılavuzdan aktarılmıştır, henüz uçtan uca test edilmemiştir. Sayfalardaki [Conflict] notları karar bekleyen noktaları gösterir. İnceleme tamamlanmadan son kullanıcı sürümü olarak değerlendirmeyin.</p>
-</div>
-<!-- REVIEW:END TASLAK-01 -->
-
 ## Rehberler
 
 - Üye Portalı
