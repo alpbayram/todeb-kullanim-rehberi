@@ -6,7 +6,7 @@ Hangi koordinatörlükle iletişime geçmeniz gerektiğini bilmiyorsanız da tal
 
 ## Destek Talepleri sayfasına ulaşma
 
-Sol menüde **İŞLEMLER** başlığı altında yer alan **Destek Talepleri** seçeneğine tıklayın. Sayfanın başlığı “Destek Talepleri – Kurumunuz Adına Oluşturulan Destek Bildirimlerinin Listesi” şeklindedir ve kuruluşunuz adına oluşturulmuş talepler listelenir. Personel hesabıyla giriş yaptığınızda sayfa başlığı “Oluşturduğunuz Destek Bildirimlerinin Listesi” şeklindedir ve yalnızca **kendi oluşturduğunuz** talepler görüntülenir; ana hesabın veya diğer kullanıcıların talepleri bu listede yer almaz.
+Sol menüde **İŞLEMLER** başlığı altında yer alan **Destek Talepleri** seçeneğine tıklayın. Sayfanın başlığı “Destek Talepleri – Kurumunuz Adına Oluşturulan Destek Bildirimlerinin Listesi” şeklindedir ve kuruluşunuz adına oluşturulmuş talepler listelenir. Alt kullanıcı hesabıyla giriş yaptığınızda sayfa başlığı “Oluşturduğunuz Destek Bildirimlerinin Listesi” şeklindedir ve yalnızca **kendi oluşturduğunuz** talepler görüntülenir; ana hesabın veya diğer kullanıcıların talepleri bu listede yer almaz.
 
 ## Video anlatım
 
@@ -79,7 +79,7 @@ TÖDEB talebinize yanıt verdiğinde, ekranın sağ üstündeki **zil simgesinde
 
 ## Kuruluşunuzun tüm destek talepleri
 
-Bildirime tıkladığınızda açılan **Kurum Bildirimleri** sayfasında, kuruluşunuzdaki **tüm kullanıcılar** tarafından oluşturulan destek talepleri listelenir. Bu listede **Firma** ve **Oluşturan** bilgileri de görünür. Bu sayfada yeni talep oluşturulamaz; yalnızca mevcut talepleri inceleyebilirsiniz. Sayfa, ana hesabın yanı sıra personel hesaplarında da açılır ve ana hesabın veya diğer kullanıcıların oluşturduğu talepleri de listeler. Sol menüde bu sayfaya giden ayrı bir bağlantı bulunmaz; sayfaya destek talebi bildirimlerinden ulaşırsınız.
+Bildirime tıkladığınızda açılan **Kurum Bildirimleri** sayfasında, kuruluşunuzdaki **tüm kullanıcılar** tarafından oluşturulan destek talepleri listelenir. Bu listede **Firma** ve **Oluşturan** bilgileri de görünür. Bu sayfada yeni talep oluşturulamaz; yalnızca mevcut talepleri inceleyebilirsiniz. Sayfa, ana hesabın yanı sıra alt kullanıcı hesaplarında da açılır ve ana hesabın veya diğer kullanıcıların oluşturduğu talepleri de listeler. Sol menüde bu sayfaya giden ayrı bir bağlantı bulunmaz; sayfaya destek talebi bildirimlerinden ulaşırsınız.
 
 <!-- REVIEW:START DESTEK-02 -->
 <div class="review-note" data-review-id="DESTEK-02" role="note">

@@ -1,6 +1,6 @@
 # Roller ve yetkiler
 
-Bu rehber, kuruluşunuza özel roller oluşturmanızı ve her rolün portalda hangi işlemleri yapabileceğini belirlemenizi açıklamaktadır. Rol, bir kullanıcının portalda hangi sayfaları görebileceğini ve hangi işlemleri yapabileceğini belirleyen yetkiler topluluğudur. Her kullanıcıya bir rol verilir.
+Bu rehber, kuruluşunuza özel roller oluşturmanızı ve her rolün portalda hangi işlemleri yapabileceğini belirlemenizi açıklamaktadır. Rol, bir kullanıcının portalda hangi sayfaları görebileceğini ve hangi işlemleri yapabileceğini belirleyen yetkiler topluluğudur. Her kullanıcıya bir rol verilir. Rolleri ve kullanıcıları yalnızca **kuruluşun ana hesabı** (üye kuruluş yöneticisi) yönetir.
 
 ## Roller sayfasına ulaşma
 
@@ -68,7 +68,7 @@ Rol yetkileri, sol menüdeki başlıkları değil, **sayfalarda görüntülenen 
 
 ### Rolün sonucu
 
-Bu rolle giriş yapan kullanıcı, bildirimlerini görür; ayrıca **Genel Bilgiler**, **Destek Talepleri**, **Duyurular**, **Takvim**, **Etkinlikler** ve **Dosya Alanı** sayfalarını kullanabilir; **Kullanıcılar** ve **Roller** menüleri kendisine görüntülenmez, bu adreslere gitmeye çalışırsa **Genel Bilgiler** sayfasına yönlendirilir. **Portal Komiteler** yetkisi verilmediği için **Komite / Çalışma Grupları** sayfasında **“Aktif komite veya çalışma grubu bulunmuyor.”** ifadesi görüntülenir. **Anketler** sayfası ise yetki listesinde ayrı bir grup olmadığından tüm kullanıcılara açıktır.
+Bu rolle giriş yapan alt kullanıcı, bildirimlerini görür; ayrıca **Genel Bilgiler**, **Destek Talepleri**, **Duyurular**, **Takvim**, **Etkinlikler** ve **Dosya Alanı** sayfalarını kullanabilir; **Kullanıcılar** ve **Roller** menüleri kendisine görüntülenmez, bu adreslere gitmeye çalışırsa **Genel Bilgiler** sayfasına yönlendirilir. **Portal Komiteler** yetkisi verilmediği için **Komite / Çalışma Grupları** sayfasında **“Aktif komite veya çalışma grubu bulunmuyor.”** ifadesi görüntülenir. **Anketler** sayfası ise yetki listesinde ayrı bir grup olmadığından tüm kullanıcılara açıktır.
 
 ## Yetki grupları
 

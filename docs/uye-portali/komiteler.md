@@ -20,7 +20,7 @@ Sol menüde **KURULUŞ** başlığı altında yer alan **Komite / Çalışma Gru
 - Komitenin **görev dönemi** (başlangıç ve bitiş tarihi, ör. “02.10.2026 — 02.10.2027”)
 - Kuruluşunuzun komitedeki durumunu gösteren etiket: **Üyesiniz** veya **Üye Değilsiniz**
 
-> **Bilgi:** Komitenin ayrıntılarını yalnızca **üyesi olduğunuz** komitelerde görüntüleyebilirsiniz. **Üye Değilsiniz** etiketini taşıyan bir karta tıkladığınızda ayrıntı açılmaz. Komitelerde görevlendirme, TÖDEB tarafından yapılır. Görev dönemi tamamlanan komiteler **Aktif Komiteler** listesinde yer almaz. Üyelik **kişi bazındadır**: kuruluşunuzun ana hesabı bir komitenin üyesi olsa bile, personel hesabınızda ilgili komite **Üye Değilsiniz** olarak görünür ve ayrıntıları açılmaz; komiteye yalnızca görevlendirilen kullanıcılar erişebilir.
+> **Bilgi:** Komitenin ayrıntılarını yalnızca **üyesi olduğunuz** komitelerde görüntüleyebilirsiniz. **Üye Değilsiniz** etiketini taşıyan bir karta tıkladığınızda ayrıntı açılmaz. Komitelerde görevlendirme, TÖDEB tarafından yapılır. Görev dönemi tamamlanan komiteler **Aktif Komiteler** listesinde yer almaz. Üyelik **kişi bazındadır**: kuruluşunuzun ana hesabı bir komitenin üyesi olsa bile, alt kullanıcı hesabınızda ilgili komite **Üye Değilsiniz** olarak görünür ve ayrıntıları açılmaz; komiteye yalnızca görevlendirilen kullanıcılar erişebilir.
 
 ## Komite ayrıntılarını görüntüleme
 

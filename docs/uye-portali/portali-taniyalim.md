@@ -22,7 +22,7 @@ Bu bölüm, portala giriş yaptıktan sonra karşınıza çıkan ekranın genel 
 
 Menüde ve ekranda gördükleriniz, hesabınıza atanan **role** bağlıdır:
 
-- **Kullanıcılar** ve **Roller** menüleri yalnızca kuruluşun ana hesabında ve bu yetkilerin verildiği rollerde görünür. Rolünüzde bu yetkiler yoksa menüde yer almaz.
+- **Kullanıcılar** ve **Roller** menüleri yalnızca **kuruluşun ana hesabında** görünür. Alt kullanıcılara ne kadar geniş yetkili bir rol verilirse verilsin (ör. **Organizasyon Yöneticisi**), bu iki menü onlarda görünmez.
 - Ekranın sağ üstündeki **zil simgesi** (**Bildirimler**) yalnızca bildirim yetkisi olan kullanıcılarda görünür.
 - Diğer menü başlıkları (**Genel Bilgiler**, **Destek Talepleri**, **Duyurular**, **Anketler**, **Takvim**, **Etkinlikler**, **Dosya Alanı**, **Komite / Çalışma Grupları**) tüm kullanıcılarda görünür; ancak ilgili yetkiniz yoksa sayfalar boş görüntülenir.
 - Yetkiniz olmayan bir sayfanın adresini doğrudan açarsanız **Genel Bilgiler** sayfasına yönlendirilirsiniz.

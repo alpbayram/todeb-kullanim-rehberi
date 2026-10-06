@@ -1,6 +1,6 @@
 # Kullanıcılar
 
-Bu rehber, kuruluşunuzdaki çalışanlar için portal hesabı oluşturmanızı, bilgilerini düzenlemenizi ve hesaplarını pasif veya aktif duruma getirmenizi açıklamaktadır.
+Bu sayfa yalnızca **kuruluşun ana hesabında** (üye kuruluş yöneticisi) bulunur. Bu rehber, kuruluşunuzdaki çalışanlar için **alt kullanıcı** hesabı oluşturmanızı, bilgilerini düzenlemenizi ve hesaplarını pasif veya aktif duruma getirmenizi açıklamaktadır.
 
 ## Kullanıcılar sayfasına ulaşma
 
@@ -76,16 +76,16 @@ Pasif yapılan kullanıcı portala giriş yapmaya çalıştığında **“Hesab�
 
 > **Bilgi:** Bu sayfada kullanıcıyı silme seçeneği bulunmaz. Ayrıca kendi hesabınızın (kuruluşun ana hesabı) satırındaki işlemler menüsü kullanılamaz; kendi bilgilerinizi [Profil](profil-ve-hesap-islemleri.md) sayfasından güncelleyebilirsiniz.
 
-## Personelin ilk girişi
+## Alt kullanıcının ilk girişi
 
 Yeni eklenen kullanıcıya, giriş bilgileri kayıtlı e-posta adresine iletilir. Kullanıcı bu bilgilerle giriş yaptığında, geçici şifresini değiştirmesi zorunludur; yeni şifre belirlendikten sonra **“Şifreniz güncellendi. Lütfen tekrar giriş yapın.”** mesajı görüntülenir ve kullanıcının yeni şifresiyle yeniden giriş yapması gerekir.
 
-> **Bilgi:** Personel hesapları **Kullanıcılar** ve **Roller** menülerini görmez; bu sayfalar yalnızca kuruluşun ana hesabı içindir. Personel, bu adreslere doğrudan gitmeye çalışırsa **Genel Bilgiler** sayfasına yönlendirilir.
+> **Bilgi:** Alt kullanıcı hesapları **Kullanıcılar** ve **Roller** menülerini görmez; bu sayfalar yalnızca kuruluşun ana hesabı içindir. Alt kullanıcı, bu adreslere doğrudan gitmeye çalışırsa **Genel Bilgiler** sayfasına yönlendirilir.
 
 <!-- REVIEW:START KULLANICI-03 -->
 <div class="review-note" data-review-id="KULLANICI-03" role="note">
 <strong>[Karar bekliyor] KULLANICI-03</strong>
-<p>Personelin ilk girişinde, kuruluşun ana hesabında görüntülenen KVKK metni görülmedi. Personel için de KVKK onayı isteniyorsa metin geldiğinde bu bölüme eklenecek (bkz. KVKK metinleri).</p>
+<p>Alt kullanıcının ilk girişinde, kuruluşun ana hesabında görüntülenen KVKK metni görülmedi. Alt kullanıcı için de KVKK onayı isteniyorsa metin geldiğinde bu bölüme eklenecek (bkz. KVKK metinleri).</p>
 </div>
 <!-- REVIEW:END KULLANICI-03 -->
 

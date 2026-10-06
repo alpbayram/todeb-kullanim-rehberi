@@ -80,4 +80,4 @@ Birlik Temsilcisi değişikliği, adres değişikliği, KEP adresi değişikliğ
 ## İlgili rehberler
 
 - [Üyelik başvurusu](uyelik-basvurusu.md)
-- [Kullanıcılar (Personel)](kullanicilar.md)
+- [Kullanıcılar](kullanicilar.md)

@@ -2,12 +2,19 @@
 
 Bu sayfa, rehber hazırlanırken **staging portalı ve yönetim panelinde** gözlenen, yazılım (SHFT) ya da ürün sahibi (TÖDEB) tarafından **netleştirilmesi veya düzeltilmesi gereken** konuları toplar. İş bitince silinecektir; toplantılarda birlikte çalışmak için buraya konulmuştur.
 
+**Bu sayfadaki terimler**
+
+- **Ana hesap (üye kuruluş yöneticisi):** TÖDEB üyeliği onaylanınca kuruluş için açılan ilk hesap. **Kullanıcılar** ve **Roller** sayfaları yalnızca bunda vardır; kullanıcı oluşturan ve rol tanımlayan odur.
+- **Alt kullanıcı:** Ana hesabın **Kullanıcılar** sayfasından oluşturduğu çalışan hesabı. Bir rolü vardır (ör. Organizasyon Yöneticisi, İK Yetkilisi) ve ana hesapla aynı kuruluşa bağlıdır. Daha önce bu sayfada “personel” denen hesap budur.
+
 **Nasıl okunur?** Konular bölümlere ayrılmıştır; her bölümde konular **önem sırasına** göre dizilidir (🔴 yüksek, 🟠 orta, 🟢 düşük). Numaralar (#57 gibi) çalışma listesindeki numaralardır, tartışırken bu numaralar kullanılabilir. Çalışma listesindeki 72 maddeden #34, #66 ile birleştirildi. Her konuda şu başlıklar vardır:
 
 - **Nerede:** Hangi ekran/adımda görülüyor.
 - **Ne oluyor:** Bugün ekranda gözlenen davranış.
 - **Ne olmalı:** Beklenen/önerilen davranış.
 - **Bekleyen karar:** Kimden ne bekleniyor. *SHFT* = yazılım tarafı düzeltmesi, *TÖDEB* = iş/ürün kararı, *Bilgi* = karar gerekmez, bilinsin.
+
+- **Karar:** Konuşulup alınan karar ve yapılacak iş. Başlıkta **✔ Karar verildi** yazan konular konuşulmuştur; diğerleri henüz konuşulmadı.
 
 > Rehber metinleri **bugünkü davranışı** anlatır. Aşağıdaki konular düzeldikçe ilgili rehber cümleleri güncellenecektir.
 
@@ -30,68 +37,68 @@ Bu sayfa, rehber hazırlanırken **staging portalı ve yönetim panelinde** göz
 
 Alt kullanıcıların kim olabileceği, e-posta alan adı kuralı ve bu kuralların farklı ekranlarda aynı çalışması. En çok kafa karıştıran bölüm budur.
 
-### 🔴 #57 — “Kurum alan adı” kuralı ekranlar arasında tutarsız
+### 🔴 #57 · ✔ Karar verildi — Başvuruda “kurum alan adı” kuralı: kaynağı ve anlatımı belirsiz
 
-- **Nerede:** Etkinlik ve eğitim başvuru panelleri (**Katılımcı Ekle** penceresi ve **Başvuruları Gönder** düğmesi), personel hesabıyla.
-- **Ne oluyor:** Katılımcı eklerken uyarı, kurumun alan adını **o an giriş yapmış kullanıcının kendi e-posta alan adı** olarak gösteriyor (“…kurumunuzun alan adından (gmail.com) farklı”). Göndermeye çalışınca ise başka bir hata çıkıyor: “‘…@gmail.com’ e-posta adresi organizasyonunuzun domain’i ile eşleşmiyor.” Yönetim panelindeki **Ayarlar → Alan Adı Yönetimi** listesine gmail.com eklendiğinde de hata sürdü; yani başvuru kuralı bu listeye değil kuruluşun kendi alan adına bakıyor. Etkinlikte, kuruluşun alan adı olan bir katılımcıyla başvuru kabul edildi.
-- **Ne olmalı:** “Kurumun alan adı” ne demekse tek bir yerde, tek tanımla tutulmalı ve tüm ekranlarda (kullanıcı oluşturma, profil, katılımcı ekleme, gönderim) aynı kural uygulanmalı. Uyarı metni gerçek kurum alan adını göstermeli.
-- **Bekleyen karar:** TÖDEB: izin verilen alan adı kuralı tam olarak nedir (yalnızca kuruluşun alan adları mı, Alan Adı Yönetimi listesi mi)? SHFT: kuralı tek noktada uygulamak.
+- **Nerede:** Etkinlik ve eğitim başvuru panelleri (**Katılımcı Ekle** penceresi ve **Başvuruları Gönder** düğmesi), alt kullanıcı hesabıyla. Kuralın kaynağı: **Genel Bilgiler → Alan Adları** kartı (ör. `gmail.com`, `ornek-test.com.tr`).
+- **Ne oluyor:** Başvuruya eklenen kişinin e-posta alan adı, kuruluşun **Alan Adları kartındaki** alan adlarından biri olmak zorunda. Doğrulanan sıra: gmail.com karta eklenmeden önce gmail adresli alt kullanıcı başvuru yapamadı (“…organizasyonunuzun domain’i ile eşleşmiyor.”); gmail.com karta **sonradan eklenince** aynı tür kullanıcı başvuru yapabildi. Yani kural işliyor. Sorunlar şunlar: (1) Kural kullanıcıya hiçbir yerde anlatılmıyor. (2) **Katılımcı Ekle** penceresindeki uyarı kurumun alan adı olarak karttaki listeyi değil yalnızca **tek bir alan adını** (örnekte “gmail.com”) gösteriyor; kartta birden fazla alan adı varken bu yanıltıcı. (3) Gönderimdeki hata “domain’i ile eşleşmiyor” diyor, hangi alan adlarının geçerli olduğunu söylemiyor. (4) Yönetim panelindeki **Ayarlar → Alan Adı Yönetimi** listesi bu kuralı etkilemiyor; iki ayrı “alan adı” listesi var, hangisinin neye yaradığı belli değil.
+- **Ne olmalı:** Uyarılar kartın tamamını söylemeli (“Geçerli alan adları: gmail.com, ornek-test.com.tr”). Kural kullanıcı oluştururken, profilde e-posta değiştirirken ve başvuruda aynı listeyi kullanmalı. İki alan adı listesi (kuruluş kartı ve panel listesi) arasındaki fark netleştirilmeli.
+- **Karar (6 Ekim):** Kuruluşun kendi panelindeki süper yöneticinin (ana hesap) **beyan ettiği alan adları dışında** hesap/e-posta kabul edilmemeli ve kullanıcıya uyarı çıkmalı. Uyarı metni şu anlamda olmalı: *“Lütfen beyan ettiğiniz alan adlarından birine ait bir e-posta adresi giriniz.”* Panelin global Alan Adı Yönetimi listesi üye kuruluş başvurusunu denetler; kuruluşun Alan Adları kartı ise alt kullanıcıların kuralını belirler. Yapılacak: SHFT, uyarı/hata metinlerini ve doğrulamayı bu karta göre düzeltir (#18 ve #48 ile birlikte).
 
-### 🔴 #18 — Alt kullanıcı, kuruluş alan adı dışında bir e-postayla oluşturulabiliyor
+### 🔴 #18 · ✔ Karar verildi — Alt kullanıcı, kuruluş alan adı dışında bir e-postayla oluşturulabiliyor
 
 - **Nerede:** Kullanıcılar → **Yeni Kullanıcı**.
-- **Ne oluyor:** gmail.com gibi kuruluşun alan adlarında olmayan bir e-postayla alt kullanıcı oluşturulabiliyor (“Kullanıcı başarıyla oluşturuldu”). Oysa **Profil** sayfasında e-posta değiştirirken aynı kural uygulanıyor (“E-posta adresiniz organizasyonunuzun domain’ine ait olmalıdır.”). Sonuçta gmail adresli bir alt kullanıcı oluşuyor ama etkinlik/eğitim başvurusu yapamıyor (#57).
+- **Ne oluyor:** gmail.com gibi kuruluşun alan adlarında olmayan bir e-postayla alt kullanıcı oluşturulabiliyor (“Kullanıcı başarıyla oluşturuldu”). Oysa **Profil** sayfasında e-posta değiştirirken aynı kural uygulanıyor (“E-posta adresiniz organizasyonunuzun domain’ine ait olmalıdır.”). Ek test: kartta olmayan bir alan adıyla (ör. outlook.com) da kullanıcı oluşturulabildi ve kart değişmedi. Böyle bir kullanıcı sonra etkinlik/eğitim başvurusu yapamıyor (#57).
 - **Ne olmalı:** PDF’teki karara göre alt kullanıcı e-postası yalnızca kuruluşun alan adlarından biri olmalı; kullanıcı oluştururken de aynı doğrulama yapılmalı.
-- **Bekleyen karar:** TÖDEB: kural kesin mi? SHFT: kullanıcı oluşturmaya doğrulama eklemek.
+- **Karar (6 Ekim):** Alt kullanıcı oluştururken e-posta alan adı kuruluşun **beyan ettiği alan adlarından** biri değilse kayıt **engellenmeli** ve uyarı çıkmalı: *“Lütfen beyan ettiğiniz alan adlarından birine ait bir e-posta adresi giriniz.”* Yapılacak: SHFT doğrulama ekler.
 
-### 🔴 #58 — Eğitim başvuru panelinde kendi satırı silinemiyor
+### 🔴 #58 · ✔ Karar verildi — Eğitim başvuru panelinde kendi satırı silinemiyor
 
 - **Nerede:** Takvim → eğitim kaydı → **Katılımcılar** listesi.
 - **Ne oluyor:** Listede kullanıcının kendisi hazır geliyor. Çöp kutusuyla silinse bile liste **kendiliğinden yeniden dolup** kendisi geri geliyor. Etkinlik başvuru panelinde ise aynı satır silinebiliyor ve liste boşalıyor (**Başvuruları Gönder** pasif oluyor).
 - **Ne olmalı:** İki ekran aynı çalışmalı. Kişi kendisini listeden çıkarabilmeli (başkası adına başvuru yapıyorsa) ya da hiçbirinde çıkarılamamalı.
-- **Bekleyen karar:** TÖDEB: başvuran kişi kendisi dışında birini mi kaydedebilmeli? SHFT: iki paneli tutarlı yapmak. Not: #57 ile birleşince, kendi e-postası kurum alan adında olmayan kullanıcı eğitime hiç başvuramıyor.
+- **Karar (6 Ekim):** Başvuran kişi katılımcı olmak zorunda **değil**; eğitimde de kullanıcı **kendi satırını silebilmeli** (etkinlikteki gibi). Liste boşsa **Başvuruları Gönder** pasif olmalı. Ana hesap (süper yönetici) **eğitime de başvuramamalı**: ana hesapta başvuru düğmesi pasif (disabled) olmalı, yalnızca eklenen alt kullanıcılar başvurabilmeli. Ayrıca **toplu başvuru yetkisi** **İK Yetkilisi** rolüne verilmeli. Yapılacak: SHFT.
 
-### 🟠 #48 — Alan adı kuralı kullanıcıya önceden söylenmiyor
+### 🟠 #48 · ✔ Karar verildi — Alan adı kuralı kullanıcıya önceden söylenmiyor
 
 - **Nerede:** Etkinlik/eğitim başvuru gönderimi.
 - **Ne oluyor:** Farklı alan adlı katılımcı eklenince başvuru ancak **Gönder** denince hata veriyor; formda kuralı anlatan bir bilgi yok.
 - **Ne olmalı:** Katılımcı Ekle penceresinde “E-posta adresi kuruluşunuzun alan adına ait olmalıdır” bilgisi ve alan hatalıysa **Ekle** aşamasında engel.
-- **Bekleyen karar:** SHFT (#57 çözülünce metin netleşir).
+- **Karar (6 Ekim):** Katılımcı Ekle penceresinde **uyarı + teşvik** verilmeli: kullanıcı yeni alan adı eklemek yerine **kuruluşun mevcut alan adlarından** birini kullanmaya yönlendirilmeli, ancak gerekirse yeni alan adını ekleyebilmeli; yani kullanıcı uğraştırılmamalı, nazik bir cümleyle yönlendirilmeli. Mesajda örnek alan adı yazılmayacak, kullanıcı kendi alan adlarını kendisi kontrol edecek. Yapılacak: SHFT metni yazar, TÖDEB onaylar.
 
-### 🟠 #45 — Ana hesap etkinliğe başvuramıyor ama düğme aktif görünüyor
+### 🟠 #45 · ✔ Karar verildi — Ana hesap etkinliğe başvuramıyor ama düğme aktif görünüyor
 
 - **Nerede:** Duyurular → ETKİNLİK KAYIT ALINIYOR duyurusu → **Başvur**.
 - **Ne oluyor:** Kuruluşun ana hesabıyla **Başvur**’a basılınca “Kuruluş sahipleri etkinliklere başvuramaz.” uyarısı çıkıyor. Ana hesap ortak/kurumsal e-postaya açıldığı için bu beklenen olabilir; ancak düğme aktif göründüğü için kullanıcı denemeden öğrenemiyor.
-- **Ne olmalı:** Ana hesapta düğme pasif olmalı ya da duyuru panelinde “Başvuruyu personel hesabınızla yapın” bilgisi görünmeli.
-- **Bekleyen karar:** TÖDEB: kural doğru mu? SHFT: bilgi/pasifleştirme.
+- **Ne olmalı:** Ana hesapta düğme pasif olmalı ya da duyuru panelinde “Başvuruyu alt kullanıcı hesabınızla yapın” bilgisi görünmeli.
+- **Karar (6 Ekim):** Ana hesap (üye kuruluş süper yöneticisi) etkinliğe **başvuramamalı**; başvuru düğmesi ana hesapta **pasif (disabled)** olmalı, uyarıya basarak öğrenmek zorunda kalınmamalı. Aynı kural eğitim için de geçerli (#58). Yapılacak: SHFT.
 
-### 🟠 #19 — Alt kullanıcıdan T.C. Kimlik No isteniyor
+### 🟠 #19 · ✔ Karar verildi — Alt kullanıcıdan T.C. Kimlik No isteniyor
 
 - **Nerede:** Kullanıcılar → **Yeni Kullanıcı**.
 - **Ne oluyor:** **T.C. Kimlik No** zorunlu (11 hane). PDF’teki 3 Temmuz notunda “alt kullanıcı açarken TCKN almayacak” yazıyordu.
 - **Ne olmalı:** Karar hangisiyse forma yansımalı: ya alan kaldırılmalı/isteğe bağlı olmalı ya da PDF notu güncellenmeli.
-- **Bekleyen karar:** TÖDEB (kişisel veri kapsamı, KVKK açısından da önemli).
+- **Karar (6 Ekim):** Alt kullanıcıdan **T.C. Kimlik No istenmeyecek**; alan kullanıcı oluşturma formundan kalkmalı. Yapılacak: SHFT.
 
-### 🟠 #49 — Personelin ilk girişinde KVKK metni gösterilmiyor
+### 🟠 #49 · ✔ Karar verildi — Alt kullanıcının ilk girişinde KVKK metni gösterilmiyor
 
-- **Nerede:** Yeni eklenen personelin ilk girişi.
-- **Ne oluyor:** Personel geçici şifreyi değiştiriyor (“Şifreniz güncellendi. Lütfen tekrar giriş yapın.”) ama KVKK metni çıkmıyor; ana hesabın ilk girişinde çıkıyor.
-- **Ne olmalı:** Personelden de KVKK onayı alınacaksa ilk girişte gösterilmeli. Alınmayacaksa bu bilinçli karar olarak belgelenmeli.
-- **Bekleyen karar:** TÖDEB + bbolegal (KVKK metinleri hazır olunca).
+- **Nerede:** Yeni eklenen alt kullanıcının ilk girişi.
+- **Ne oluyor:** Alt kullanıcı geçici şifreyi değiştiriyor (“Şifreniz güncellendi. Lütfen tekrar giriş yapın.”) ama KVKK metni çıkmıyor; ana hesabın ilk girişinde çıkıyor.
+- **Ne olmalı:** Alt kullanıcıdan de KVKK onayı alınacaksa ilk girişte gösterilmeli. Alınmayacaksa bu bilinçli karar olarak belgelenmeli.
+- **Karar (6 Ekim):** Alt kullanıcı ilk girişte şifresini değiştirdikten sonra **KVKK metnini göstermeli** ve onay almalı (ana hesaptaki gibi). Şu an göstermiyor, bu bir hatadır. Metin bbolegal’den gelecek. Yapılacak: SHFT.
 
-### 🟠 #62 — Şifre yenilemede aynı şifre kabul/ret kuralı tutarsız
+### 🟠 #62 · ✔ Bilerek böyle — Şifre yenilemede aynı şifre kabul/ret kuralı tutarsız
 
 - **Nerede:** İlk girişteki zorunlu şifre değişimi ve **Profil → Güvenlik**.
 - **Ne oluyor:** İlk girişte yeni şifre, geçici şifreyle **aynı** girilebiliyor ve kabul ediliyor. Profil sayfasında ise aynı şifre “Bu şifre yakın zamanda kullanılmış. Lütfen farklı bir şifre seçin.” ile reddediliyor. Geçici şifre şifre geçmişine yazılmıyor gibi görünüyor.
 - **Ne olmalı:** Zorunlu değişimde geçici şifrenin tekrar kullanılması engellenmeli; amaç şifreyi gerçekten yenilemek.
-- **Bekleyen karar:** SHFT (güvenlik kuralı); TÖDEB onayı yeterli.
+- **Karar (6 Ekim):** **Beklenen davranış.** İlk girişte zorunlu şifre değişiminde geçici şifreyle aynı şifrenin kabul edilmesi sorun değil; kapatıldı.
 
-### 🟢 #59 — Katılımcı eklerken “Telefon” alanı ne için?
+### 🟢 #59 · ✔ Bilerek böyle — Katılımcı eklerken “Telefon” alanı ne için?
 
 - **Nerede:** Katılımcı Ekle penceresi.
 - **Ne oluyor:** **Telefon (opsiyonel)** alanı var, ancak telefonun ne için kullanılacağı belirtilmiyor.
 - **Ne olmalı:** Kısa bir açıklama (ör. “eğitim/etkinlik bilgilendirmesi için”) ya da alan gerekmiyorsa kaldırılması.
-- **Bekleyen karar:** Bilgi / TÖDEB.
+- **Karar (6 Ekim):** Telefon alanı **opsiyonel** olarak kalacak; ek açıklama gerekmiyor; kapatıldı.
 
 ---
 
@@ -100,19 +107,19 @@ Alt kullanıcıların kim olabileceği, e-posta alan adı kuralı ve bu kurallar
 
 Kullanıcının yaptığı bir işlemin sonucunu nereden göreceği. Şu an birçok işlemde sonuç sadece geçici bir mesajdan ibaret.
 
-### 🔴 #71 — Eğitim başvurusu onaylansa da kullanıcıya hiçbir şey yansımıyor
+### 🔴 #71 · ✔ Bilerek böyle — Eğitim başvurusu onaylansa da kullanıcıya hiçbir şey yansımıyor
 
 - **Nerede:** Eğitim başvurusu → yönetim panelinde başvurunun **Onaylandı/Reddedildi** yapılması → portal.
 - **Ne oluyor:** Başvuru onaylandığında kullanıcı tarafında **hiçbir değişiklik** yok: **Bildirimler**’de kayıt oluşmuyor, Takvim’deki eğitim paneli “Başvurulara Açık / Başvuruları Gönder” görünümünde kalıyor, başvuru durumu hiçbir yerde görünmüyor.
 - **Ne olmalı:** Başvurunun durumu (Beklemede / Onaylandı / Reddedildi) kullanıcıya gösterilmeli ve karar verildiğinde bildirim (ve tercihen e-posta) gitmeli.
-- **Bekleyen karar:** TÖDEB: kullanıcı sonucu nasıl öğrenecek? SHFT: durum gösterimi ve bildirim.
+- **Karar (6 Ekim):** Başvurunun sonucu **kullanıcıya e-postayla iletilir**; portalda ayrıca durum/bildirim gösterilmesi **şimdilik gerekmiyor**.
 
-### 🔴 #63 — Eğitim başvurusu sonrası bildirim, KVKK ve durum yok
+### 🔴 #63 · ✔ Bilerek böyle — Eğitim başvurusu sonrası bildirim, KVKK ve durum yok
 
 - **Nerede:** Eğitim başvurusu gönderildiğinde.
 - **Ne oluyor:** Başarıyla gönderilince yalnızca geçici “1 kişi için toplu başvuru alındı” mesajı çıkıyor. **Bildirimler**’de kayıt oluşmuyor, başvuru **KVKK onayı** sorulmuyor. Aynı e-postayla ikinci başvuruda “Bu eğitim için … e-posta adresiyle zaten bir başvuru mevcut.” uyarısı çıkıyor (bu doğru), ancak panel başvurunun yapıldığını (ör. “Başvurdunuz”) hiçbir şekilde göstermiyor.
 - **Ne olmalı:** Başvuru sonrası kalıcı bir durum/bildirim; gerekiyorsa KVKK onayı adımı.
-- **Bekleyen karar:** TÖDEB (KVKK onayı gerekli mi?), SHFT.
+- **Karar (6 Ekim):** Başvuru sonucu kullanıcıya **e-postayla iletildiği** için portalda ayrıca bildirim/durum gösterilmesi şimdilik gerekmiyor. (Başvuruda KVKK onayı konusu ayrıca konuşulmadı.)
 
 ### 🟠 #47 — Etkinlik başvurusu sonrası da aynı belirsizlik
 
@@ -121,10 +128,10 @@ Kullanıcının yaptığı bir işlemin sonucunu nereden göreceği. Şu an bir�
 - **Ne olmalı:** Eğitimdeki gibi tekrar başvuru uyarısı + “Başvurdunuz” durumu + bildirim.
 - **Bekleyen karar:** SHFT; TÖDEB: etkinlikte onay/ret var mı (şu an yok görünüyor)?
 
-### 🟠 #52 — Personele “Yeni Duyuru” bildirimi (sonradan doğrulandı)
+### 🟠 #52 — Alt kullanıcıya “Yeni Duyuru” bildirimi (sonradan doğrulandı)
 
-- **Nerede:** Personel hesabı → zil.
-- **Ne oluyor:** Test personeli eklenmeden önce yayımlanan duyuru için bildirim gelmedi; yeni yayımlanan duyuru için **geldi**. Bu nedenle beklenen davranış gibi görünüyor.
+- **Nerede:** Alt kullanıcı hesabı → zil.
+- **Ne oluyor:** Test alt kullanıcısı eklenmeden önce yayımlanan duyuru için bildirim gelmedi; yeni yayımlanan duyuru için **geldi**. Bu nedenle beklenen davranış gibi görünüyor.
 - **Ne olmalı:** Yeni eklenen kullanıcıya eski duyurular için bildirim gitmemesi makul; yine de bilinçli bir karar olarak onaylanmalı.
 - **Bekleyen karar:** Bilgi / TÖDEB onayı.
 
@@ -149,12 +156,19 @@ Kullanıcının yaptığı bir işlemin sonucunu nereden göreceği. Şu an bir�
 
 Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğunlukla “menü gizleme” değil “içerik boşaltma” olarak çalışıyor.
 
-### 🔴 #65 — Yetkisiz kullanıcıda menüler görünüyor, sayfalar boş geliyor
+### 🔴 #73 · ✔ Karar verildi — Alt kullanıcı hiçbir rolle kullanıcı/rol yönetemiyor; yetkiler listede var ama etkisiz
+
+- **Nerede:** Roller → yetki ağacı (**Kullanıcılar** ve **Roller** grupları) ↔ alt kullanıcı hesabı.
+- **Ne oluyor:** Tüm yetkilere (38) sahip **Organizasyon Yöneticisi** rolündeki bir alt kullanıcı bile **Kullanıcılar** ve **Roller** menülerini görmüyor; adresi yazarsa sessizce **Genel Bilgiler**’e yönlendiriliyor. Oysa rol oluştururken bu işlemler için yetkiler (Kullanıcılar grubunda kullanıcı oluşturma/düzenleme/pasif yapma/silme, Roller grubunda 4 yetki) seçilebiliyor. Yani ya bu yetkiler hiçbir işe yaramıyor ya da yalnızca ana hesap bunları kullanabiliyor. Rol listesi bunu kullanıcıya söylemiyor.
+- **Ne olmalı:** İki yoldan biri seçilmeli: (a) kullanıcı ve rol yönetimi yalnızca ana hesapta kalacaksa bu yetkiler rol ekranından çıkarılmalı, (b) yetkiyle alt kullanıcıya da verilebilmeli (ör. İK yöneticisi kendi ekibini ekleyebilsin).
+- **Karar (6 Ekim):** Kullanıcı ve rol yönetimi **yalnızca ana hesapta** (üye kuruluş süper yöneticisi) olacak. Alt kullanıcıya hiçbir rolle verilmeyecek. Yapılacak: SHFT, rol ekranından kullanıcı yönetimi ve rol yönetimi yetkilerini kaldırır (bildirim yetkileri kalır, bkz. #72).
+
+### 🔴 #65 · ⏳ Şimdilik böyle — Yetkisiz kullanıcıda menüler görünüyor, sayfalar boş geliyor
 
 - **Nerede:** Portal; yalnızca **Portal Duyuruları** yetkisi olan rolle denendi.
-- **Ne oluyor:** Destek Talepleri, Takvim, Etkinlikler, Dosya Alanı, Komite, Anketler menüleri **görünmeye devam ediyor**; sayfalar açılıyor ama içerik boş (ör. Dosya Alanı’nda klasör yok, Takvim’de kayıt yok). Komite sayfası “Aktif komite veya çalışma grubu bulunmuyor.” yazarak yetkisizlik ile gerçekten boş olmayı ayırt edemiyor. Menü gizleme yalnızca **Kullanıcılar** ve **Roller** için çalışıyor.
+- **Ne oluyor:** Destek Talepleri, Takvim, Etkinlikler, Dosya Alanı, Komite, Anketler menüleri **görünmeye devam ediyor**; sayfalar açılıyor ama içerik boş (ör. Dosya Alanı’nda klasör yok, Takvim’de kayıt yok). Komite sayfası “Aktif komite veya çalışma grubu bulunmuyor.” yazarak yetkisizlik ile gerçekten boş olmayı ayırt edemiyor. Menü gizleme yalnızca **Kullanıcılar** ve **Roller** için çalışıyor (bu iki menü rolden bağımsız olarak yalnızca ana hesapta görünüyor, bkz. #73).
 - **Ne olmalı:** Yetkisi olmayan menü gizlenmeli ya da sayfada “Bu sayfayı görüntüleme yetkiniz yok” denmeli. Boş ekran, “yetki yok”u “içerik yok”tan ayırt edilebilir olmalı.
-- **Bekleyen karar:** TÖDEB: yetkisiz menü gizlensin mi, uyarı mı verilsin? SHFT: uygulama.
+- **Karar (6 Ekim):** Yetkisiz menülerin görünmesi **şimdilik böyle kalsın**.
 
 ### 🟠 #72 — Bildirim yetkisi “Kullanıcılar” grubunun içinde
 
@@ -170,19 +184,19 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Anketler yetkiyle kısıtlanacaksa grup eklenmeli; herkese açık olacaksa bu bilinçli karar olarak belgelenmeli.
 - **Bekleyen karar:** TÖDEB.
 
-### 🟠 #50 — Personel yetkisiz sayfaya girince sessizce yönlendiriliyor; Genel Bilgiler’de düzenleme simgeleri
+### 🟠 #50 — Alt kullanıcı yetkisiz sayfaya girince sessizce yönlendiriliyor; Genel Bilgiler’de düzenleme simgeleri
 
-- **Nerede:** Personel hesabı.
-- **Ne oluyor:** Personel **Kullanıcılar**/**Roller** menülerini görmüyor; adresi yazarsa hiçbir uyarı olmadan **Genel Bilgiler**’e yönlendiriliyor. Ayrıca **Genel Bilgiler** sayfasında personele de 7 düzenleme (kalem) simgesi görünüyor.
-- **Ne olmalı:** Yönlendirme sırasında kısa bir uyarı; personelin Genel Bilgiler’i düzenleyip düzenleyemeyeceği netleştirilmeli, düzenleyemiyorsa simgeler gizlenmeli.
-- **Bekleyen karar:** TÖDEB: personel kuruluş bilgisini düzenleyebilir mi? SHFT.
+- **Nerede:** Alt kullanıcı hesabı.
+- **Ne oluyor:** Alt kullanıcı **Kullanıcılar**/**Roller** menülerini görmüyor; adresi yazarsa hiçbir uyarı olmadan **Genel Bilgiler**’e yönlendiriliyor. Ayrıca **Genel Bilgiler** sayfasında alt kullanıcıya de 7 düzenleme (kalem) simgesi görünüyor.
+- **Ne olmalı:** Yönlendirme sırasında kısa bir uyarı; alt kullanıcının Genel Bilgiler’i düzenleyip düzenleyemeyeceği netleştirilmeli, düzenleyemiyorsa simgeler gizlenmeli.
+- **Bekleyen karar:** TÖDEB: alt kullanıcı kuruluş bilgisini düzenleyebilir mi? SHFT.
 
-### 🟠 #26 — Sistem rolü (Organizasyon Yöneticisi) düzenlenip silinebilir görünüyor
+### 🟠 #26 · ✔ Karar verildi — Sistem rolü (Organizasyon Yöneticisi) düzenlenip silinebilir görünüyor
 
 - **Nerede:** Roller listesi.
 - **Ne oluyor:** Hazır **Organizasyon Yöneticisi** rolünün satırında da düzenle/sil düğmeleri aktif (silme/düzenleme bilinçli olarak denenmedi; kullanıcıların erişimini bozabilir).
 - **Ne olmalı:** Sistem rolü korunmalı (yalnızca görüntülenebilmeli) ya da bilinçli olarak serbest bırakılmalı.
-- **Bekleyen karar:** TÖDEB.
+- **Karar (6 Ekim):** TÖDEB, yönetim panelinden üye kuruluşlara **sistem rolleri** tanımlayabilmeli. Bu roller üye kuruluş tarafından **silinememeli ve düzenlenememeli**. Böyle bir talep daha önce de varmış. Yapılacak: SHFT (panelde rol atama + portalda korumalı rol).
 
 ### 🟠 #21 — “Kullanıcı Silme” yetkisi var ama silme seçeneği yok
 
@@ -238,19 +252,20 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Tüm kural tipleri çalışmalı. Kullanıcıya teknik hata değil anlaşılır mesaj gösterilmeli.
 - **Bekleyen karar:** SHFT (hata).
 
-### 🟠 #61 — Klasör zip indirmesi çalışmıyor
+### 🔴 #61 · 🔎 Neden bulundu, Nilay Hanım’a iletilecek — Türkçe karakterli klasör adları zip olarak indirilemiyor
 
 - **Nerede:** Portal → Dosya Alanı → klasör satırındaki indirme simgesi.
-- **Ne oluyor:** İçinde alt klasör ve dosya bulunan klasörde “Klasör zip olarak indirilemedi.” hatası çıkıyor. Dosya kodunu kopyalama, Excel indirme ve tek dosya indirme çalışıyor.
-- **Ne olmalı:** Klasör, içindekilerle birlikte zip olarak inmeli.
-- **Bekleyen karar:** SHFT (hata ya da özellik tamamlanmamış).
+- **Ne oluyor (ayrıntılı inceleme):** Ana klasörlerin dördünde (GÖRÜŞLER, TALİMATLAR, TÖDEB BİLGİLENDİRME, TÖDEB DÜZENLEMELERİ) ve **GİB** klasöründe “Klasör zip olarak indirilemedi.” hatası çıkıyor. **TCMB** ve **MASAK** klasörleri ise sorunsuz zip olarak iniyor (TCMB.zip içinde klasör ve PDF var). Klasörlerin içeriğini yönetim panelinden de kontrol ettim: başarısız olanlar ile başarılı olanlar arasında **içerik farkı yok** (GİB ve MASAK ikisi de boş; üç ana klasör de boş). Ortak özellik **adın harfleri**: inmeyen tüm adlar **Türkçe karakter** içeriyor (İ, Ö, Ü, Ş…), inenler yalnızca ASCII harf içeriyor.
+- **Doğrulama:** Aynı yerde iki test klasörü oluşturdum: **“ZipTest ASCII”** zip olarak **indi**; **“ZipTest Çalışma”** (ç, ş içeren ad) aynı hatayı verdi. Neden büyük olasılıkla zip dosyasının adının/içeriğindeki klasör adının Türkçe karakterleri işleyememesi.
+- **Ne olmalı:** Türkçe karakterli klasör adları da zip olarak inmeli. TÖDEB’in gerçek klasör adları Türkçe olduğu için bu özellik şu an fiilen kullanılamıyor.
+- **Karar (6 Ekim):** Önemli bir konu; neden bulundu, Nilay Hanım’a iletilecek. Yapılacak: SHFT.
 
-### 🟠 #66 (eski #34 ile birleşti) — “Önemli Dosya” portalda ayırt edilemiyor
+### 🟠 #66 · ✔ Karar verildi (eski #34 ile birleşti) — “Önemli Dosya” Dosya Alanı listesinde görünüyor
 
 - **Nerede:** Portal → Dosya Alanı listesi.
 - **Ne oluyor:** Panelde **Önemli Dosya** olarak işaretlenip yayınlanan dosya listede yalnızca **YENİ** etiketiyle görünüyor; “Önemli” etiketi yok. (Giriş anında “Yeni Önemli Dosyalar Mevcut” bildirimi geliyor ve bu çalışıyor.)
 - **Ne olmalı:** Önemli dosyalar listede belirgin etiketle ayrılmalı.
-- **Bekleyen karar:** TÖDEB: etiket gerekli mi? SHFT.
+- **Karar (6 Ekim):** **Önemli Dosya**, Dosya Alanı ile ilgili bir kavram değil; TÖDEB bu dosyayı üyeye **bağlantı (URL) ile iletecek**. Bu nedenle Önemli Dosya olarak işaretlenen dosyalar üye kuruluşların **Dosya Alanı listesinde görünmemeli**. Şu an listede görünüyor, bu bir hatadır. Yapılacak: SHFT listeden çıkarır.
 
 ### 🟠 #67 — Panelde girilen dosya başlığı/açıklaması portalda yok
 
@@ -259,29 +274,29 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Başlık, kullanıcıya görünen ad olmalı; açıklama detayda gösterilmeli. Kullanılmayacaksa alanlar formdan kalkmalı.
 - **Bekleyen karar:** TÖDEB + SHFT.
 
-### 🟠 #33 — Panelde çoklu dosya yüklemesi hata veriyor
+### 🟠 #33 · 🔎 Tekrarlanamadı — Panelde çoklu dosya yüklemesi
 
-- **Nerede:** Panel → Dosya Alanı → birden fazla dosya seç → **Toplu Ekle**.
-- **Ne oluyor:** “Error saving changes to the database.” (İngilizce, nedeni belirsiz) hatası alınıyor; tek dosya yüklemesi çalışıyor.
-- **Ne olmalı:** Çoklu yükleme çalışmalı; hata Türkçe ve anlaşılır olmalı.
-- **Bekleyen karar:** SHFT (hata).
+- **Nerede:** Yönetim paneli → Dosya Alanı → **Dosya(ları) Yükle** → birden fazla dosya seçip **Toplu Ekle**.
+- **Ne oluyor:** İlk denemede “Error saving changes to the database.” (İngilizce, nedeni belirsiz) hatası alınmıştı. Yeniden ve zorlayarak denendi: **hata alınmadı.** Denenen koşullar: 2 ve 3 dosya, 10 dosya (izin verilen en çok), Türkçe karakterli dosya adı (Çalışma_Notu_İki.pdf), noktalı/boşluklu ad, **Yayınla** ve **Önemli Dosya** açık, **Kısıtlı** görünürlük (Tüm Üyeler kuralı), **GÖRÜŞLER** klasörüne yükleme, başlık/açıklama önceden yazılı, 3 MB ve 7 MB dosyalar, PDF + DOCX + PNG karışımı, aynı içeriğin tekrar yüklenmesi. Hepsinde “N dosya başarıyla eklendi.” mesajı geldi (10 dosyada mesaj birkaç saniye gecikiyor).
+- **Ne olmalı:** Çoklu yükleme hatasız çalışmalı; ilk hata yaşanırsa mesaj Türkçe ve anlaşılır olmalı.
+- **Karar (6 Ekim):** Hata tekrarlanamadığı için Nilay Hanım’a iletilmeyecek. İlk hatanın hangi dosyalarla alındığı hatırlanırsa (dosya adı/türü/boyutu) yeniden denenecek; aynı hata tekrar görülürse bu madde güncellenir.
 
 ---
 
 <a id="bolum-5"></a>
 ## 5. Destek talepleri
 
-### 🔴 #27 — Panelde destek talebi durumu değişmiyor
+### 🔴 #27 · ⏳ Sonra ele alınacak — Panelde destek talebi durumu değişmiyor
 
 - **Nerede:** Yönetim paneli → Destek Talepleri → talep detayı → durum açılır menüsü.
 - **Ne oluyor:** Bir durum seçilince çıkan **Durumu güncelle** penceresi “#TDM-000001 numaralı ticket’ın durumunu **olarak** değiştirmek istiyor musunuz?” diyor (seçilen durumun adı cümlede yok) ve **Onayla**’ya basılsa da durum **“Yeni”de kalıyor** (“Cevaplandı” denendi). Yanıt yazılması durumu otomatik değiştirmiyor.
 - **Ne olmalı:** Durum seçildiğinde değişmeli, onay metni durumu içermeli. Portalda durumlar ve renkleri ancak böyle gözlenebilir (şu an yalnızca Yeni/Orta görüldü).
-- **Bekleyen karar:** SHFT (hata). Bu düzelmeden durum renkleri ve durum bildirimi rehbere yazılamıyor.
+- **Karar (6 Ekim):** Talep durumunun “Yeni”de kalması şimdilik kalsın; sistem çalışmaya başlayınca (ilk günlerde) çözülecek.
 
 ### 🟠 #30 — Kurum Bildirimleri sayfasına menüden ulaşılamıyor
 
 - **Nerede:** Portal → Destek.
-- **Ne oluyor:** Kuruluştaki tüm kullanıcıların taleplerini gösteren **Kurum Bildirimleri** sayfası (`/support/organization-tickets`) soldaki menüde yok; yalnızca bildirime tıklayınca açılıyor. Sayfa hem ana hesapta hem personelde açılıyor.
+- **Ne oluyor:** Kuruluştaki tüm kullanıcıların taleplerini gösteren **Kurum Bildirimleri** sayfası (`/support/organization-tickets`) soldaki menüde yok; yalnızca bildirime tıklayınca açılıyor. Sayfa hem ana hesapta hem alt kullanıcıda açılıyor.
 - **Ne olmalı:** Destek Talepleri sayfasında bu listeye giden bir bağlantı/sekme olmalı.
 - **Bekleyen karar:** TÖDEB: bu liste herkese mi açık olmalı? SHFT: bağlantı.
 
@@ -318,54 +333,54 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 <a id="bolum-6"></a>
 ## 6. Anket, komite, takvim, etkinlik ve eğitim
 
-### 🔴 #70 — Komite toplantıları Takvim’de görünmüyor
+### 🔴 #70 · ✔ Bilerek böyle — Komite toplantıları Takvim’de görünmüyor
 
 - **Nerede:** Portal → Takvim; panelde komiteye eklenen toplantılar.
 - **Ne oluyor:** Panelde komiteye toplantı eklenmiş (ör. Etik ve Disiplin Kurulu: 02.11.2026 yüz yüze, 02.01.2027 online) ve kuruluş komitenin üyesi, ancak toplantılar **Takvim**’de görünmüyor. Takvimdeki **Toplantı (yeşil)** türü hiç kayıt göstermiyor; toplantılar yalnızca komitenin kendi **Toplantılar** sekmesinde.
 - **Ne olmalı:** Komite toplantıları takvime “Toplantı” olarak düşmeli ya da bu tür kaldırılmalı.
-- **Bekleyen karar:** TÖDEB: toplantı türü ne için kullanılacak? SHFT.
+- **Karar (6 Ekim):** Komite toplantıları takvimde **görünmeyecek**; bilerek böyle.
 
-### 🔴 #37 — Komite “Yoklama” sekmesi anlaşılmıyor
+### 🔴 #37 · 🔎 İncelendi, Nilay Hanım’a iletilecek — Komite “Yoklama” sekmesi bozuk
 
-- **Nerede:** Portal → Komite / Çalışma Grupları → komite → **Yoklama**.
-- **Ne oluyor:** Tablonun iki sütun başlığı çevrilmemiş anahtar olarak görünüyor (`pages.committees.labels.attendanceSummaryExcused`, `…Unexcused`) ve satırdaki sayıların (ör. “9, 0, 0, 0”) neyi gösterdiği anlaşılmıyor.
-- **Ne olmalı:** Sütunlar Türkçe başlıklarla (Katıldı / Mazeretli / Mazeretsiz vb.) gösterilmeli.
-- **Bekleyen karar:** SHFT (metin) + TÖDEB (sayıların anlamı).
+- **Nerede:** Portal → Komite / Çalışma Grupları → komite → **Yoklama** sekmesi (Etik ve Disiplin Kurulu’nda denendi).
+- **Ne oluyor (ayrıntılı inceleme):** Tabloda beş sütun var: **#**, **Üye**, **Katıldı** ve iki sütun daha. (1) Son iki sütunun başlığı çevrilmemiş teknik anahtar olarak görünüyor (`pages.committees.labels.attendanceSummaryExcused` ve `…Unexcused`; anlamları “Mazeretli” ve “Mazeretsiz” olmalı). (2) **Üye** sütununda üyenin adı yerine **9** ve **10** gibi sayılar görünüyor. (3) Komitenin 4 üyesi varken tabloda yalnızca 2 satır var. (4) Değerlerin hepsi 0 (denenen komitede toplantılar henüz “Planlandı” durumunda olduğu için olabilir). (5) Tablo yana kaydırılmak zorunda kalıyor, uzun başlık yüzünden son sütun görünmüyor. Aynı komitede **Üyeler**, **Toplantılar**, **Alt Çalışma Grubu** ve **Dosyalar** sekmeleri düzgün çalışıyor; yalnızca Yoklama bozuk.
+- **Ne olmalı:** Sütunlar Türkçe (Katıldı / Mazeretli / Mazeretsiz), **Üye** sütununda üyenin adı, tüm üyeler listelenmeli.
+- **Karar (6 Ekim):** Önemli bir konu; detaylı inceleme yapıldı, bulgular Nilay Hanım’a iletilecek. Yapılacak: SHFT.
 
 ### 🟠 #53 — Anket yanıtı kişi bazlı; kuruluş başına tek yanıt mı isteniyor?
 
 - **Nerede:** Portal → Anketler.
-- **Ne oluyor:** Ana hesap anketi yanıtladıktan sonra aynı kuruluşun personeli de aynı anketi yanıtlayabiliyor (tek yanıt kuralı **kişi bazlı**).
+- **Ne oluyor:** Ana hesap anketi yanıtladıktan sonra aynı kuruluşun alt kullanıcısı de aynı anketi yanıtlayabiliyor (tek yanıt kuralı **kişi bazlı**).
 - **Ne olmalı:** Kuruluş başına tek yanıt isteniyorsa kural değişmeli; kişi bazlı isteniyorsa mevcut davranış doğru.
 - **Bekleyen karar:** TÖDEB.
 
-### 🟠 #69 — Koşullu ankette gönderim ve yanıt özeti farklı
+### 🟠 #69 · 🔎 İncelendi, Nilay Hanım’a iletilecek — Koşullu ankette gönderim kullanıcıyı şaşırtıyor
 
-- **Nerede:** Portal → Anketler → **Koşullu** akışlı anket.
-- **Ne oluyor:** Son soru yanıtlanıp **Sonraki**’ye basılınca yanıt **otomatik gönderiliyor** (ayrı onay yok) ve **Yanıtlarınız** bölümünde “Bu tarayıcıda kayıtlı yanıt özeti bulunmuyor.” yazıyor. Standart ankette yanıt özeti gösteriliyor.
-- **Ne olmalı:** Gönderimden önce özet/onay adımı ve özetin gösterilmesi.
-- **Bekleyen karar:** SHFT; TÖDEB: yanıtlar sonradan görülebilsin mi?
+- **Nerede:** Portal → Anketler → **Koşullu** akışlı anket (Cevapla).
+- **Ne oluyor (ayrıntılı inceleme):** Koşullu ankette sorular tek tek geliyor ve her soruda **Sonraki** düğmesi var. İki yolu da denedim (Evet yolu: 2 soru, Hayır yolu: 2 soru). (1) **Son soruda da düğme “Sonraki” yazıyor**; basınca yanıt **o an gönderiliyor** ve anket kapanıyor. Kullanıcı son soruda olduğunu ve yanıtın gönderileceğini bilmiyor. (2) **Geri** düğmesi yok: kullanıcı bir önceki soruya dönüp yanıtını değiştiremiyor. (3) Gönderimden sonra panelde “Yanıtınız alındı – Bu anket için tekrar yanıt gönderemezsiniz.” ve altında “YANITLARINIZ – Gönderim Tarihi: … – **Bu tarayıcıda kayıtlı yanıt özeti bulunmuyor.**” yazıyor; bu satır kullanıcıyı yanıltıyor. (4) Zorunlu soruyu boş geçince “Lütfen zorunlu soruları yanıtlayın.” uyarısı **doğru çalışıyor**.
+- **Ne olmalı:** Son soruda düğme **Gönder** (veya Bitir) yazmalı; mümkünse **Geri** düğmesi olmalı; yanıt özeti gösterilmeyecekse “özet bulunmuyor” satırı kaldırılmalı.
+- **Karar (6 Ekim):** Yanıtların sonradan görülememesi sorun değil (#40). Ancak yukarıdaki (1) ve (3) maddeleri Nilay Hanım’a iletilecek. Yapılacak: SHFT.
 
-### 🟠 #40 — Yanıtlanan anketin yanıtları sonradan görülemiyor
+### 🟠 #40 · ✔ Bilerek böyle — Yanıtlanan anketin yanıtları sonradan görülemiyor
 
 - **Nerede:** Portal → Anketler.
 - **Ne oluyor:** Yanıtlandıktan sonra satıra tıklanınca panel açılmıyor; gönderilen yanıtlar yalnızca gönderim anında görülebiliyor gibi.
 - **Ne olmalı:** Yanıtlanan anketin yanıtlarının sonradan görüntülenmesi bekleniyorsa eksik.
-- **Bekleyen karar:** TÖDEB.
+- **Karar (6 Ekim):** Yanıtlanan anketin yanıtlarının **sonradan görülememesi sorun değil**; önemli olan sistemin çalışması.
 
-### 🟠 #55 — Eğitim oluşturma formunda tarih/saat sorunu (panel)
+### 🟠 #55 · 🔎 Tekrarlandı, Nilay Hanım’a iletilecek — Yeni Eğitim formunda tarih seçilince bitiş saati bozuluyor
 
-- **Nerede:** Yönetim paneli → TÖDEB Akademi → **Yeni Eğitim** → Tarihler.
-- **Ne oluyor:** Eğitim başlangıç/bitiş tarihi seçilince bitiş saati başlangıç saatine eşitleniyor ve kayıt “Bitiş tarihi başlangıç tarihinden sonra olmalıdır.” hatası veriyor (varsayılan 15:00/16:00 iken tarih değişince saat sıfırlanıyor). **Son Başvuru** tarihi, eğitim başlangıcından sonra seçilemiyor; önce eğitim tarihleri seçilmeli ama bu kullanıcıya belli değil (günler pasif görünüyor).
-- **Ne olmalı:** Saatler korunmalı, kuralı açıklayan bir ipucu olmalı.
-- **Bekleyen karar:** SHFT.
+- **Nerede:** Yönetim paneli → TÖDEB Akademi → **Yeni Eğitim** → Tarihler bölümü.
+- **Ne oluyor (tekrar denendi, aynen oluştu):** Form açıldığında varsayılan değerler **Eğitim Başlangıç 17:00 – Eğitim Bitiş 18:00** şeklinde. **Eğitim Başlangıç Tarihi** için başka bir gün seçilince **Eğitim Bitiş Tarihi de aynı güne** kayıyor ve **bitiş saati başlangıç saatine eşitleniyor** (17:00 – 17:00). Bu hâliyle kaydedilince “Bitiş tarihi başlangıç tarihinden sonra olmalıdır.” hatası çıkıyor; kullanıcı saati elle düzeltmek zorunda kalıyor. Ayrıca **Son Başvuru Tarihi** eğitimin başlangıcından sonraya seçilemiyor (günler pasif görünüyor) ve bu kural formda anlatılmıyor.
+- **Ne olmalı:** Tarih seçilince saatler korunmalı (bitiş saati başlangıçtan sonra kalmalı); son başvuru tarihi kuralı formda kısa bir ipucuyla belirtilmeli.
+- **Karar (6 Ekim):** Önemli olabilir diye tekrar denendi ve doğrulandı; Nilay Hanım’a iletilecek. Yapılacak: SHFT.
 
-### 🟠 #44 — Etkinlikler listesi neden boş?
+### 🟠 #44 · ✔ Bilerek böyle — Etkinlikler listesi neden boş?
 
 - **Nerede:** Portal → Etkinlikler.
 - **Ne oluyor:** Yayındaki etkinlik **Takvim**’de ve **Duyurular**’da (“ETKİNLİK KAYIT ALINIYOR”) görünüyor, ancak **Etkinlikler** listesi yalnızca **tamamlanmış** etkinlikleri gösteriyor; bu yüzden “Etkinlik bulunamadı” yazıyor. Tarihi geçmiş olsa bile etkinlik, TÖDEB elle “Tamamla” diyene kadar listeye girmiyor.
 - **Ne olmalı:** Bu ayrım kullanıcıya açıklanmalı (ör. sayfada “Tamamlanan etkinlikler”).
-- **Bekleyen karar:** Bilgi / TÖDEB (davranış kasıtlı).
+- **Karar (6 Ekim):** Etkinlik, TÖDEB yönetim panelinden **elle “Tamamla”** denmeden Etkinlikler listesine girmez; tarihi geçse bile otomatik tamamlanmaz. Bu, Süheyda Hanım’ın özel isteğidir; bilerek böyle. Kendi denememde de tamamlanınca listeye girdi ve “ETKİNLİK TAMAMLANDI” duyurusu çıktı.
 
 ### 🟠 #39 — Üye olunmayan komite kartı sessiz kalıyor
 
@@ -376,9 +391,9 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 
 ### 🟠 #51 — Komite üyeliği kişi bazlı
 
-- **Nerede:** Personel hesabı → Komite / Çalışma Grupları.
-- **Ne oluyor:** Ana hesabın üyesi olduğu komitede personelde **Üye Değilsiniz** görünüyor; üyelik kişiye bağlı.
-- **Ne olmalı:** Kuruluş adına katılım bekleniyorsa personel de görmeli; kişiye özelse bilinçli karar olmalı.
+- **Nerede:** Alt kullanıcı hesabı → Komite / Çalışma Grupları.
+- **Ne oluyor:** Ana hesabın üyesi olduğu komitede alt kullanıcıda **Üye Değilsiniz** görünüyor; üyelik kişiye bağlı.
+- **Ne olmalı:** Kuruluş adına katılım bekleniyorsa alt kullanıcı de görmeli; kişiye özelse bilinçli karar olmalı.
 - **Bekleyen karar:** TÖDEB.
 
 ### 🟠 #60 — “Takvime Ekle” dosyası eksik bilgi içeriyor
@@ -388,12 +403,12 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Açıklama düz metin olmalı; online etkinliklerde bağlantı, yüz yüzede konum dosyada yer almalı.
 - **Bekleyen karar:** SHFT.
 
-### 🟢 #46 — Duyuru saati beklenenden farklı
+### 🟢 #46 · 🔎 İncelenecek — Duyuru saati beklenenden farklı
 
 - **Nerede:** Portal → Duyuru detayı.
 - **Ne oluyor:** Test duyurusu ~11:50’de yayımlandı, panelde “05.10.2026 03:01” yazıyor; saat dilimi/dönüşüm hatası olabilir.
 - **Ne olmalı:** Yayın saati gerçek saatle uyumlu olmalı (Türkiye saati).
-- **Bekleyen karar:** SHFT (kontrol).
+- **Karar (6 Ekim):** Kesin bir saat dilimi hatası olduğu henüz belli değil; **araştırılacak**. Not: sonradan oluşturulan duyuruda saat “00:00” göründü ve duyuruya yalnızca tarih seçilmişti; bu, saatsiz seçilen başlangıç tarihinin gösterilmesi olabilir.
 
 ### 🟢 #54 — Eğitim formunda çevrilmemiş etiket (panel)
 
@@ -437,17 +452,24 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Kural makul; yalnızca test sırasında dikkat edilmeli.
 - **Bekleyen karar:** Bilgi.
 
+### 🟢 #74 — Oturum Zaman Aşımı penceresi “Devam Et” ile kapanmadı (elle doğrulanmalı)
+
+- **Nerede:** Portal; uzun süre kullanılmayan bir sekme yeniden açıldığında.
+- **Ne oluyor:** Sayfa açılır açılmaz **“Hareketsiz kaldığınız için 4 dakika sonra oturumunuz kapatılacaktır.”** penceresi geliyor. Otomatik test sırasında **Devam Et**’e iki kez tıklandı, pencere kapanmadı ve geri sayım sürdü. Test aracının etkisi olabilir; bu nedenle kesin bulgu değildir.
+- **Ne olmalı:** **Devam Et** pencereyi kapatmalı ve geri sayımı sıfırlamalı.
+- **Bekleyen karar:** Bilgi — elle (gerçek tıklamayla) denenip doğrulanırsa SHFT’e iletilir.
+
 ---
 
 <a id="bolum-7"></a>
 ## 7. Genel Bilgiler ve Profil
 
-### 🟠 #12 — KEP adresi portalda boş
+### 🟠 #12 · ✔ Karar verildi — KEP adresi portalda boş
 
 - **Nerede:** Portal → Genel Bilgiler → Firma Bilgileri.
 - **Ne oluyor:** Panelde üye kartında KEP adresi dolu iken portaldaki **KEP Adresi** alanında “-” görünüyor.
 - **Ne olmalı:** Panelde girilen KEP adresi portalda da görünmeli.
-- **Bekleyen karar:** SHFT (veri eşleşmesi).
+- **Karar (6 Ekim):** Panelde dolu olan KEP adresi portalda **görünmeli**; şu an alan doldurulmuyor, bu bir hatadır. Yapılacak: SHFT.
 
 ### 🟠 #13 — İletişim kişilerinde “Unvan” yerine görevlendirme adı
 

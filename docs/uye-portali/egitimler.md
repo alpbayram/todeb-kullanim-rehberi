@@ -38,18 +38,18 @@ Katılımcının e-posta adresi, kuruluşunuzun alan adına ait olmalıdır. Far
 
 ### Başvurunuzun sonucu
 
-Başvurunuz alındıktan sonra TÖDEB tarafından değerlendirilir. Başvurunuzun sonucu portalda ayrıca gösterilmez; eğitim paneli başvurudan sonra da aynı görünümde kalır ve ek bir bildirim oluşmaz. Eğitimle ilgili bilgilendirmeler TÖDEB tarafından ayrıca iletilir.
+Başvurunuz alındıktan sonra TÖDEB tarafından değerlendirilir. Başvurunuzun sonucu **e-posta ile tarafınıza iletilir**; portalda ayrıca bir durum veya bildirim görüntülenmez, eğitim paneli başvurudan sonra da aynı görünümde kalır.
 
 ### Aynı kişi için tekrar başvuru
 
 Bir e-posta adresiyle aynı eğitime daha önce başvuru yapılmışsa **“Bu eğitim için ’…’ e-posta adresiyle zaten bir başvuru mevcut.”** uyarısı görüntülenir ve başvuru tekrarlanmaz. Başvuru yaptıktan sonra eğitim paneli yeniden açıldığında katılımcı listesi hazır gelir; başvurunun alındığını panelden değil, gönderim sırasındaki mesajdan takip edebilirsiniz.
 
-> **Bilgi:** Eğitim başvurusu için kişi listesi etkinlik başvurusuyla aynı şekilde yönetilir; ayrıntılar için [Etkinlikler](etkinlikler.md) rehberine bakın. Kuruluşun ana hesabı etkinliklere başvuru yapamaz; eğitim başvurularını da personel hesaplarıyla yapmanız önerilir.
+> **Bilgi:** Eğitim başvurusu için kişi listesi etkinlik başvurusuyla aynı şekilde yönetilir; ayrıntılar için [Etkinlikler](etkinlikler.md) rehberine bakın. Kuruluşun ana hesabı etkinliklere başvuru yapamaz; eğitim başvurularını da alt kullanıcı hesaplarıyla yapmanız önerilir.
 
 <!-- REVIEW:START EGITIM-01 -->
 <div class="review-note" data-review-id="EGITIM-01" role="note">
 <strong>[Karar bekliyor] EGITIM-01</strong>
-<p>Başvuru gönderimi, tekrar başvuru uyarısı ve başvuru sonrası durumun kullanıcıya yansımaması ekranda doğrulandı. Kalanlar yazılım/içerik tarafında netleşecek: başvurunun onaylanması/reddedilmesi durumunda kullanıcıya bildirim veya durum gösterilmesi (şu an gösterilmiyor, bkz. yazılım notu 71), başvuru <strong>KVKK onayı</strong> (metin bbolegal’den gelecek), kontenjan dolduğunda davranış, ücretli eğitimlerde fiyat bilgisinin panelde görünmesi ve <strong>Oturumlar</strong> (birden fazla gün/saat) görünümü.</p>
+<p>Başvuru gönderimi, tekrar başvuru uyarısı ve başvuru sonrası durumun kullanıcıya yansımaması ekranda doğrulandı. Kalanlar yazılım/içerik tarafında netleşecek: başvuru <strong>KVKK onayı</strong> (metin bbolegal’den gelecek), kontenjan dolduğunda davranış, ücretli eğitimlerde fiyat bilgisinin panelde görünmesi ve <strong>Oturumlar</strong> (birden fazla gün/saat) görünümü.</p>
 </div>
 <!-- REVIEW:END EGITIM-01 -->
 
