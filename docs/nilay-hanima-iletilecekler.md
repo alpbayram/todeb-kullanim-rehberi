@@ -173,3 +173,16 @@ Numaralar (#57 gibi) çalışma listesindeki numaralarla aynıdır.
 **Yapılacak:** (1) **Eğitim** kuralıyla yükleme çalışmalı (panelin gönderdiği kural tipi değeri sunucunun tanıdığıyla eşleşmeli). (2) Hata mesajı kullanıcıya teknik değil anlaşılır olmalı. (3) **Kullanıcı Tipi** etiketinde seçilen tipin adı görünmeli (ör. “Kullanıcı: Üye Kuruluş”).
 
 **Nasıl kontrol edilir:** Kısıtlı bir dosyaya **Eğitim** kuralı ekleyip yükle → “Dosya başarıyla yüklendi.” çıkmalı; eğitime başvuran kullanıcı portalda dosyayı görmeli, başvurmayan görmemeli. Kullanıcı Tipi kuralı ekle → etiket seçilen tipin adını göstermeli.
+
+---
+
+## 14. Panelde Destek Talepleri → Gelişmiş Filtreler elle tıklanamıyor — #75
+
+**Nerede:** Yönetim paneli → **Destek Talepleri** → **Gelişmiş Filtreler**.
+
+**Şu an:** Gelişmiş Filtreler kutusundaki alanlara (Durum, Koordinatörlük, Üye Kuruluş, Partner Kuruluş, Arşiv Durumu) **fareyle elle tıklanınca** çoğu zaman tıklama algılanmıyor; sayfanın görünümü bozulmuyor, ancak **tıklama alanı/etkileşim** bozuk gibi davranıyor ve filtreler kullanılamıyor. (Otomatik testte alanlar açılıyor; asıl sorun gerçek fare kullanımında görülüyor.) **Üye Kuruluş** ve **Partner Kuruluş** alanları ayrıca soluk, pasifmiş gibi görünüyor ve bir seçim listesi açıkken diğer alanlar tıklamaya yanıt vermiyor.
+
+**Yapılacak:** Gelişmiş Filtreler kutusundaki tüm alanların fareyle sorunsuz tıklanıp seçim yapılabildiği kontrol edilmeli ve gerekirse düzeltilmeli.
+
+**Nasıl kontrol edilir:** Panelde Destek Talepleri sayfasında **Gelişmiş Filtreler**’i aç; Durum, Koordinatörlük, Üye Kuruluş, Partner Kuruluş ve Arşiv Durumu alanlarına sırayla fareyle tıkla → her birinde seçim listesi açılmalı ve seçim yapılabilmeli; bir liste açıkken başka bir alana geçmek de çalışmalı.
+
