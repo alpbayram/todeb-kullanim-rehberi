@@ -78,16 +78,10 @@ Pasif yapılan kullanıcı portala giriş yapmaya çalıştığında **“Hesab�
 
 ## Alt kullanıcının ilk girişi
 
-Yeni eklenen kullanıcıya, giriş bilgileri kayıtlı e-posta adresine iletilir. Kullanıcı bu bilgilerle giriş yaptığında, geçici şifresini değiştirmesi zorunludur; yeni şifre belirlendikten sonra **“Şifreniz güncellendi. Lütfen tekrar giriş yapın.”** mesajı görüntülenir ve kullanıcının yeni şifresiyle yeniden giriş yapması gerekir.
+Yeni eklenen kullanıcıya, giriş bilgileri kayıtlı e-posta adresine iletilir. Kullanıcı bu bilgilerle giriş yaptığında, geçici şifresini değiştirmesi zorunludur; yeni şifre belirlendikten sonra **“Şifreniz güncellendi. Lütfen tekrar giriş yapın.”** mesajı görüntülenir ve kullanıcının yeni şifresiyle yeniden giriş yapması gerekir. Yeniden giriş yapıldığında **KVKK metni** görüntülenir; metni sonuna kadar okuyup onaylamanız gerekmektedir. Onay vermeden portalı kullanamazsınız. Ayrıntılı adımlar için [İlk giriş](ilk-giris.md) rehberine bakın.
 
 > **Bilgi:** Alt kullanıcı hesapları **Kullanıcılar** ve **Roller** menülerini görmez; bu sayfalar yalnızca kuruluşun ana hesabı içindir. Alt kullanıcı, bu adreslere doğrudan gitmeye çalışırsa **Genel Bilgiler** sayfasına yönlendirilir.
 
-<!-- REVIEW:START KULLANICI-03 -->
-<div class="review-note" data-review-id="KULLANICI-03" role="note">
-<strong>[Karar bekliyor] KULLANICI-03</strong>
-<p>Alt kullanıcının ilk girişinde, kuruluşun ana hesabında görüntülenen KVKK metni görülmedi. Alt kullanıcı için de KVKK onayı isteniyorsa metin geldiğinde bu bölüme eklenecek (bkz. KVKK metinleri).</p>
-</div>
-<!-- REVIEW:END KULLANICI-03 -->
 
 ## İlgili rehberler
 
