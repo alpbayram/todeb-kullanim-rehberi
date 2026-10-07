@@ -27,7 +27,7 @@ Sayfada şu öğeler bulunur:
 1. Sol menüden **Duyurular** sayfasını açın ve **ETKİNLİK KAYIT ALINIYOR** etiketli duyuruya tıklayın.
 2. Sağdan açılan panelde duyuru metni ve **Etkinlik Bilgileri** bölümü görüntülenir: **Etkinlik Adı**, **Etkinlik Tarihi**, **Başvuru Tarihleri**, **Konum** ve **Açıklama**.
 3. Panelin altındaki **Katılımcılar** bölümünde, başvuruya dahil edilecek kişiler listelenir (en fazla **10 kişi**). Kendi adınız listede hazır olarak yer alır.
-4. Başka bir kişiyi eklemek için **Katılımcı Ekle** düğmesine tıklayın ve **Ad**, **Soyad** ile **E-posta** bilgilerini girin. Listedeki bir kişiyi **kalem simgesiyle** düzenleyebilir, **çöp kutusu simgesiyle** listeden çıkarabilirsiniz. Başvuruyu yalnızca çalışma arkadaşlarınız adına yapıyorsanız kendi satırınızı da silebilirsiniz.
+4. Başka bir kişiyi eklemek için **Katılımcı Ekle** düğmesine tıklayın ve **Ad**, **Soyad** ile **E-posta** bilgilerini girin. Listedeki bir kişiyi **kalem simgesiyle** düzenleyebilir, **çöp kutusu simgesiyle** listeden çıkarabilirsiniz. Adınız listede hazır olarak gelir. Etkinliğe siz katılmayacaksanız, adınızın yanındaki **çöp kutusu simgesine** tıklayarak kendinizi listeden çıkarabilirsiniz.
 5. **Başvuruları Gönder (N kişi)** düğmesine tıklayın. Başvurunuz alındığında **“N kişi için toplu başvuru alındı”** mesajı görüntülenir.
 6. Etkinliği takvimde görmek için **Takvimde İncele** düğmesine tıklayın.
 

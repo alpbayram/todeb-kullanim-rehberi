@@ -27,7 +27,7 @@ Takvimde eğitimin başlığına tıklayın. Sağdan açılan **Eğitim Detayı*
 ## Eğitime başvuru
 
 1. **Takvim** sayfasında eğitimi açın. **Durum** alanında **Başvurulara Açık** ifadesini görün.
-2. Panelin altındaki **Katılımcılar** bölümünde, başvuruya dahil edilecek kişiler listelenir (en fazla **10 kişi**). Kendi adınız listede hazır olarak yer alır; başvuruyu yalnızca çalışma arkadaşlarınız adına yapıyorsanız kendi satırınızı silebilirsiniz.
+2. Panelin altındaki **Katılımcılar** bölümünde, başvuruya dahil edilecek kişiler listelenir (en fazla **10 kişi**). Kendi adınız listede hazır olarak yer alır. Eğitime siz katılmayacaksanız, adınızın yanındaki **çöp kutusu simgesine** tıklayarak kendinizi listeden çıkarabilirsiniz.
 3. Çalışma arkadaşlarınızı eklemek için **Katılımcı Ekle** düğmesine tıklayın ve açılan pencerede **Ad**, **Soyad** ve **E-posta** bilgilerini girin. **Telefon** alanı isteğe bağlıdır. **Katılımcı Ekle** düğmesine tıklayarak kişiyi listeye ekleyin; vazgeçmek için **İptal** düğmesini kullanın.
 4. Listedeki bir kişinin bilgilerini değiştirmek için **kalem simgesine**, kişiyi listeden çıkarmak için **çöp kutusu simgesine** tıklayın. Listede hiç kişi kalmadığında **Başvuruları Gönder** düğmesi pasif olur.
 5. **Başvuruları Gönder (N kişi)** düğmesine tıklayın. Başvurunuz alındığında ekranda **“N kişi için toplu başvuru alındı”** mesajı görüntülenir.
