@@ -441,3 +441,33 @@ input {
 .md-typeset .review-note p {
   margin: 0.4rem 0 0;
 }
+
+/* Menüde, karar bekleyen notu olan sayfaların başındaki sayı rozeti.
+   Her sayfa satırında rozet kadar boşluk ayrılır; böylece başlıkların hizası bozulmaz. */
+.md-nav[data-md-level="1"] > .md-nav__list > .md-nav__item > .md-nav__link::before,
+.md-nav[data-md-level="1"] > .md-nav__list > .md-nav__item > a.md-nav__link::before {
+  content: "";
+  flex: 0 0 24px;
+}
+
+.md-nav[data-md-level="1"] .md-nav__link:has(> .review-count)::before {
+  display: none;
+}
+
+.md-nav__link .review-count {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  padding: 0 4px;
+  border: 1px solid #b68a36;
+  border-radius: 999px;
+  background: #fff8e8;
+  color: #493710;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}

@@ -13,6 +13,10 @@
   {% if nav_item.meta and nav_item.meta.icon %}
     {% include ".icons/" ~ nav_item.meta.icon ~ ".svg" %}
   {% endif %}
+  {% set review_count = review_counts.get(nav_item.file.src_uri) if (review_counts and nav_item.file) else none %}
+  {% if review_count %}
+    <span class="review-count" title="{{ review_count }} karar bekleyen not" aria-label="{{ review_count }} karar bekleyen not">{{ review_count }}</span>
+  {% endif %}
   <span class="md-ellipsis">
     {{ ref.title }}
     {% if nav_item.meta and nav_item.meta.subtitle %}

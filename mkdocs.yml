@@ -43,6 +43,9 @@ nav:
 
 plugins: []
 
+hooks:
+  - hooks/review_counts.py
+
 markdown_extensions:
   - toc:
       permalink: true
