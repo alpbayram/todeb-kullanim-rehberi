@@ -51,7 +51,8 @@ Her dosyanın **TÖDEB Dosya Kodu** vardır (ör. `TDB-UOD-2026-00002`). Bir dos
 
 ## Erişimi kısıtlı dosyalar
 
-Bazı dosyalar tüm üyelere değil, yalnızca belirli kullanıcılara açıktır. Böyle bir dosyanın **TÖDEB Dosya Kodu** farklı bir ön ekle (ör. `TDB-KST-2026-00001`) başlar. Dosyaya erişim yetkiniz yoksa dosya listenizde görüntülenmez; bu durumda dosyanın bulunduğu klasörde onu göremiyor olmanız bir hata değildir. Erişiminiz olduğuna inandığınız bir dosyayı göremiyorsanız [Destek Talepleri](destek-talepleri.md) üzerinden bize ulaşın.
+Bazı dosyalar tüm üyelere değil, yalnızca belirli kullanıcılara açıktır. Böyle bir dosyanın **TÖDEB Dosya Kodu** farklı bir ön ekle (ör. `TDB-KST-2026-00001`) başlar. Dosyaya erişim yetkiniz yoksa dosya listenizde görüntülenmez; bu durumda dosyanın bulunduğu klasörde onu göremiyor olmanız bir hata değildir.  
+*→ Erişiminiz olduğuna inandığınız bir dosyayı göremiyorsanız [Destek Talepleri](destek-talepleri.md) üzerinden bize ulaşın.*
 
 ## Karşılaşabileceğiniz durumlar
 

@@ -37,7 +37,8 @@ Sayfada şu öğeler bulunur:
 
 > **Bilgi:** Başvuru yalnızca **Başvuru Tarihleri** arasında yapılabilir. Katılımcı listesi boşaldığında **Başvuruları Gönder** düğmesi pasif hale gelir. Katılımcı e-posta adresi, kuruluşunuzun **Genel Bilgiler** sayfasındaki **Alan Adları** bölümünde beyan edilen alan adlarından birine ait olmalıdır. Aksi hâlde katılımcı ekleme penceresinde **“Girdiğiniz e-posta adresinin alan adı kuruluşunuzda tanımlı alan adları arasında yer almıyor. Lütfen kuruluşunuza ait alan adlarından birini kullanan bir e-posta adresi giriniz. Yeni bir alan adı kullanmanız gerekiyorsa Genel Bilgiler sayfasındaki Alan Adları bölümünden ekleyebilirsiniz.”** uyarısı, başvuru gönderilirken ise **“Girilen e-posta adresi kuruluşunuzda tanımlı alan adlarından birine ait değil. Lütfen kuruluşunuza ait alan adlarından birini kullanan bir e-posta adresi giriniz.”** uyarısı görüntülenir. Katılımcı eklerken **Telefon** alanı isteğe bağlıdır. Etkinliklerde ayrıca onay veya ret süreci bulunmaz.
 
-> **Bilgi:** **Kuruluşun ana hesabı etkinliklere başvuramaz**; Ana hesapta başvuru düğmesi pasiftir; başvuruyu yalnızca kuruluşunuzdaki alt kullanıcılar kendi hesaplarıyla yapabilir. Alt kullanıcı hesabı oluşturmak için [Kullanıcılar](kullanicilar.md) rehberine bakın.
+> **Bilgi:** **Kuruluşun ana hesabı etkinliklere başvuramaz**; Ana hesapta başvuru düğmesi pasiftir; başvuruyu yalnızca kuruluşunuzdaki alt kullanıcılar kendi hesaplarıyla yapabilir.  
+> *→ Alt kullanıcı hesabı oluşturmak için [Kullanıcılar](kullanicilar.md) rehberine bakın.*
 
 <!-- REVIEW:START ETKINLIK-02 -->
 <div class="review-note" data-review-id="ETKINLIK-02" role="note">

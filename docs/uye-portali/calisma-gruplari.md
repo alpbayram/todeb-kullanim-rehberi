@@ -2,7 +2,8 @@
 
 Bu rehber, kuruluşunuzun katılımcısı olduğu TÖDEB çalışma gruplarını portal üzerinden görüntülemenizi, çalışma grubunun üyelerine, toplantılarına ve belgelerine ulaşmanızı açıklamaktadır.
 
-Çalışma grupları, portalda komitelerle **aynı sayfada** listelenir ve aynı biçimde kullanılır. Bu nedenle ayrıntılı kullanım adımları için [Komiteler](komiteler.md) rehberine de bakabilirsiniz.
+Çalışma grupları, portalda komitelerle **aynı sayfada** listelenir ve aynı biçimde kullanılır.  
+*→ Ayrıntılı kullanım adımları için [Komiteler](komiteler.md) rehberine de bakabilirsiniz.*
 
 ## Çalışma gruplarına ulaşma
 

@@ -73,11 +73,13 @@ Ekranda **“Kullanıcı güncellendi”** bildirimi görüntülenir.
 
 Pasif yapılan kullanıcı portala giriş yapmaya çalıştığında **“Hesabınız devre dışı bırakıldı. Lütfen destek ile iletişime geçin.”** uyarısını görür ve giriş yapamaz. Kullanıcı yeniden aktif yapıldığında önceki şifresiyle giriş yapabilir.
 
-> **Bilgi:** Bu sayfada kullanıcıyı silme seçeneği bulunmaz. Ayrıca kendi hesabınızın (kuruluşun ana hesabı) satırındaki işlemler menüsü kullanılamaz; kendi bilgilerinizi [Profil](profil-ve-hesap-islemleri.md) sayfasından güncelleyebilirsiniz.
+> **Bilgi:** Bu sayfada kullanıcıyı silme seçeneği bulunmaz. Ayrıca kendi hesabınızın (kuruluşun ana hesabı) satırındaki işlemler menüsü kullanılamaz.  
+> *→ Kendi bilgilerinizi [Profil](profil-ve-hesap-islemleri.md) sayfasından güncelleyebilirsiniz.*
 
 ## Alt kullanıcının ilk girişi
 
-Yeni eklenen kullanıcıya, giriş bilgileri kayıtlı e-posta adresine iletilir. Kullanıcı bu bilgilerle giriş yaptığında, geçici şifresini değiştirmesi zorunludur; yeni şifre belirlendikten sonra **“Şifreniz güncellendi. Lütfen tekrar giriş yapın.”** mesajı görüntülenir ve kullanıcının yeni şifresiyle yeniden giriş yapması gerekir. Yeniden giriş yapıldığında **KVKK metni** görüntülenir; metni sonuna kadar okuyup onaylamanız gerekmektedir. Onay vermeden portalı kullanamazsınız. Ayrıntılı adımlar için [İlk giriş](ilk-giris.md) rehberine bakın.
+Yeni eklenen kullanıcıya, giriş bilgileri kayıtlı e-posta adresine iletilir. Kullanıcı bu bilgilerle giriş yaptığında, geçici şifresini değiştirmesi zorunludur; yeni şifre belirlendikten sonra **“Şifreniz güncellendi. Lütfen tekrar giriş yapın.”** mesajı görüntülenir ve kullanıcının yeni şifresiyle yeniden giriş yapması gerekir. Yeniden giriş yapıldığında **KVKK metni** görüntülenir; metni sonuna kadar okuyup onaylamanız gerekmektedir. Onay vermeden portalı kullanamazsınız.  
+*→ Ayrıntılı adımlar için [İlk giriş](ilk-giris.md) rehberine bakın.*
 
 > **Bilgi:** Alt kullanıcı hesapları **Kullanıcılar** ve **Roller** menülerini görmez; bu sayfalar yalnızca kuruluşun ana hesabı içindir. Alt kullanıcı, bu adreslere doğrudan gitmeye çalışırsa **Genel Bilgiler** sayfasına yönlendirilir.
 

@@ -4,7 +4,8 @@ Bu rehber, kuruluşunuzun katılımcısı olduğu TÖDEB komitelerini portal üz
 
 ## Komiteler sayfasına ulaşma
 
-Sol menüde **KURULUŞ** başlığı altında yer alan **Komite / Çalışma Grupları** seçeneğine tıklayın. Komiteler ve çalışma grupları aynı sayfada listelenir. Çalışma grupları için ayrıca [Çalışma grupları](calisma-gruplari.md) rehberine bakabilirsiniz.
+Sol menüde **KURULUŞ** başlığı altında yer alan **Komite / Çalışma Grupları** seçeneğine tıklayın. Komiteler ve çalışma grupları aynı sayfada listelenir.  
+*→ Çalışma grupları için ayrıca [Çalışma grupları](calisma-gruplari.md) rehberine bakabilirsiniz.*
 
 ## Video anlatım
 

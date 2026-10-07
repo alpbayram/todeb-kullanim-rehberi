@@ -53,7 +53,8 @@ Değiştirilebilen kartların sağ üst köşesinde **kalem simgesi** bulunur. A
 ### Adımlar
 
 1. **Güncellemek istediğiniz kartı bulun.** Kartın sağ üstündeki kalem simgesine tıklayın.
-2. **Bilgileri güncelleyin.** Açılan pencerede alanlar mevcut bilgilerinizle dolu gelir. Gerekli değişiklikleri yapın. Alanlara ilişkin kurallar [Üyelik başvurusu](uyelik-basvurusu.md) formundakiyle aynıdır.
+2. **Bilgileri güncelleyin.** Açılan pencerede alanlar mevcut bilgilerinizle dolu gelir. Gerekli değişiklikleri yapın.  
+   *→ Alanlara ilişkin kurallar [Üyelik başvurusu](uyelik-basvurusu.md) formundakiyle aynıdır.*
 3. **Kaydet** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın.
 
 ## Değişiklik sonrası beklenen sonuç

@@ -27,4 +27,4 @@ Menüde ve ekranda gördükleriniz, hesabınıza atanan **role** bağlıdır:
 - Diğer menü başlıkları (**Genel Bilgiler**, **Destek Talepleri**, **Duyurular**, **Anketler**, **Takvim**, **Etkinlikler**, **Dosya Alanı**, **Komite / Çalışma Grupları**) tüm kullanıcılarda görünür; ancak ilgili yetkiniz yoksa sayfalar boş görüntülenir.
 - Yetkiniz olmayan bir sayfanın adresini doğrudan açarsanız **Genel Bilgiler** sayfasına yönlendirilirsiniz.
 
-Rollerin nasıl tanımlanacağı için [Roller ve yetkiler](roller-ve-yetkiler.md), bir kullanıcıya rol atamak için [Kullanıcılar](kullanicilar.md) rehberine bakın.
+*→ Rollerin nasıl tanımlanacağı için [Roller ve yetkiler](roller-ve-yetkiler.md), bir kullanıcıya rol atamak için [Kullanıcılar](kullanicilar.md) rehberine bakın.*

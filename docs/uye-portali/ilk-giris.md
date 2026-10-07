@@ -36,7 +36,7 @@ Metinleri onayladıktan sonra **Üyelik Başvurusu** formunu doldurmaya başlaya
 
 Bu aşamada yalnızca ilk giriş işlemini tamamladınız; üyelik başvurunuz henüz gönderilmiş değildir.
 
-[Üyelik başvurusunu tamamlama rehberine geçin.](uyelik-basvurusu.md)
+*→ [Üyelik başvurusunu tamamlama rehberine geçin.](uyelik-basvurusu.md)*
 
 ## Giriş yapamıyorsanız
 

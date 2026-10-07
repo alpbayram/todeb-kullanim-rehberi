@@ -20,7 +20,8 @@ Portalda bir süre hiçbir işlem yapmazsanız, güvenliğiniz için ekranda **O
 
 ## Şifre süresi
 
-**Profil** sayfasındaki **Güvenlik** kartında, şifrenizin **geçerlilik tarihi** ve **kalan süresi** (gün olarak) görüntülenir. Şifrenizi değiştirmek için [Profil ve hesap işlemleri](profil-ve-hesap-islemleri.md) rehberindeki adımları izleyin.
+**Profil** sayfasındaki **Güvenlik** kartında, şifrenizin **geçerlilik tarihi** ve **kalan süresi** (gün olarak) görüntülenir.  
+*→ Şifrenizi değiştirmek için [Profil ve hesap işlemleri](profil-ve-hesap-islemleri.md) rehberindeki adımları izleyin.*
 
 ## Güvenlik önerileri
 

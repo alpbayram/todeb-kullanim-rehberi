@@ -75,7 +75,8 @@ Uyarıları gideren alanları doldurduktan sonra yeniden **Gönder** düğmesine
 
 ## TÖDEB yanıt verdiğinde
 
-TÖDEB talebinize yanıt verdiğinde, ekranın sağ üstündeki **zil simgesinde** kırmızı bir nokta belirir. Zile tıkladığınızda **“Destek Talebiniz Yanıtlandı”** bildirimi görüntülenir. Bildirime tıkladığınızda talebin detay paneli açılır ve yanıtı okuyabilirsiniz. Bildirimlerinizin tamamını görmek için [Bildirimler](bildirimler.md) rehberine bakabilirsiniz.
+TÖDEB talebinize yanıt verdiğinde, ekranın sağ üstündeki **zil simgesinde** kırmızı bir nokta belirir. Zile tıkladığınızda **“Destek Talebiniz Yanıtlandı”** bildirimi görüntülenir. Bildirime tıkladığınızda talebin detay paneli açılır ve yanıtı okuyabilirsiniz.  
+*→ Bildirimlerinizin tamamını görmek için [Bildirimler](bildirimler.md) rehberine bakabilirsiniz.*
 
 ## Kuruluşunuzun tüm destek talepleri
 

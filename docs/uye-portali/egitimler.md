@@ -44,7 +44,8 @@ Başvurunuz alındıktan sonra TÖDEB tarafından değerlendirilir. Başvurunuzu
 
 Bir e-posta adresiyle aynı eğitime daha önce başvuru yapılmışsa **“Bu eğitim için ’…’ e-posta adresiyle zaten bir başvuru mevcut.”** uyarısı görüntülenir ve başvuru tekrarlanmaz. Başvuru yaptıktan sonra eğitim paneli yeniden açıldığında katılımcı listesi hazır gelir; başvurunun alındığını panelden değil, gönderim sırasındaki mesajdan takip edebilirsiniz.
 
-> **Bilgi:** Eğitim başvurusu için kişi listesi etkinlik başvurusuyla aynı şekilde yönetilir; ayrıntılar için [Etkinlikler](etkinlikler.md) rehberine bakın. Kuruluşun ana hesabı etkinliklere ve eğitimlere başvuru yapamaz; ana hesapta başvuru düğmesi pasiftir. Başvuruyu yalnızca alt kullanıcılar yapabilir. Birden fazla kişi adına toplu başvuru yapabilmek için kullanıcının rolünde toplu başvuru yetkisi bulunmalıdır; bu yetki, örnek **İK Yetkilisi** rolünde yer alır.
+> **Bilgi:** Eğitim başvurusu için kişi listesi etkinlik başvurusuyla aynı şekilde yönetilir. Kuruluşun ana hesabı etkinliklere ve eğitimlere başvuru yapamaz; ana hesapta başvuru düğmesi pasiftir. Başvuruyu yalnızca alt kullanıcılar yapabilir. Birden fazla kişi adına toplu başvuru yapabilmek için kullanıcının rolünde toplu başvuru yetkisi bulunmalıdır; bu yetki, örnek **İK Yetkilisi** rolünde yer alır.  
+> *→ Ayrıntılar için [Etkinlikler](etkinlikler.md) rehberine bakın.*
 
 <!-- REVIEW:START EGITIM-01 -->
 <div class="review-note" data-review-id="EGITIM-01" role="note">

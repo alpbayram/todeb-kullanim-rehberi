@@ -32,7 +32,8 @@ Ekranın sağ üstünde, profil simgenizin yanında **zil simgesi** yer alır. O
 
 > **Bilgi:** Etkinlik veya eğitime başvuru yapmak, bir anketi yanıtlamak ve dosya indirmek gibi kendi yaptığınız işlemler için bildirim oluşmaz; bu işlemlerin sonucunu işlemi yaptığınız ekranda görüntülenen mesajdan takip edebilirsiniz.
 
-> **Bilgi:** Zil simgesi ve **Bildirimler** sayfası, rolünüzde **Bildirimleri Görüntüleme** yetkisi bulunan kullanıcılara görüntülenir. Bu yetkiye sahip değilseniz zil simgesi görünmez ve bildirim sayfasına gitmeye çalıştığınızda **Genel Bilgiler** sayfasına yönlendirilirsiniz. Yetkiler için [Roller ve yetkiler](roller-ve-yetkiler.md) rehberine bakın.
+> **Bilgi:** Zil simgesi ve **Bildirimler** sayfası, rolünüzde **Bildirimleri Görüntüleme** yetkisi bulunan kullanıcılara görüntülenir. Bu yetkiye sahip değilseniz zil simgesi görünmez ve bildirim sayfasına gitmeye çalıştığınızda **Genel Bilgiler** sayfasına yönlendirilirsiniz.  
+> *→ Yetkiler için [Roller ve yetkiler](roller-ve-yetkiler.md) rehberine bakın.*
 
 <!-- REVIEW:START BILDIRIM-02 -->
 <div class="review-note" data-review-id="BILDIRIM-02" role="note">

@@ -31,11 +31,13 @@ Sayfada, TÖDEB tarafından üyelere özel olarak yayımlanan duyurular, **en ye
 
 ## Etkinlik kayıt duyuruları
 
-TÖDEB, başvurusu açık etkinlikleri de bu sayfada duyurur. Tamamlanan etkinlikler için **ETKİNLİK TAMAMLANDI** etiketli duyurular da yayımlanır. Bu duyurular başlığın yanındaki **ETKİNLİK KAYIT ALINIYOR** etiketiyle ayırt edilir. Duyuruya tıkladığınızda açılan panelde, duyuru metninin altında **Etkinlik Bilgileri** (**Etkinlik Adı**, **Etkinlik Tarihi**, **Başvuru Tarihleri**, **Konum**, **Açıklama**) ve **Başvur** ile **Takvimde İncele** düğmeleri yer alır. Başvuru adımları için [Etkinlikler](etkinlikler.md) rehberine bakın.
+TÖDEB, başvurusu açık etkinlikleri de bu sayfada duyurur. Tamamlanan etkinlikler için **ETKİNLİK TAMAMLANDI** etiketli duyurular da yayımlanır. Bu duyurular başlığın yanındaki **ETKİNLİK KAYIT ALINIYOR** etiketiyle ayırt edilir. Duyuruya tıkladığınızda açılan panelde, duyuru metninin altında **Etkinlik Bilgileri** (**Etkinlik Adı**, **Etkinlik Tarihi**, **Başvuru Tarihleri**, **Konum**, **Açıklama**) ve **Başvur** ile **Takvimde İncele** düğmeleri yer alır.  
+*→ Başvuru adımları için [Etkinlikler](etkinlikler.md) rehberine bakın.*
 
 ## Yeni duyurulardan haberdar olma
 
-TÖDEB yeni bir duyuru yayımladığında, ekranın sağ üstündeki **zil simgesinde** kırmızı bir nokta belirir. Zile tıkladığınızda **“Yeni Duyuru – Yeni bir duyuru yayınlandı.”** bildirimi görüntülenir. Bildirimin görüntülenmesi, duyurunun yayımlanmasından birkaç dakika sürebilir. Bildirimlerinizin tamamını görmek için [Bildirimler](bildirimler.md) rehberine bakabilirsiniz.
+TÖDEB yeni bir duyuru yayımladığında, ekranın sağ üstündeki **zil simgesinde** kırmızı bir nokta belirir. Zile tıkladığınızda **“Yeni Duyuru – Yeni bir duyuru yayınlandı.”** bildirimi görüntülenir. Bildirimin görüntülenmesi, duyurunun yayımlanmasından birkaç dakika sürebilir.  
+*→ Bildirimlerinizin tamamını görmek için [Bildirimler](bildirimler.md) rehberine bakabilirsiniz.*
 
 Bildirime tıkladığınızda **Duyurular** sayfası açılır ve ilgili duyurunun metni sağdaki panelde görüntülenir. Yeni duyurular, listede başlığın yanındaki **YENİ** etiketiyle de belirtilir.
 
