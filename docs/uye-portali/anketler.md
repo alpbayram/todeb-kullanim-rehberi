@@ -20,7 +20,7 @@ Sayfada, size açılmış anketler listelenir. Her anket için **Başlık**, **Y
 - **Cevapla düğmesi:** Henüz yanıtlamadığınız anketlerin satırında yer alır.
 - **Durum:** Yanıtlamadığınız anketlerde bu alan boştur (“-”). Yanıtladığınız anketlerde **Tamamlandı** olarak görüntülenir.
 
-> **Bilgi:** Bir anket, TÖDEB tarafından belirlenen **başlangıç tarih ve saatinde** listenizde görünür hâle gelir. Yeni bir anket bekliyorsanız ve henüz göremiyorsanız, belirtilen başlangıç zamanından sonra sayfayı yenileyin.
+> **Bilgi:** Bir anket, TÖDEB tarafından belirlenen **başlangıç tarih ve saatinde** listenizde görünür hâle gelir. Yeni bir anket bekliyorsanız ve henüz göremiyorsanız, belirtilen başlangıç zamanından sonra sayfayı yenileyin. Anketin **bitiş tarihi** geçtiğinde ise anket listenizden kalkar; bitiş tarihinden sonra yanıt gönderemezsiniz.
 
 ## Anketi yanıtlama
 
@@ -65,7 +65,7 @@ Anket listesinde ilgili anketin durumu **Tamamlandı** olur ve **Cevapla** düğ
 <!-- REVIEW:START ANKET-02 -->
 <div class="review-note" data-review-id="ANKET-02" role="note">
 <strong>[Karar bekliyor] ANKET-02</strong>
-<p>Anketin <strong>KVKK dokümanı onayı</strong> istemesi (KVKK metinleri hazır olduğunda panelde bir onay adımı bekleniyor), <strong>Herkese Açık</strong> anketlerin portal dışında bir bağlantıyla yanıtlanması ve bitiş tarihi geçen anketin listeden kalkması ekranda üretilmedi; bu bölümler yazılım tarafında netleştiğinde eklenecek. Yanıt gönderirken dosya boyutu/tür hata metinleri de görülmedi. Anketler menüsü için Roller sayfasında ayrı bir yetki grubu bulunmuyor (anketler tüm rollere açıktır).</p>
+<p>Anketin <strong>KVKK dokümanı onayı</strong> istemesi (KVKK metinleri hazır olduğunda panelde bir onay adımı bekleniyor) henüz denenmedi; KVKK’lı anket senaryosu denendikten sonra rehberde konumlandırılacak. Yanıt gönderirken dosya boyutu/tür hata metinleri de görülmedi. Anketler menüsü için Roller sayfasında ayrı bir yetki grubu bulunmuyor (anketler tüm rollere açıktır).</p>
 </div>
 <!-- REVIEW:END ANKET-02 -->
 
