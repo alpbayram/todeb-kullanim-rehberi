@@ -103,7 +103,7 @@ Bildirime tıkladığınızda açılan **Kurum Bildirimleri** sayfasında, kurul
 <!-- REVIEW:START DESTEK-02 -->
 <div class="review-note" data-review-id="DESTEK-02" role="note">
 <strong>[Karar bekliyor] DESTEK-02</strong>
-<p>Durum değişikliğinde yalnızca <strong>Cevaplandı</strong> için bildirim gittiği görüldü (Beklemede, Tamamlandı, Kapatıldı için gitmiyor); e-posta gönderilip gönderilmediği ekranda görülemedi, bu yüzden yazılmadı. Bildirim metni durumu “Yanıtlandı” diye yazıyor, listede ise “Cevaplandı” görünüyor. Kategori ve alt başlık listeleri TÖDEB tarafından belirlenir; yayına çıkmadan önce gerçek kategori adlarıyla güncellenecek (şu an örnek veridir).</p>
+<p>Talep durumu değiştiğinde üyeye giden bildirim ve e-posta davranışı netleşene kadar rehberde yalnızca ekranda görülen yazıldı: bildirim yalnızca <strong>Cevaplandı</strong> durumunda gidiyor ve metinde “Yanıtlandı” yazıyor. E-posta gidip gitmediği görülemedi, bu yüzden yazılmadı.</p>
 </div>
 <!-- REVIEW:END DESTEK-02 -->
 

@@ -13,7 +13,6 @@ Formu tek seferde rahatça tamamlayabilmeniz için aşağıdaki bilgileri ve bel
 - Kuruluş logonuz (JPG, PNG veya WebP biçiminde, en fazla 50 MB)
 - Genel müdürlük ve müşteri hizmetleri telefon numaraları
 - TCMB faaliyet izni karar tarihi ve Resmî Gazete tarihi
-- Aktif faaliyetleriniz ve faaliyete başlama tarihleri
 - Yetkili olduğunuz bentler ile her bent için TCMB’den faaliyet veya faaliyet genişletme izni alınan tarih
 
 **Bölüm 3 — Yönetici bilgileri**
@@ -73,10 +72,6 @@ Başka bir dosya seçmek için **Görseli Değiştir**, işlemden vazgeçmek iç
 - **Faaliyet İzni Resmî Gazete Tarihi** alanına iznin Resmî Gazete’de yayımlandığı tarihi girin.
 
 Tarihleri ekranda gösterilen **GG.AA.YYYY** biçiminde yazın.
-
-### Aktif faaliyetler
-
-**Üye Aktif Faaliyetleri** alanında **Hizmet seçin** listesinden hizmetinizi ekleyin ve **Faaliyete Başlama Tarihi**’ni girin.
 
 ### Yetkili bentler
 

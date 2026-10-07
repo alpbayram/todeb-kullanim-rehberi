@@ -490,12 +490,11 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 - **Ne olmalı:** Etiket “Görev” olmalı ya da girilen ünvan gösterilmeli; ad tek biçimde yazılmalı.
 - **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
 
-### 🟠 #14 · ⏳ Sonra ele alınacak — “Üye Aktif Faaliyetleri” düzenlenemiyor
+### 🟢 #14 · 🗑 Geçerli değil — “Üye Aktif Faaliyetleri” (hizmet) kaldırıldı
 
-- **Nerede:** Genel Bilgiler → Kuruluşa İlişkin Diğer Bilgiler → düzenle.
-- **Ne oluyor:** Başvuru formunda seçilebilen **Üye Aktif Faaliyetleri**, düzenleme penceresinde yok (kart “Kayıtlı hizmet bulunmamaktadır” yazıyor).
-- **Ne olmalı:** Alan düzenlenebilir olmalı ya da neden gizlendiği netleştirilmeli.
-- **Karar (6 Ekim):** Acil değil, ana sistemi (core) bozmuyor; sonraki sürüme/ilerleyen zamana bırakıldı. Nilay Hanım’a iletilmeyecek.
+- **Nerede:** Üyelik başvurusu Bölüm 1; Genel Bilgiler → Faaliyet İzinleri kartı.
+- **Ne oluyor (7 Ekim yeni bir test kuruluşuyla denendi):** Başvuru formunun Bölüm 1’inde ve Genel Bilgiler’deki düzenleme penceresinde **Üye Aktif Faaliyetleri / Hizmet seçin** alanı yok. Panelde **Aktif Faaliyet Tanımları** listesi de boş. Genel Bilgiler kartında yalnızca “Kayıtlı hizmet bulunmamaktadır” yazısı kalmış.
+- **Karar (7 Ekim):** Hizmet özelliği komple kaldırıldı; bu madde geçerli değil. Rehberden hem başvuru hem Genel Bilgiler sayfasındaki anlatım çıkarıldı. Kartta kalan “Kayıtlı hizmet bulunmamaktadır” yazısı kalıntıdır (acil değil).
 
 ### 🟠 #16 · ✔ Bilerek böyle — HMB IP değişikliği için iki metin (aslında aynı şeyi söylüyor)
 

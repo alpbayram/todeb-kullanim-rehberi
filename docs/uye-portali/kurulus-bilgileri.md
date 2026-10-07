@@ -18,7 +18,7 @@ Sayfanın üst kısmında “Hoş geldiniz” başlığı ve kuruluşunuzun adı
 
 - **Firma Bilgileri:** Ticari unvan, genel müdürlük ve müşteri hizmetleri telefonları, e-posta, web sitesi, adres, KEP adresi ve markalar. Kartın üstünde üyelik durumunuz (**Aktif**) yer alır.
 - **Mali ve Kurumsal Bilgiler:** Vergi dairesi, vergi numarası, MERSİS numarası, NACE kodu, mali işler ortak e-posta adresi ve fatura adresi.
-- **Faaliyet İzinleri:** Faaliyet izin türü, TCMB karar tarihi, Resmî Gazete tarihi, yetkili bentler ve aktif faaliyetler.
+- **Faaliyet İzinleri:** Faaliyet izin türü, TCMB karar tarihi, Resmî Gazete tarihi, ve yetkili bentler.
 - **Alan Adları:** Kuruluşunuzun beyan ettiği alan adları. Alt kullanıcıların ve etkinlik/eğitim başvurusuna eklenen katılımcıların e-posta adresleri bu alan adlarından birine ait olmalıdır.
 - **Yöneticiler:** Genel Müdür ve Genel Müdür Yardımcılarının bilgileri.
 - **Hazine ve Maliye Bakanlığına Yapılan Raporlama Bilgileri:** IP adresleri ve raporlama e-posta adresi.
@@ -73,10 +73,6 @@ Aşağıdaki bilgiler portal üzerinden değiştirilemez; ilgili kartlarda kalem
 - **Ticari unvan**, **adres** ve **KEP adresi**
 
 Birlik Temsilcisi değişikliği, adres değişikliği, KEP adresi değişikliği ve ticaret unvanı değişikliği talepleri, KEP üzerinden resmî yazı ile Birliğe iletilmelidir. Ayrıntılar için [TÖDEB Kılavuzu](https://www.todeb.org.tr/todebkilavuzu) incelenebilir. Şube ve temsilcilik bildirimleri ise TÖDEB Veri Transferi Sistemi (TVTS) üzerinden yapılmaktadır.
-
-## Aktif faaliyetler
-
-**Faaliyet İzinleri** kartında **Üye Aktif Faaliyetleri** alanı yer alır. Kuruluşunuza ait aktif faaliyet kaydı bulunmuyorsa bu alanda “Kayıtlı hizmet bulunmamaktadır.” ifadesi görüntülenir.
 
 ## İlgili rehberler
 
