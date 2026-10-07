@@ -27,8 +27,26 @@ Sol menüde **İŞLEMLER** başlığı altında yer alan **Destek Talepleri** se
 
 Her talebin yanında renkli etiketle gösterilen bir **durum** ve bir **öncelik** bilgisi yer alır.
 
-- **Durum:** **Yeni**, **Cevaplandı**, **Beklemede**, **Tamamlandı** veya **Kapatıldı**. Talebiniz oluşturulduğunda durumu **Yeni**’dir.
-- **Öncelik:** **Düşük**, **Orta**, **Yüksek** veya **Kritik**. Talebi oluştururken önceliği siz seçersiniz.
+- **Durum:** Talebin hangi aşamada olduğunu gösterir. Talebiniz oluşturulduğunda durumu **Yeni**’dir.
+
+  | Durum | Etiket rengi | Anlamı |
+  |---|---|---|
+  | **Yeni** | Mavi | Talebiniz alındı, henüz yanıtlanmadı. |
+  | **Cevaplandı** | Mor | TÖDEB talebinize yanıt verdi. |
+  | **Beklemede** | Sarı | Talebiniz beklemeye alındı. |
+  | **Tamamlandı** | Yeşil | Talebiniz sonuçlandırıldı. |
+  | **Kapatıldı** | Gri | Talep kapatıldı. |
+
+- **Öncelik:** Talebi oluştururken önceliği siz seçersiniz.
+
+  | Öncelik | Etiket rengi |
+  |---|---|
+  | **Düşük** | Mor |
+  | **Orta** | Sarı |
+  | **Yüksek** | Kırmızı |
+  | **Kritik** | Kırmızı (yazı kalın görünür) |
+
+**Tamamlandı** veya **Kapatıldı** durumundaki taleplerde yanıt yazma alanı görüntülenmez; bu talepler için yeni bir destek talebi oluşturmanız gerekmektedir. **Yeni**, **Cevaplandı** ve **Beklemede** durumundaki taleplere yanıt yazmaya devam edebilirsiniz.
 
 ## Yeni destek talebi oluşturma
 
@@ -85,7 +103,7 @@ Bildirime tıkladığınızda açılan **Kurum Bildirimleri** sayfasında, kurul
 <!-- REVIEW:START DESTEK-02 -->
 <div class="review-note" data-review-id="DESTEK-02" role="note">
 <strong>[Karar bekliyor] DESTEK-02</strong>
-<p>Talep durumlarının renkleri (yalnızca <strong>Yeni</strong> mavi ve <strong>Orta</strong> sarı görüldü) ve durum değişikliğinde bildirim/e-posta gönderilmesi ekranda üretilemediği için yazılmadı; kapalı veya tamamlanmış taleplere yanıt yazılabilmesi de görülmedi. Kategori ve alt başlık listeleri TÖDEB tarafından belirlenir; yayına çıkmadan önce gerçek kategori adlarıyla güncellenecek (şu an örnek veridir).</p>
+<p>Durum değişikliğinde yalnızca <strong>Cevaplandı</strong> için bildirim gittiği görüldü (Beklemede, Tamamlandı, Kapatıldı için gitmiyor); e-posta gönderilip gönderilmediği ekranda görülemedi, bu yüzden yazılmadı. Bildirim metni durumu “Yanıtlandı” diye yazıyor, listede ise “Cevaplandı” görünüyor. Kategori ve alt başlık listeleri TÖDEB tarafından belirlenir; yayına çıkmadan önce gerçek kategori adlarıyla güncellenecek (şu an örnek veridir).</p>
 </div>
 <!-- REVIEW:END DESTEK-02 -->
 

@@ -291,12 +291,12 @@ Rollerin portalda neyi gösterip neyi gizlediği. Yetki mantığı ekranda çoğ
 <a id="bolum-5"></a>
 ## 5. Destek talepleri
 
-### 🔴 #27 · ⏳ Sonra ele alınacak — Panelde destek talebi durumu değişmiyor
+### 🟢 #27 · ✔ Yeniden denendi, çalışıyor — Panelde destek talebi durumu
 
 - **Nerede:** Yönetim paneli → Destek Talepleri → talep detayı → durum açılır menüsü.
-- **Ne oluyor:** Bir durum seçilince çıkan **Durumu güncelle** penceresi “#TDM-000001 numaralı ticket’ın durumunu **olarak** değiştirmek istiyor musunuz?” diyor (seçilen durumun adı cümlede yok) ve **Onayla**’ya basılsa da durum **“Yeni”de kalıyor** (“Cevaplandı” denendi). Yanıt yazılması durumu otomatik değiştirmiyor.
-- **Ne olmalı:** Durum seçildiğinde değişmeli, onay metni durumu içermeli. Portalda durumlar ve renkleri ancak böyle gözlenebilir (şu an yalnızca Yeni/Orta görüldü).
-- **Karar (6 Ekim):** Talep durumunun “Yeni”de kalması şimdilik kalsın; sistem çalışmaya başlayınca (ilk günlerde) çözülecek.
+- **Ne oluyor (7 Ekim yeniden denendi):** Bir durum seçilince çıkan **Durumu güncelle** penceresinde **Onayla**’ya basılınca durum değişiyor ve onay metninde durumun adı artık görünüyor (“… durumunu Cevaplandı olarak değiştirmek istiyor musunuz?”). Önceki denemede “Yeni”de kaldığı görülmüştü; o sırada onay adımı atlanmış olabilir. Beş durum da denendi: portalda **Yeni** mavi, **Cevaplandı** mor, **Beklemede** sarı, **Tamamlandı** yeşil, **Kapatıldı** gri görünüyor.
+- **Küçük notlar:** (1) Panelden yanıt yazmak durumu otomatik **Cevaplandı** yapmıyor; durum elle değiştirilmeli. (2) Üye tarafına yalnızca **Cevaplandı** seçildiğinde “Destek Talebi Durumu Değişti” bildirimi gidiyor; Beklemede, Tamamlandı ve Kapatıldı seçildiğinde bildirim gitmiyor. (3) Bildirim metni durumu **“Yanıtlandı”** diye yazıyor, listede ise **“Cevaplandı”** görünüyor (adlandırma farklı). (4) **Tamamlandı** ve **Kapatıldı** taleplerde portalda yanıt alanı hiç görünmüyor ve bunu açıklayan bir ifade yok; üye yeni bir talep açmak zorunda.
+- **Karar (7 Ekim):** Durum davranışı rehbere işlendi. Üstteki küçük notlar ileride SHFT’ye iletilebilir (acil değil).
 
 ### 🟠 #30 · ⏳ Sonra ele alınacak — Kurum Bildirimleri sayfasına menüden ulaşılamıyor
 
