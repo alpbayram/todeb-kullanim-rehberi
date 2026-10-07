@@ -27,14 +27,14 @@ Takvimde eğitimin başlığına tıklayın. Sağdan açılan **Eğitim Detayı*
 ## Eğitime başvuru
 
 1. **Takvim** sayfasında eğitimi açın. **Durum** alanında **Başvurulara Açık** ifadesini görün.
-2. Panelin altındaki **Katılımcılar** bölümünde, başvuruya dahil edilecek kişiler listelenir (en fazla **10 kişi**). Kendi adınız listede hazır olarak yer alır.
+2. Panelin altındaki **Katılımcılar** bölümünde, başvuruya dahil edilecek kişiler listelenir (en fazla **10 kişi**). Kendi adınız listede hazır olarak yer alır; başvuruyu yalnızca çalışma arkadaşlarınız adına yapıyorsanız kendi satırınızı silebilirsiniz.
 3. Çalışma arkadaşlarınızı eklemek için **Katılımcı Ekle** düğmesine tıklayın ve açılan pencerede **Ad**, **Soyad** ve **E-posta** bilgilerini girin. **Telefon** alanı isteğe bağlıdır. **Katılımcı Ekle** düğmesine tıklayarak kişiyi listeye ekleyin; vazgeçmek için **İptal** düğmesini kullanın.
-4. Listedeki bir kişinin bilgilerini değiştirmek için **kalem simgesine**, kişiyi listeden çıkarmak için **çöp kutusu simgesine** tıklayın.
+4. Listedeki bir kişinin bilgilerini değiştirmek için **kalem simgesine**, kişiyi listeden çıkarmak için **çöp kutusu simgesine** tıklayın. Listede hiç kişi kalmadığında **Başvuruları Gönder** düğmesi pasif olur.
 5. **Başvuruları Gönder (N kişi)** düğmesine tıklayın. Başvurunuz alındığında ekranda **“N kişi için toplu başvuru alındı”** mesajı görüntülenir.
 
 ### Katılımcı e-posta adresi
 
-Katılımcının e-posta adresi, kuruluşunuzun alan adına ait olmalıdır. Farklı bir alan adı girildiğinde pencerede **“Bu kişinin e-posta alan adı (…) kurumunuzun alan adından (…) farklı.”** uyarısı görüntülenir. Başvuru gönderilirken adresi kuruluşunuzun alan adıyla eşleşmeyen bir katılımcı varsa **“’…’ e-posta adresi organizasyonunuzun domain’i ile eşleşmiyor.”** uyarısı görüntülenir ve başvuru gönderilmez. Bu durumda ilgili kişiyi listeden çıkarın veya kuruluş e-posta adresiyle yeniden ekleyin.
+Katılımcının e-posta adresi, kuruluşunuzun **Genel Bilgiler** sayfasındaki **Alan Adları** bölümünde beyan edilen alan adlarından birine ait olmalıdır. Aksi hâlde katılımcı ekleme penceresinde **“Girdiğiniz e-posta adresinin alan adı kuruluşunuzda tanımlı alan adları arasında yer almıyor. Lütfen kuruluşunuza ait alan adlarından birini kullanan bir e-posta adresi giriniz. Yeni bir alan adı kullanmanız gerekiyorsa Genel Bilgiler sayfasındaki Alan Adları bölümünden ekleyebilirsiniz.”** uyarısı, başvuru gönderilirken ise **“Girilen e-posta adresi kuruluşunuzda tanımlı alan adlarından birine ait değil. Lütfen kuruluşunuza ait alan adlarından birini kullanan bir e-posta adresi giriniz.”** uyarısı görüntülenir ve başvuru gönderilmez. Bu durumda ilgili kişiyi listeden çıkarın veya kuruluşunuza ait bir e-posta adresiyle yeniden ekleyin.
 
 ### Başvurunuzun sonucu
 
@@ -44,7 +44,7 @@ Başvurunuz alındıktan sonra TÖDEB tarafından değerlendirilir. Başvurunuzu
 
 Bir e-posta adresiyle aynı eğitime daha önce başvuru yapılmışsa **“Bu eğitim için ’…’ e-posta adresiyle zaten bir başvuru mevcut.”** uyarısı görüntülenir ve başvuru tekrarlanmaz. Başvuru yaptıktan sonra eğitim paneli yeniden açıldığında katılımcı listesi hazır gelir; başvurunun alındığını panelden değil, gönderim sırasındaki mesajdan takip edebilirsiniz.
 
-> **Bilgi:** Eğitim başvurusu için kişi listesi etkinlik başvurusuyla aynı şekilde yönetilir; ayrıntılar için [Etkinlikler](etkinlikler.md) rehberine bakın. Kuruluşun ana hesabı etkinliklere başvuru yapamaz; eğitim başvurularını da alt kullanıcı hesaplarıyla yapmanız önerilir.
+> **Bilgi:** Eğitim başvurusu için kişi listesi etkinlik başvurusuyla aynı şekilde yönetilir; ayrıntılar için [Etkinlikler](etkinlikler.md) rehberine bakın. Kuruluşun ana hesabı etkinliklere ve eğitimlere başvuru yapamaz; ana hesapta başvuru düğmesi pasiftir. Başvuruyu yalnızca alt kullanıcılar yapabilir. Birden fazla kişi adına toplu başvuru yapabilmek için kullanıcının rolünde toplu başvuru yetkisi bulunmalıdır; bu yetki, örnek **İK Yetkilisi** rolünde yer alır.
 
 <!-- REVIEW:START EGITIM-01 -->
 <div class="review-note" data-review-id="EGITIM-01" role="note">

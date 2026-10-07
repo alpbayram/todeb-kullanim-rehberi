@@ -308,7 +308,7 @@ Düzeltme penceresinde de forma ait doğrulama kuralları geçerlidir. Örneğin
 ## Devam düğmesi çalışmıyorsa
 
 - **Kırmızı uyarılı alanlar:** **Devam** düğmesine bastığınızda eksik veya hatalı alanların altında kırmızı uyarı, ekranın sağ üstünde ise kısa bir bildirim görüntülenir. Uyarılı alanları tamamlayıp yeniden deneyin.
-- **Uyarı görünmeden sayfa ilerlemiyorsa:** Bölüm 5’te aynı görevlendirme için aynı e-posta adresi birden fazla kez girilmiş olabilir. Kişi kartlarındaki e-posta adreslerini karşılaştırın; her kişi için farklı bir adres yazılmalıdır.
+- **E-posta uyarısı görüntüleniyorsa:** Bölüm 5’te aynı görevlendirme için aynı e-posta adresi birden fazla kez girilmiş olabilir; ilgili e-posta alanının altında bu durumu belirten bir uyarı görüntülenir. Kişi kartlarındaki e-posta adreslerini karşılaştırın; her kişi için farklı bir adres yazılmalıdır.
 - **Sorun devam ediyorsa:** Kurumsal e-posta adresinizden **[it@todeb.org.tr](mailto:it@todeb.org.tr)** adresine yazın. E-postanızda kuruluş adınızı, hangi bölümde olduğunuzu ve ekranın görüntüsünü paylaşmanız yeterlidir.
 
 ## KVKK metnini reddederseniz

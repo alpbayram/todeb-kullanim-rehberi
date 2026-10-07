@@ -23,7 +23,7 @@ Sol menüde **KURULUŞ** başlığı altında yer alan **Komite / Çalışma Gru
    - **Toplantılar:** Toplantıların **Tarih ve Saat**, **Durum**, **Toplantı Türü** (Yüz Yüze veya Çevrimiçi) ve **Konum / Bağlantı** bilgileri.
    - **Alt Çalışma Grubu:** Çalışma grubuna bağlı alt gruplar; her satırda sıra numarası, **Alt Çalışma Grubu Adı** ve **Üyelik Durumu** (ör. **Üye Değilsiniz**) görüntülenir. Alt grup yoksa “Bu komiteye ait alt çalışma grubu bulunmuyor.” ifadesi görüntülenir.
    - **Dosyalar:** Çalışma grubuyla paylaşılan belgeler. Bir belgeyi indirmek için satırındaki **İndir** düğmesine tıklayın.
-   - **Yoklama:** Toplantı katılım özeti.
+   - **Yoklama:** Üyelerin toplantılara katılım özeti: her üye için **Katıldı**, **Mazeretli** ve **Mazeretsiz** sayıları.
 
 <!-- REVIEW:START GRUP-02 -->
 <div class="review-note" data-review-id="GRUP-02" role="note">

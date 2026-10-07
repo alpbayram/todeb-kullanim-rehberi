@@ -64,7 +64,7 @@ Yukarıdaki adımlarda toplam **17 yetki** seçilmiş olur ve **Roller** listesi
 
 ### Yetkilerin menülere ve içeriğe etkisi
 
-Rol yetkileri, sol menüdeki başlıkları değil, **sayfalarda görüntülenen içeriği** belirler. **Kullanıcılar** ve **Roller** menüleri ile ekranın sağ üstündeki **zil simgesi** (bildirimler) yalnızca ilgili yetkiye sahip kullanıcılara görüntülenir; bildirim yetkileri **Kullanıcılar** grubunun içinde yer alır. diğer menü başlıkları (**Destek Talepleri**, **Duyurular**, **Takvim**, **Etkinlikler**, **Dosya Alanı**, **Komite / Çalışma Grupları**, **Anketler**) her kullanıcıda görünür. İlgili yetkisi olmayan bir kullanıcı bu sayfaları açabilir, ancak sayfada kayıt görüntülenmez: liste boş gelir (ör. **Dosya Alanı**’nda klasör/dosya, **Takvim**’de kayıt, **Komite / Çalışma Grupları**’nda “Aktif komite veya çalışma grubu bulunmuyor.” ifadesi). Örneğin yalnızca **Portal Duyuruları** yetkisi olan bir kullanıcı duyuruları görür; dosya, takvim ve komite sayfaları ise boş görüntülenir. Bu nedenle bir kullanıcı bir sayfada içerik göremiyorsa rolündeki yetkileri kontrol edin.
+Rol yetkileri, sol menüdeki başlıkları değil, **sayfalarda görüntülenen içeriği** belirler. **Kullanıcılar** ve **Roller** menüleri yalnızca **kuruluşun ana hesabında** görünür; alt kullanıcılar hangi role sahip olurlarsa olsunlar bu menüleri göremez. Ekranın sağ üstündeki **zil simgesi** (bildirimler) ise rolde **Bildirimleri Görüntüleme** yetkisi olan kullanıcılara görüntülenir; bu yetki **Kullanıcılar** grubunun içinde yer alır. Diğer menü başlıkları (**Destek Talepleri**, **Duyurular**, **Takvim**, **Etkinlikler**, **Dosya Alanı**, **Komite / Çalışma Grupları**, **Anketler**) her kullanıcıda görünür. İlgili yetkisi olmayan bir kullanıcı bu sayfaları açabilir, ancak sayfada kayıt görüntülenmez: liste boş gelir (ör. **Dosya Alanı**’nda klasör/dosya, **Takvim**’de kayıt, **Komite / Çalışma Grupları**’nda “Aktif komite veya çalışma grubu bulunmuyor.” ifadesi). Örneğin yalnızca **Portal Duyuruları** yetkisi olan bir kullanıcı duyuruları görür; dosya, takvim ve komite sayfaları ise boş görüntülenir. Bu nedenle bir kullanıcı bir sayfada içerik göremiyorsa rolündeki yetkileri kontrol edin.
 
 ### Rolün sonucu
 
@@ -104,7 +104,7 @@ Bir kullanıcıya atanmış olan rol silinemez; bu durumda **“Rol silinemedi�
 <!-- REVIEW:START ROL-02 -->
 <div class="review-note" data-review-id="ROL-02" role="note">
 <strong>[Karar bekliyor] ROL-02</strong>
-<p>Yetki gruplarının tek tek açılıp kapatılmasının (Destek Talepleri vb.) etkisi yalnızca Duyurular grubuyla denendi. Anketler için ayrı bir yetki grubu bulunmuyor (anketler tüm rollere açıktır). Rol ekranından kullanıcı ve rol yönetimi yetkilerinin kaldırılması ve sistem rollerinin tanımlanması yazılım tarafında tamamlandığında bu sayfa son hâline göre gözden geçirilecek.</p>
+<p>Yetki gruplarının tek tek açılıp kapatılmasının (Destek Talepleri vb.) etkisi yalnızca Duyurular grubuyla denendi. Anketler için ayrı bir yetki grubu bulunmuyor (anketler tüm rollere açıktır).</p>
 </div>
 <!-- REVIEW:END ROL-02 -->
 

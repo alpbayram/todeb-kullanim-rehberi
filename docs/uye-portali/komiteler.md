@@ -38,7 +38,7 @@ Sol menüde **KURULUŞ** başlığı altında yer alan **Komite / Çalışma Gru
 | **Toplantılar** | Komitenin toplantıları: **Tarih ve Saat**, **Durum** (ör. Planlandı), **Toplantı Türü** (Yüz Yüze veya Çevrimiçi) ve **Konum / Bağlantı** (toplantı adresi veya çevrim içi toplantı bağlantısı). |
 | **Alt Çalışma Grubu** | Komiteye bağlı alt çalışma grupları. Her satırda **Alt Çalışma Grubu Adı** ve **Üyelik Durumu** görüntülenir. Alt çalışma grubu yoksa “Bu komiteye ait alt çalışma grubu bulunmuyor.” ifadesi görüntülenir. |
 | **Dosyalar** | Komiteyle paylaşılan belgeler: **Belge Adı**, **Boyut** ve **İndir** düğmesi. |
-| **Yoklama** | Toplantı katılım özeti. |
+| **Yoklama** | Üyelerin toplantılara katılım özeti: her üye için **Katıldı**, **Mazeretli** ve **Mazeretsiz** sayıları. |
 
 4. Bir belgeyi indirmek için **Dosyalar** sekmesinde belgenin satırındaki **İndir** düğmesine tıklayın.
 5. Panelin altından, her sekmede sayfa başına gösterilecek kayıt sayısını değiştirebilirsiniz.
@@ -46,7 +46,7 @@ Sol menüde **KURULUŞ** başlığı altında yer alan **Komite / Çalışma Gru
 <!-- REVIEW:START KOMITE-02 -->
 <div class="review-note" data-review-id="KOMITE-02" role="note">
 <strong>[Karar bekliyor] KOMITE-02</strong>
-<p>Yoklama sekmesinde sütun başlıklarından ikisi çevrilmemiş teknik etiket olarak görünüyor ve üye sütununda isim yerine sayılar çıkıyor; bu nedenle sekme yalnızca kısa özetle anlatıldı, yazılım tarafı düzeltildiğinde sütunlar eklenecek. Görev dönemi bitince veya komiteden ayrılınca erişimin kalkması ve toplantı notu/tutanağı gibi belgelerin ayrı bir yerde olup olmadığı ekranda üretilmedi.</p>
+<p>Görev dönemi bitince veya komiteden ayrılınca erişimin kalkması ve toplantı notu/tutanağı gibi belgelerin ayrı bir yerde olup olmadığı ekranda üretilmedi.</p>
 </div>
 <!-- REVIEW:END KOMITE-02 -->
 

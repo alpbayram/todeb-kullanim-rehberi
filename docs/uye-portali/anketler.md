@@ -52,9 +52,9 @@ Listede **Akış Tipi** sütununda **Koşullu** yazan anketlerde sorular tek tek
 
 1. **Cevapla** düğmesine tıklayın. Panelde yalnızca ilk soru görüntülenir.
 2. Soruyu yanıtlayıp **Sonraki** düğmesine tıklayın. Verdiğiniz yanıta bağlı olarak bir sonraki soru görüntülenir; farklı yanıtlar farklı sorulara yönlendirebilir.
-3. Son soruyu yanıtlayıp **Sonraki** düğmesine tıkladığınızda yanıtınız otomatik olarak gönderilir; ayrıca **Yanıtı Gönder** düğmesine tıklamanız gerekmez.
+3. Son soruda düğmenin adı **Gönder** olarak görüntülenir. Son soruyu yanıtlayıp **Gönder** düğmesine tıkladığınızda yanıtınız gönderilir.
 
-Yanıt gönderildikten sonra panelde **“Yanıtınız alındı – Bu anket için tekrar yanıt gönderemezsiniz.”** bilgisi görüntülenir. Koşullu akışlı anketlerde **Yanıtlarınız** bölümünde yanıt özeti görüntülenmez (“Bu tarayıcıda kayıtlı yanıt özeti bulunmuyor.” ifadesi çıkar).
+Yanıt gönderildikten sonra panelde **“Yanıtınız alındı – Bu anket için tekrar yanıt gönderemezsiniz.”** bilgisi görüntülenir.
 
 ## Anket yanıtınız gönderildikten sonra
 

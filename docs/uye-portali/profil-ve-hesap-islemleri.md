@@ -27,15 +27,15 @@ Profil sayfasında üç kart yer alır: **Kişisel Bilgiler**, **Güvenlik** ve 
 2. Güncellemek istediğiniz alanları değiştirin: **E-posta**, **Ad**, **Soyad** ve **Telefon**. **Kuruluş** alanı değiştirilemez.
 3. **Kaydet** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın. Bilgileriniz kaydedildiğinde **“Profil bilgileri başarıyla güncellendi”** bildirimi görüntülenir.
 
-> **Bilgi:** **Soyad** alanı zorunludur. Boş bırakırsanız **“Soyad zorunludur”** uyarısı görüntülenir ve bilgileriniz kaydedilmez.
+> **Bilgi:** Alt kullanıcı hesaplarında **Soyad** alanı zorunludur; boş bırakırsanız **“Soyad zorunludur”** uyarısı görüntülenir ve bilgileriniz kaydedilmez. Kuruluşun ana hesabında Soyad alanı zorunlu değildir.
 
 ### E-posta adresini değiştirme
 
-E-posta adresiniz, yalnızca kuruluşunuzun kayıtlı alan adlarından birini taşıyan bir adresle değiştirilebilir. Örneğin kuruluşunuzun alan adı `ornek.com.tr` ise `kisi@ornek.com.tr` adresi kabul edilir; `kisi@gmail.com` gibi bir adres kabul edilmez.
+E-posta adresiniz, yalnızca kuruluşunuzun **Genel Bilgiler** sayfasındaki **Alan Adları** bölümünde beyan edilen alan adlarından birini taşıyan bir adresle değiştirilebilir. Örneğin kuruluşunuzun alan adı `ornek.com.tr` ise `kisi@ornek.com.tr` adresi kabul edilir; `kisi@gmail.com` gibi bir adres kabul edilmez.
 
 Kayıt başarılı olduğunda **“Profil bilgileri başarıyla güncellendi”** bildirimi görüntülenir ve oturumunuz açık kalır; sonraki girişlerinizde yeni e-posta adresinizi kullanın. E-posta adresinde **@** işaretinden önce **+** karakteri kullanılamaz; kullanırsanız **“E-posta adresinde "@" işaretinden önce "+" kullanılamaz.”** uyarısı görüntülenir.
 
-Kuruluşunuza ait olmayan bir alan adıyla kaydetmeye çalıştığınızda **“E-posta adresiniz organizasyonunuzun domain’ine ait olmalıdır.”** uyarısı görüntülenir.
+Kuruluşunuza ait olmayan bir alan adıyla kaydetmeye çalıştığınızda **“Lütfen beyan ettiğiniz alan adlarından birine ait bir e-posta adresi giriniz.”** uyarısı görüntülenir.
 
 ## Profil fotoğrafı ekleme
 

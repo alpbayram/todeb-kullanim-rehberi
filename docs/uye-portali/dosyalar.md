@@ -43,7 +43,7 @@ Listede dosya adının altında dosya türü (ör. **PDF**) ve yakın zamanda ek
 
 - **Tek dosya indirmek için:** Dosyanın satırındaki indirme simgesine veya dosya detayındaki **İndir** düğmesine tıklayın.
 - **Listeyi indirmek için:** **Excel İndir** düğmesine tıklayın. **“Excel dosyası indirildi.”** bildirimi görüntülenir ve ekranda listelenen klasör/dosyalar (bulunduğunuz klasörün içeriği) Excel dosyası olarak bilgisayarınıza iner.
-- **Klasör satırındaki indirme simgesi:** Klasörün tamamını indirmeye yöneliktir; indirme tamamlanamazsa **“Klasör zip olarak indirilemedi.”** bildirimi görüntülenir. Böyle bir durumda klasörü açın ve dosyaları tek tek indirin.
+- **Klasör satırındaki indirme simgesi:** Klasörü, içindeki dosyalarla birlikte tek bir **.zip** dosyası olarak indirmenizi sağlar. İndirme tamamlanamazsa **“Klasör zip olarak indirilemedi.”** bildirimi görüntülenir; bu durumda klasörü açıp dosyaları tek tek indirebilirsiniz.
 
 ## Dosya kodunu kullanma
 
@@ -61,7 +61,7 @@ Bazı dosyalar tüm üyelere değil, yalnızca belirli kullanıcılara açıktı
 <!-- REVIEW:START DOSYA-02 -->
 <div class="review-note" data-review-id="DOSYA-02" role="note">
 <strong>[Karar bekliyor] DOSYA-02</strong>
-<p>Klasör satırındaki indirme simgesi, adında Türkçe karakter bulunan klasörlerde (ör. GÖRÜŞLER, TALİMATLAR) “Klasör zip olarak indirilemedi.” hatası veriyor; yalnızca ASCII harf içeren klasör adlarında çalışıyor, yazılım tarafında düzeltilecek. Önemli Dosya olarak işaretlenen dosyalar Dosya Alanı’nda listelenmeyecek, TÖDEB tarafından bağlantıyla iletilecek; bu davranış yazılım tarafında tamamlandığında bu sayfa gözden geçirilecek. Panelde girilen dosya başlığının portalda görünmemesi (dosya adı gösteriliyor) sonraya bırakıldı.</p>
+<p>Önemli Dosya olarak işaretlenen dosyalar Dosya Alanı’nda listelenmeyecek, TÖDEB tarafından bağlantıyla iletilecek; bu davranış yazılım tarafında tamamlandığında bu sayfa gözden geçirilecek. Panelde girilen dosya başlığının portalda görünmemesi (dosya adı gösteriliyor) sonraya bırakıldı.</p>
 </div>
 <!-- REVIEW:END DOSYA-02 -->
 
