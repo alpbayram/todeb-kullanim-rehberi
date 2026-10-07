@@ -21,18 +21,18 @@ theme:
 nav:
   - Ana Sayfa: index.md
   - Üye Portalı:
-      - "✅ İlk giriş": uye-portali/ilk-giris.md
-      - "✅ Üyelik başvurusu": uye-portali/uyelik-basvurusu.md
-      - "✅ Portalı tanıyalım": uye-portali/portali-taniyalim.md
-      - "✅ Kuruluş bilgileri": uye-portali/kurulus-bilgileri.md
-      - "✅ Kullanıcılar": uye-portali/kullanicilar.md
-      - "✅ Roller ve yetkiler": uye-portali/roller-ve-yetkiler.md
-      - "✅ Destek talepleri": uye-portali/destek-talepleri.md
-      - "✅ Duyurular": uye-portali/duyurular.md
-      - "✅ Dosyalar": uye-portali/dosyalar.md
-      - "✅ Anketler": uye-portali/anketler.md
-      - "✅ Takvim": uye-portali/takvim.md
-      - "✅ Etkinlikler": uye-portali/etkinlikler.md
+      - İlk giriş: uye-portali/ilk-giris.md
+      - Üyelik başvurusu: uye-portali/uyelik-basvurusu.md
+      - Portalı tanıyalım: uye-portali/portali-taniyalim.md
+      - Kuruluş bilgileri: uye-portali/kurulus-bilgileri.md
+      - Kullanıcılar: uye-portali/kullanicilar.md
+      - Roller ve yetkiler: uye-portali/roller-ve-yetkiler.md
+      - Destek talepleri: uye-portali/destek-talepleri.md
+      - Duyurular: uye-portali/duyurular.md
+      - Dosyalar: uye-portali/dosyalar.md
+      - Anketler: uye-portali/anketler.md
+      - Takvim: uye-portali/takvim.md
+      - Etkinlikler: uye-portali/etkinlikler.md
       - "✅ Eğitimler": uye-portali/egitimler.md
       - "✅ Komiteler": uye-portali/komiteler.md
       - "✅ Çalışma grupları": uye-portali/calisma-gruplari.md
