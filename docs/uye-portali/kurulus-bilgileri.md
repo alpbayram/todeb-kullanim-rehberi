@@ -18,7 +18,7 @@ Sayfanın üst kısmında “Hoş geldiniz” başlığı ve kuruluşunuzun adı
 
 - **Firma Bilgileri:** Ticari unvan, genel müdürlük ve müşteri hizmetleri telefonları, e-posta, web sitesi, adres, KEP adresi ve markalar. Kartın üstünde üyelik durumunuz (**Aktif**) yer alır.
 - **Mali ve Kurumsal Bilgiler:** Vergi dairesi, vergi numarası, MERSİS numarası, NACE kodu, mali işler ortak e-posta adresi ve fatura adresi.
-- **Faaliyet İzinleri:** Faaliyet izin türü, TCMB karar tarihi, Resmî Gazete tarihi, ve yetkili bentler.
+- **Faaliyet İzinleri:** Faaliyet izin türü, TCMB karar tarihi, Resmî Gazete tarihi ve yetkili bentler (her bent için TCMB’den izin alınan tarihle birlikte).
 - **Alan Adları:** Kuruluşunuzun beyan ettiği alan adları. Alt kullanıcıların ve etkinlik/eğitim başvurusuna eklenen katılımcıların e-posta adresleri bu alan adlarından birine ait olmalıdır.
 - **Yöneticiler:** Genel Müdür ve Genel Müdür Yardımcılarının bilgileri.
 - **Hazine ve Maliye Bakanlığına Yapılan Raporlama Bilgileri:** IP adresleri ve raporlama e-posta adresi.
@@ -36,19 +36,19 @@ Telefon numaraları, e-posta adresleri, vergi ve MERSİS numaraları, IP adresle
   <span>Bir kart üzerinden bilgi güncelleme ve onaya gönderme — video eklenecek.</span>
 </div>
 
-Değiştirilebilen kartların sağ üst köşesinde **kalem simgesi** bulunur. Aşağıdaki kartlar düzenlenebilir:
+Değiştirilebilen kartların sağ üst köşesinde **kalem simgesi** bulunur. Aşağıdaki alanlar düzenlenebilir:
 
-| Kart | Düzenlenebilen bilgiler |
+| Kalem simgesinin yeri | Açılan pencere ve düzenlenebilen bilgiler |
 | --- | --- |
-| Firma Bilgileri / Faaliyet İzinleri | Logo, genel müdürlük ve müşteri hizmetleri telefonları, TCMB karar tarihi, Resmî Gazete tarihi ve yetkili bentler. **Faaliyet İzin Türü** değiştirilemez. |
-| Firma Bilgileri (logo) | Kuruluş logosu |
-| Firma Bilgileri (web sitesi ve markalar) | Kuruluş internet sitesi ve markalar |
-| Mali ve Kurumsal Bilgiler | Fatura adresi, vergi dairesi, vergi numarası, MERSİS numarası, NACE kodu ve mali işler e-posta adresi |
-| Alan Adları | Alan adları |
-| Yöneticiler | Genel Müdür ve Genel Müdür Yardımcılarının bilgileri |
-| Hazine ve Maliye Bakanlığına Yapılan Raporlama Bilgileri | Raporlama e-posta adresi ve IP adresleri |
-| Sosyal Medya Hesapları | Sosyal medya bağlantıları |
-| İletişim Kişileri | İrtibat kişileri |
+| **Firma Bilgileri** kartının üstü ve **Faaliyet İzinleri** kartı | **Kuruluşa İlişkin Diğer Bilgiler** penceresi: logo, genel müdürlük ve müşteri hizmetleri telefonları, TCMB faaliyet izni karar tarihi, Faaliyet İzni Resmî Gazete tarihi ve 6493 12/1 yetkili bentler. **Faaliyet İzin Türü** değiştirilemez. |
+| **Firma Bilgileri** kartında logonun yanı | **Firma Logosu** penceresi: kuruluş logosu |
+| **Firma Bilgileri** kartında Web Sitesi’nin ve Markalar’ın yanı | **Web Sitesi ve Markalar** penceresi: kuruluş internet sitesi ve markalar (marka ismi ve marka internet sitesi) |
+| **Mali ve Kurumsal Bilgiler** | **Mali Bilgiler** penceresi: fatura adresi, vergi dairesi, vergi numarası, MERSİS numarası, NACE kodu ve mali işler anonim kurumsal e-posta adresi |
+| **Alan Adları** | Alan adları |
+| **Yöneticiler** | **Yönetici Bilgileri** penceresi: Genel Müdür ve Genel Müdür Yardımcılarının bilgileri; **Yönetici Ekle** düğmesiyle yeni yönetici eklenebilir |
+| **Hazine ve Maliye Bakanlığına Yapılan Raporlama Bilgileri** | Raporlama e-posta adresi ve IP adresleri |
+| **Sosyal Medya Hesapları** | Sosyal medya bağlantıları |
+| **İletişim Kişileri** | **İletişim Kişileri** penceresi: irtibat kişileri ve görevlendirmeleri |
 
 ### Adımlar
 
