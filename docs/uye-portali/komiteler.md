@@ -46,7 +46,7 @@ Sol menüde **KURULUŞ** başlığı altında yer alan **Komite / Çalışma Gru
 <!-- REVIEW:START KOMITE-02 -->
 <div class="review-note" data-review-id="KOMITE-02" role="note">
 <strong>[Karar bekliyor] KOMITE-02</strong>
-<p><strong>Yoklama</strong> sekmesinde sütun başlıklarından ikisi çevrilmemiş teknik etiket olarak görünüyor ve satırdaki sayıların neyi gösterdiği (Katıldı / Mazeretli / Mazeretsiz) net değil; bu nedenle sekme yalnızca kısa özetle anlatıldı, yazılım tarafı düzeltildiğinde sütunlar eklenecek (bkz. yazılım notları). Görev dönemi bitince veya komiteden ayrılınca erişimin kalkması ve toplantı notu/tutanağı gibi belgelerin ayrı bir yerde olup olmadığı ekranda üretilmedi.</p>
+<p>Yoklama sekmesinde sütun başlıklarından ikisi çevrilmemiş teknik etiket olarak görünüyor ve üye sütununda isim yerine sayılar çıkıyor; bu nedenle sekme yalnızca kısa özetle anlatıldı, yazılım tarafı düzeltildiğinde sütunlar eklenecek. Görev dönemi bitince veya komiteden ayrılınca erişimin kalkması ve toplantı notu/tutanağı gibi belgelerin ayrı bir yerde olup olmadığı ekranda üretilmedi.</p>
 </div>
 <!-- REVIEW:END KOMITE-02 -->
 

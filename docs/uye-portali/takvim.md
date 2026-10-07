@@ -28,12 +28,6 @@ Sol menüde **İŞLEMLER** başlığı altında yer alan **Takvim** seçeneğine
 
 > **Bilgi:** Başvurusu henüz açılmamış bir etkinlik, takvimde **İlk Başvuru Tarihi** bilgisiyle görünür. Başvuru yapabilmek için bu tarihin gelmesini beklemeniz gerekir. Başvuru, **Duyurular** sayfasındaki **ETKİNLİK KAYIT ALINIYOR** etiketli duyurudan yapılır; adımlar için [Etkinlikler](etkinlikler.md) rehberine bakın.
 
-<!-- REVIEW:START TAKVIM-04 -->
-<div class="review-note" data-review-id="TAKVIM-04" role="note">
-<strong>[Karar bekliyor] TAKVIM-04</strong>
-<p>Takvimdeki <strong>Toplantı</strong> (yeşil) türü için ekranda hiçbir kayıt üretilemedi: komite toplantıları (üyesi olunan komitede de) takvimde görünmüyor. Bu türün ne için kullanılacağı yazılım tarafında netleşince rehbere eklenecek (bkz. yazılım notu 70).</p>
-</div>
-<!-- REVIEW:END TAKVIM-04 -->
 
 ## İlgili rehberler
 

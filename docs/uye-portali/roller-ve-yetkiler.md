@@ -6,7 +6,7 @@ Bu rehber, kuruluşunuza özel roller oluşturmanızı ve her rolün portalda ha
 
 Sol menüde **KURULUŞ** başlığı altında yer alan **Roller** seçeneğine tıklayın.
 
-Sayfada kuruluşunuzdaki roller, her rolün **yetki sayısıyla** birlikte listelenir. Hazır gelen **Organizasyon Yöneticisi** rolü tüm yetkileri (38 yetki) içerir. Sayfanın üstündeki arama kutusuna rol adını yazarak listeyi daraltabilirsiniz.
+Sayfada kuruluşunuzdaki roller, her rolün **yetki sayısıyla** birlikte listelenir. Hazır gelen **Organizasyon Yöneticisi** rolü tüm yetkileri içerir. TÖDEB tarafından kuruluşunuz için tanımlanan **sistem rolleri** de bu listede görünür; bu roller **düzenlenemez ve silinemez**, yalnızca kullanıcılara atanabilir. Sayfanın üstündeki arama kutusuna rol adını yazarak listeyi daraltabilirsiniz.
 
 ## Video anlatım
 
@@ -81,8 +81,7 @@ Yetkiler, portaldaki menüye göre gruplandırılmıştır. Bir yetki yalnızca 
 | **Takvim** (2) | Takvim kayıtlarını görüntüleme; takvimi dışa aktarma |
 | **Portal Etkinlikler** (3) | Etkinlikleri görüntüleme; etkinlik başvurusu oluşturma; toplu etkinlik başvurusu oluşturma |
 | **Portal Dosyalar** (1) | Dosya kayıtlarını görüntüleme |
-| **Kullanıcılar** (10) | Kullanıcıları görüntüleme, oluşturma, düzenleme, aktiflik durumunu değiştirme ve silme; bildirimleri görüntüleme ve okundu işaretleme; denetim günlüklerini, departmanları ve eğitmen kullanıcılarını görüntüleme |
-| **Roller** (4) | Rolleri görüntüleme, oluşturma, düzenleme ve silme |
+| **Kullanıcılar** | Bildirimleri görüntüleme ve okundu işaretleme; denetim günlüklerini, departmanları ve eğitmen kullanıcılarını görüntüleme |
 | **Portal Komiteler** (7) | Komiteleri, çalışma gruplarını, komite eklerini, katılımlarını, üyelerini ve toplantıları görüntüleme |
 | **Akademi** (2) | Eğitimleri görüntüleme; toplu eğitim başvurusu oluşturma |
 | **Dosya & Klasör Yönetimi** (2) | Dosyaları görüntüleme; dosya yükleme |
@@ -105,7 +104,7 @@ Bir kullanıcıya atanmış olan rol silinemez; bu durumda **“Rol silinemedi�
 <!-- REVIEW:START ROL-02 -->
 <div class="review-note" data-review-id="ROL-02" role="note">
 <strong>[Karar bekliyor] ROL-02</strong>
-<p>Hazır <strong>Organizasyon Yöneticisi</strong> rolünün düzenlenebilir/silinebilir olması bilinçli olarak denenmedi (kullanıcıların erişimini etkileyebilir). Yetki gruplarının tek tek açılıp kapatılmasının (Destek Talepleri vb.) etkisi yalnızca Duyurular grubuyla denendi. Anketler için ayrı bir yetki grubu yok; yazılım tarafında eklenip eklenmeyeceği bekleniyor (bkz. yazılım notu 65).</p>
+<p>Yetki gruplarının tek tek açılıp kapatılmasının (Destek Talepleri vb.) etkisi yalnızca Duyurular grubuyla denendi. Anketler için ayrı bir yetki grubu bulunmuyor (anketler tüm rollere açıktır). Rol ekranından kullanıcı ve rol yönetimi yetkilerinin kaldırılması ve sistem rollerinin tanımlanması yazılım tarafında tamamlandığında bu sayfa son hâline göre gözden geçirilecek.</p>
 </div>
 <!-- REVIEW:END ROL-02 -->
 

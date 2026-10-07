@@ -49,7 +49,7 @@ Bir e-posta adresiyle aynı eğitime daha önce başvuru yapılmışsa **“Bu e
 <!-- REVIEW:START EGITIM-01 -->
 <div class="review-note" data-review-id="EGITIM-01" role="note">
 <strong>[Karar bekliyor] EGITIM-01</strong>
-<p>Başvuru gönderimi, tekrar başvuru uyarısı ve başvuru sonrası durumun kullanıcıya yansımaması ekranda doğrulandı. Kalanlar yazılım/içerik tarafında netleşecek: başvuru <strong>KVKK onayı</strong> (metin bbolegal’den gelecek), kontenjan dolduğunda davranış, ücretli eğitimlerde fiyat bilgisinin panelde görünmesi ve <strong>Oturumlar</strong> (birden fazla gün/saat) görünümü.</p>
+<p>Başvuru gönderimi ve tekrar başvuru uyarısı ekranda doğrulandı; başvurunun sonucu e-posta ile iletilir. Kalanlar yazılım/içerik tarafında netleşecek: başvuru KVKK onayı (metin bbolegal’den gelecek), kontenjan dolduğunda davranış, ücretli eğitimlerde fiyat bilgisinin panelde görünmesi ve Oturumlar (birden fazla gün/saat) görünümü.</p>
 </div>
 <!-- REVIEW:END EGITIM-01 -->
 

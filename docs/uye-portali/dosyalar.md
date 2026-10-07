@@ -61,7 +61,7 @@ Bazı dosyalar tüm üyelere değil, yalnızca belirli kullanıcılara açıktı
 <!-- REVIEW:START DOSYA-02 -->
 <div class="review-note" data-review-id="DOSYA-02" role="note">
 <strong>[Karar bekliyor] DOSYA-02</strong>
-<p>Şunlar ekranda beklenen gibi çalışmıyor ve yazılım tarafında karar/düzeltme bekliyor: klasör satırındaki indirme simgesi “Klasör zip olarak indirilemedi.” hatası veriyor; <strong>Önemli Dosya</strong> olarak işaretlenen dosya listede ayrı bir etiketle görünmüyor (önemli dosya bildirimi çalışıyor, bkz. <a href="../bildirimler/">Bildirimler</a>); panelde girilen dosya başlığı portalda görünmüyor (dosya adı gösteriliyor). Düzeltildiğinde ilgili bölümler eklenecek (bkz. yazılım notları 61, 66, 67).</p>
+<p>Klasör satırındaki indirme simgesi, adında Türkçe karakter bulunan klasörlerde (ör. GÖRÜŞLER, TALİMATLAR) “Klasör zip olarak indirilemedi.” hatası veriyor; yalnızca ASCII harf içeren klasör adlarında çalışıyor, yazılım tarafında düzeltilecek. Önemli Dosya olarak işaretlenen dosyalar Dosya Alanı’nda listelenmeyecek, TÖDEB tarafından bağlantıyla iletilecek; bu davranış yazılım tarafında tamamlandığında bu sayfa gözden geçirilecek. Panelde girilen dosya başlığının portalda görünmemesi (dosya adı gösteriliyor) sonraya bırakıldı.</p>
 </div>
 <!-- REVIEW:END DOSYA-02 -->
 

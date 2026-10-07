@@ -42,7 +42,7 @@ Sayfada şu öğeler bulunur:
 <!-- REVIEW:START ETKINLIK-02 -->
 <div class="review-note" data-review-id="ETKINLIK-02" role="note">
 <strong>[Karar bekliyor] ETKINLIK-02</strong>
-<p>Başvuru gönderimi, tamamlanan etkinliğin listede görünmesi ve tamamlama duyurusu ekranda doğrulandı. Kalanlar yazılım/içerik tarafında netleşecek: başvuru sonrası bildirim/e-posta (oluşmadı), başvuru KVKK onayı (metin bbolegal’den gelecek), aynı etkinliğe ikinci kez başvuru uyarısı (eğitimde “zaten bir başvuru mevcut” uyarısı çıkıyor; etkinlikte denenmedi), <strong>Gelişmiş Filtreler</strong>’in seçenekleri ve listedeki bir etkinliğe tıklayınca ayrıntı açılmaması.</p>
+<p>Başvuru gönderimi, tamamlanan etkinliğin listede görünmesi ve tamamlama duyurusu ekranda doğrulandı; başvurunun sonucu e-posta ile iletilir. Kalanlar yazılım/içerik tarafında netleşecek: başvuru KVKK onayı (metin bbolegal’den gelecek), aynı etkinliğe ikinci kez başvuru uyarısı (eğitimde “zaten bir başvuru mevcut” uyarısı çıkıyor; etkinlikte denenmedi), Gelişmiş Filtreler’in seçenekleri ve listedeki bir etkinliğe tıklayınca ayrıntı açılmaması.</p>
 </div>
 <!-- REVIEW:END ETKINLIK-02 -->
 

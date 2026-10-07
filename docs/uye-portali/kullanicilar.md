@@ -16,7 +16,7 @@ Sayfada kuruluşunuzun portal kullanıcıları listelenir. Listede her kullanıc
 
 ## Başlamadan önce
 
-- Eklemek istediğiniz kişinin ad, soyad, e-posta adresi ve **T.C. kimlik numarasını** hazırlayın.
+- Eklemek istediğiniz kişinin ad, soyad ve e-posta adresini hazırlayın. E-posta adresi, kuruluşunuzun **Genel Bilgiler** sayfasındaki **Alan Adları** bölümünde beyan ettiği alan adlarından birine ait olmalıdır.
 - Kişiye vereceğiniz rolün [Roller](roller-ve-yetkiler.md) sayfasında tanımlı olduğundan emin olun. Başka bir rol tanımlamadıysanız yalnızca **Organizasyon Yöneticisi** rolü seçilebilir.
 
 ## Yeni kullanıcı ekleme
@@ -28,11 +28,10 @@ Sayfada kuruluşunuzun portal kullanıcıları listelenir. Listede her kullanıc
 1. Sayfanın sağ üstünde yer alan **Yeni Kullanıcı** düğmesine tıklayın. Sağdan bir form paneli açılır.
 2. Aşağıdaki alanları doldurun:
    - **Ad** ve **Soyad** (zorunlu). Soyad, yazdığınız gibi büyük harfe çevrilir.
-   - **E-posta** (zorunlu)
+   - **E-posta** (zorunlu). Kuruluşunuzun beyan ettiği alan adlarından birine ait bir adres olmalıdır.
    - **Rol** (zorunlu). Listeden kullanıcıya vereceğiniz rolü seçin.
    - **Unvan** (isteğe bağlı)
    - **Telefon Numarası** (isteğe bağlı)
-   - **T.C. Kimlik No** (zorunlu, 11 hane)
 3. **Oluştur** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın.
 
 Kullanıcı oluşturulduğunda ekranda **“Kullanıcı başarıyla oluşturuldu”** bildirimi görüntülenir ve kullanıcı listeye **Aktif** durumda eklenir.
@@ -43,18 +42,18 @@ Kullanıcı oluşturulduğunda ekranda **“Kullanıcı başarıyla oluşturuldu
 
 - **“Ad zorunludur”**, **“Soyad zorunludur”:** İlgili alanı doldurun.
 - **“Geçerli bir e-posta giriniz”:** E-posta adresinin biçimini kontrol edin.
-- **“11 haneli TC Kimlik numaranızı giriniz”:** T.C. kimlik numarasını 11 hane olarak yazın.
+- **“Lütfen beyan ettiğiniz alan adlarından birine ait bir e-posta adresi giriniz.”:** E-posta adresinin alan adını, **Genel Bilgiler** sayfasındaki **Alan Adları** bölümüyle karşılaştırın ve kuruluşunuza ait bir adres yazın.
 - **“Bu e-posta adresiyle bir kullanıcı zaten mevcut.”:** Yazdığınız e-posta adresiyle daha önce bir kullanıcı oluşturulmuştur. Farklı bir e-posta adresi yazın.
 
 ## Kullanıcıyı görüntüleme
 
-Listede kullanıcının satırına tıkladığınızda sağdan kullanıcının bilgilerini gösteren bir panel açılır: **Ad Soyad**, **E-posta**, **Rol**, **Unvan**, **Telefon Numarası**, **T.C. Kimlik No** ve **Durum**.
+Listede kullanıcının satırına tıkladığınızda sağdan kullanıcının bilgilerini gösteren bir panel açılır: **Ad Soyad**, **E-posta**, **Rol**, **Unvan**, **Telefon Numarası** ve **Durum**.
 
 ## Kullanıcı bilgilerini düzenleme
 
 1. Kullanıcının satırında yer alan **işlemler (⋯)** menüsünden **Düzenle** seçeneğine tıklayın. Kullanıcının bilgi paneli açılır.
 2. Panelin altındaki **Düzenle** düğmesine tıklayın.
-3. **Kullanıcıyı Düzenle** formunda **Ad**, **Soyad**, **Rol**, **Unvan**, **Telefon Numarası** ve **T.C. Kimlik No** alanlarını güncelleyin.
+3. **Kullanıcıyı Düzenle** formunda **Ad**, **Soyad**, **Rol**, **Unvan** ve **Telefon Numarası** alanlarını güncelleyin.
 4. **Kaydet** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın.
 
 Ekranda **“Kullanıcı güncellendi”** bildirimi görüntülenir.

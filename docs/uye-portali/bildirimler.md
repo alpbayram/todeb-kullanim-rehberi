@@ -37,7 +37,7 @@ Ekranın sağ üstünde, profil simgenizin yanında **zil simgesi** yer alır. O
 <!-- REVIEW:START BILDIRIM-02 -->
 <div class="review-note" data-review-id="BILDIRIM-02" role="note">
 <strong>[Karar bekliyor] BILDIRIM-02</strong>
-<p>Etkinlik/eğitim hatırlatmaları, eğitim başvurusunun sonuçlanması, destek talebi durum değişikliği ve komite bildirimleri ekranda üretilemediği için tabloda yer almıyor; yazılım tarafında bu bildirimlerin planlanıp planlanmadığı netleştiğinde eklenecek. “Son 5 bildirim” sınırı doğrulanmadı.</p>
+<p>Etkinlik/eğitim hatırlatmaları, destek talebi durum değişikliği ve komite bildirimleri ekranda üretilemediği için tabloda yer almıyor; yazılım tarafında bu bildirimlerin planlanıp planlanmadığı netleştiğinde eklenecek. Etkinlik ve eğitim başvurularının sonucu e-posta ile iletildiği için bu başvurular için portalda bildirim oluşmaz. “Son 5 bildirim” sınırı doğrulanmadı.</p>
 </div>
 <!-- REVIEW:END BILDIRIM-02 -->
 
