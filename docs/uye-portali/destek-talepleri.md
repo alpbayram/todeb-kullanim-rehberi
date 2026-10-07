@@ -103,7 +103,7 @@ Bildirime tıkladığınızda açılan **Kurum Bildirimleri** sayfasında, kurul
 <!-- REVIEW:START DESTEK-02 -->
 <div class="review-note" data-review-id="DESTEK-02" role="note">
 <strong>[Karar bekliyor] DESTEK-02</strong>
-<p>Talep durumu değiştiğinde üyeye giden bildirim ve e-posta davranışı netleşene kadar rehberde yalnızca ekranda görülen yazıldı: bildirim yalnızca <strong>Cevaplandı</strong> durumunda gidiyor ve metinde “Yanıtlandı” yazıyor. E-posta gidip gitmediği görülemedi, bu yüzden yazılmadı.</p>
+<p>Talebin durumu değiştiğinde üyeye giden bildirim yalnızca <strong>Cevaplandı</strong> durumunda gidiyor; <strong>Beklemede</strong>, <strong>Tamamlandı</strong> ve <strong>Kapatıldı</strong> durumlarında bildirim gitmiyor. Bildirim metninde durum “Yanıtlandı” yazıyor, listede ise “Cevaplandı” görünüyor. Rehber şu an ekrandaki bu davranışı anlatıyor. Üyeye her durum değişikliğinde bildirim gitmesi isteniyorsa yazılım tarafında düzeltilmesi gerekir; bu durumda rehber güncellenecektir. Durum değişikliğinde e-posta gönderilip gönderilmediği ekranda görülemedi, bu yüzden yazılmadı.</p>
 </div>
 <!-- REVIEW:END DESTEK-02 -->
 

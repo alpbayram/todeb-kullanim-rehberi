@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
+{% block header %}
+  {{ super() }}
+  {% if config.extra.version %}
+    <span class="docs-version" aria-label="Rehber sürümü {{ config.extra.version }}">{{ config.extra.version }}</span>
+  {% endif %}
+{% endblock %}
+
 {% block footer %}{% endblock %}
 
 {# CSS owns sidebar geometry. Do not mount Material's window-scroll sidebar controller. #}
