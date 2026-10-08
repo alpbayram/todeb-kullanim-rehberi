@@ -42,19 +42,29 @@ Formu tek seferde rahatça tamamlayabilmeniz için aşağıdaki bilgileri ve bel
 - Sonraki bölüme geçmek için **Devam**, önceki bölüme dönmek için **Geri** düğmesini kullanın.
 - Zorunlu alanlar **\*** ile işaretlenmiştir. Eksik veya hatalı alanların altında kırmızı uyarı görüntülenir.
 
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-genel-01.webp" alt="Üyelik başvuru formu: ilerleme çubuğu ve Devam düğmesi" loading="lazy">
+  <figcaption>Başvuru formu: (1) bölüm göstergesi ve ilerleme çubuğu, (2) Devam düğmesi.</figcaption>
+</figure>
+
 ## Bölüm 1 — Kuruluşa İlişkin Diğer Bilgiler
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Kuruluşa ilişkin bilgiler — video eklenecek.</span>
+<div class="guide-video">
+  <video controls preload="metadata" playsinline aria-label="Üyelik başvurusu Bölüm 1–4 video anlatımı">
+    <source src="../../assets/videos/uyelik-basvurusu-bolum-1-4.mp4" type="video/mp4">
+    Tarayıcınız video oynatmayı desteklemiyor.
+  </video>
 </div>
+<p class="media-caption">Bu video Bölüm 1–4’ü (kuruluş bilgileri, Birlik Temsilcisi, yöneticiler ve mali bilgiler) baştan sona göstermektedir.</p>
+
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-bolum1-01.webp" width="800" alt="Bölüm 1 doldurulmuş hâliyle" loading="lazy">
+  <figcaption>Bölüm 1: (1) logo, (2) telefonlar, (3) TCMB faaliyet izni karar tarihi, (4) Resmî Gazete tarihi, (5) yetkili bentler ve tarihleri.</figcaption>
+</figure>
 
 Bu bölümde, kuruluşunuza ait genel iletişim bilgileri ve faaliyet iznine ilişkin bilgiler girilmektedir.
 
 ### Logo ve iletişim bilgileri
-
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Logo yükleme ve kırpma — video eklenecek.</span>
-</div>
 
 **Logo Yükle** düğmesiyle kuruluşunuzun logosunu seçin. JPG, PNG veya WebP biçiminde, en fazla **50 MB** büyüklüğünde dosya yükleyebilirsiniz.
 
@@ -75,10 +85,6 @@ Tarihleri ekranda gösterilen **GG.AA.YYYY** biçiminde yazın.
 
 ### Yetkili bentler
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Yetkili bentlerin seçilmesi ve tarih girişi — video eklenecek.</span>
-</div>
-
 **6493 12/1 Yetkili Bentler** bölümündeki **Bent seçin** alanından kuruluşunuzun yetkili olduğu bentleri seçin.
 
 Her seçimin altında bent adı ve bir tarih alanı açılır. Bu alana, **kuruluşunuzun ilgili bent için TCMB tarafından faaliyet izni veya faaliyet genişletme izni aldığı tarihi** girin. **Seçtiğiniz her bent için tarih girilmesi zorunludur.**
@@ -93,9 +99,10 @@ Bu bölümün doldurulması, başvurunun gönderildiği anlamına gelmez.
 
 ## Bölüm 2 — Birlik Temsilcisi
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Birlik temsilcisi bilgileri — video eklenecek.</span>
-</div>
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-bolum2-01.webp" width="810" alt="Bölüm 2 Birlik Temsilcisi bilgileri" loading="lazy">
+  <figcaption>Bölüm 2: (1) Birlik Temsilcisi bilgileri, (2) gizlenerek gösterilen T.C. kimlik numarası ve doğum tarihi.</figcaption>
+</figure>
 
 Bu bölümde, üyelik başvurusu sırasında KEP üzerinden TÖDEB’e bildirilen **Birlik Temsilcisi** bilgileri gösterilmektedir. Bu ekranda bilgi girmeniz veya düzenleme yapmanız gerekmemektedir.
 
@@ -107,9 +114,10 @@ Görünen bilgileri kontrol edip sonraki bölüme geçmek için **Devam** düğm
 
 ## Bölüm 3 — Yönetici Bilgileri
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Yönetici ekleme ve silme — video eklenecek.</span>
-</div>
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-bolum3-01.webp" width="810" alt="Bölüm 3: açık yönetici kartı ve Yönetici Ekle düğmesi" loading="lazy">
+  <figcaption>Bölüm 3: (1) + Yönetici Ekle, (2) Yönetici Türü, (3) yönetici bilgileri, (4) kartı silme.</figcaption>
+</figure>
 
 Bu bölümde, kuruluşunuzda görev alan **Genel Müdür ve Genel Müdür Yardımcılarının** bilgileri girilmektedir. Her yönetici için ayrı bir kart eklenmesi gerekir.
 
@@ -121,6 +129,11 @@ Bu bölümde, kuruluşunuzda görev alan **Genel Müdür ve Genel Müdür Yardı
 
 > **Bilgi:** Bu bölümde **bir Genel Müdür ve en az bir Genel Müdür Yardımcısı** bulunması gerekmektedir.
 
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-bolum3-02.webp" width="810" alt="Bölüm 3: ikinci yönetici kartı açık" loading="lazy">
+  <figcaption>Kartlar akordeon gibi açılıp kapanır: (1) kartın başlığına tıklayarak içeriğini açın, (2) bu kartta Yönetici Türü olarak Genel Müdür Yardımcısı seçilmiştir.</figcaption>
+</figure>
+
 ### Fazladan eklenen yönetici kartını kaldırma
 
 Kaldırmak istediğiniz kartın sağ üstündeki çöp kutusu simgesine tıklayın. Açılan **Silmek istediğinize emin misiniz?** penceresinde kartı kontrol edip **Sil** düğmesine tıklayın. Vazgeçmek için **İptal** düğmesini kullanın. Silinen karttaki bilgiler geri alınamaz.
@@ -129,9 +142,10 @@ Kaldırmak istediğiniz kartın sağ üstündeki çöp kutusu simgesine tıklay�
 
 ## Bölüm 4 — Mali Bilgiler
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Mali bilgiler — video eklenecek.</span>
-</div>
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-bolum4-01.webp" width="820" alt="Bölüm 4 mali bilgiler" loading="lazy">
+  <figcaption>Bölüm 4: (1) fatura adresi, (2) vergi dairesi ve vergi numarası, (3) MERSİS numarası, (4) NACE kodu ve eklenen kod etiketi, (5) mali işler e-posta adresi.</figcaption>
+</figure>
 
 Bu bölümde kuruluşunuza ait fatura, vergi, MERSİS, NACE kodu ve mali işler iletişim bilgileri girilmektedir. Ekrandaki tüm alanlar zorunludur.
 
@@ -148,11 +162,20 @@ Yanlış eklediğiniz kodun yanındaki **×** işaretine tıklayın. Kod, onay s
 
 ## Bölüm 5 — İletişim Kişileri
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>İletişim kişileri — video eklenecek.</span>
+<div class="guide-video">
+  <video controls preload="metadata" playsinline aria-label="Üyelik başvurusu Bölüm 5–7 video anlatımı">
+    <source src="../../assets/videos/uyelik-basvurusu-bolum-5-7.mp4" type="video/mp4">
+    Tarayıcınız video oynatmayı desteklemiyor.
+  </video>
 </div>
+<p class="media-caption">Bu video Bölüm 5–7’yi (iletişim kişileri, HMB raporlama, dijital kimlik) ve başvurunun gönderilmesini göstermektedir.</p>
 
 Bu bölümde, TÖDEB’in farklı konularda kuruluşunuzda iletişime geçeceği kişilerin bilgileri girilmektedir. Ekranda sekiz görevlendirme için hazır kartlar bulunur. İlk açılışta **Finans/Mali İşler İrtibat Kişisi** kartı açık, diğer kartlar kapalı görünür. İlgili kartın başlığına tıklayarak alanlarını açabilirsiniz.
+
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-bolum5-01.webp" width="820" alt="Bölüm 5 iletişim kişileri genel görünümü" loading="lazy">
+  <figcaption>Bölüm 5: (1) açık kartta kişi bilgileri, (2) isteğe bağlı Kurumsal Jenerik E-posta, (3) başlığına tıklayarak açılan diğer görevlendirme kartları, (4) + Kişi Ekle ile eklenen ek kişi kartı, (5) + Kişi Ekle düğmesi.</figcaption>
+</figure>
 
 ### Kişi bilgilerini doldurma
 
@@ -173,6 +196,11 @@ Form, yazdığınız bilgileri otomatik olarak düzenler: **Soyisim** büyük ha
 
 Bu alana Hakem Heyeti kapsamında açılan, kuruluşunuzun uzantısını taşıyan e-posta adresini girin. Adresi kontrol ettikten sonra **Kurumsal e-posta onayı** kutusunu işaretleyin. **Hem bu adresin girilmesi hem de onay kutusunun işaretlenmesi zorunludur.** Alanı boş bırakır veya onayı işaretlemezseniz ilgili alanın altında kırmızı uyarı görünür.
 
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-bolum5-02.webp" width="820" alt="Hakem Heyeti kartındaki kurumsal e-posta ve onay kutusu" loading="lazy">
+  <figcaption>Hakem Heyeti kartı: (1) Hakem Heyeti kapsamında açılan kurumsal uzantılı e-posta adresi, (2) Kurumsal e-posta onayı kutusu.</figcaption>
+</figure>
+
 ### Hangi görevlendirmeye kimi yazmalısınız?
 
 | Görevlendirme | Bildirilecek kişinin görevi |
@@ -187,10 +215,6 @@ Bu alana Hakem Heyeti kapsamında açılan, kuruluşunuzun uzantısını taşıy
 | Sürdürülebilirlik Temsilcisi | Sürdürülebilirlik Yöneticisi ile birlikte çalışacak temsilci. Aranan nitelikler için kartın yanındaki **ⓘ** simgesine bakın. |
 
 ### Başka bir kişi ekleme
-
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Kişi Ekle ile aynı görevlendirmeye ek kişi bildirme — video eklenecek.</span>
-</div>
 
 Gerekiyorsa aynı görevlendirme için ilave kişi bildirebilirsiniz. **Ek kişi eklemek isteğe bağlıdır.**
 
@@ -214,9 +238,10 @@ Bilgileri kontrol ettikten sonra **Devam** düğmesine tıklayın.
 
 ## Bölüm 6 — Hazine ve Maliye Bakanlığına Yapılan Raporlama
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>HMB raporlama bilgileri — video eklenecek.</span>
-</div>
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-bolum6-01.webp" width="820" alt="Bölüm 6 HMB raporlama bilgileri" loading="lazy">
+  <figcaption>Bölüm 6: (1) raporlama kapsamında ortak anonim e-posta adresi, (2) IP adresi ve eklenen adres etiketi.</figcaption>
+</figure>
 
 Bu bölümde, Hazine ve Maliye Bakanlığı’na (HMB) yapılacak raporlama kapsamında talep edilen bilgiler girilmektedir. Bilgiler TÖDEB tarafından HMB’ye iletilir.
 
@@ -230,9 +255,10 @@ Bu bölümde, Hazine ve Maliye Bakanlığı’na (HMB) yapılacak raporlama kaps
 
 ## Bölüm 7 — Dijital Kimlik
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Dijital kimlik bilgileri ve başvurunun gönderilmesi — video eklenecek.</span>
-</div>
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-bolum7-01.webp" width="820" alt="Bölüm 7 dijital kimlik bilgileri" loading="lazy">
+  <figcaption>Bölüm 7: (1) kuruluş internet sitesi, (2) markalar, (3) isteğe bağlı sosyal medya adresleri, (4) alan adları ve eklenen alan adı etiketi.</figcaption>
+</figure>
 
 Bu bölümde kuruluşunuzun internet sitesi, markaları, sosyal medya hesapları ve alan adları girilmektedir.
 
@@ -265,9 +291,10 @@ Marka adı yazılmadan internet sitesi eklenemez; **“Markası olmayan internet
 
 ## Beklenen sonuç
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Başvurunun gönderilmesi ve inceleme ekranı — video eklenecek.</span>
-</div>
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-sonuc-01.webp" width="600" alt="Başvurunuz İncelemede ekranı" loading="lazy">
+  <figcaption>Gönderimden sonra açılan ekran: (1) Başvurunuz İncelemede başlığı ve açıklama, (2) her bölümün İncelemede durumu.</figcaption>
+</figure>
 
 **Gönder** düğmesine tıkladığınızda:
 
@@ -286,11 +313,19 @@ TÖDEB bölümleri incelediğinde, her bölümün durumu bu ekranda güncellenir
 
 ## Reddedilen bölümü düzeltme
 
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Reddedilen bölümün düzeltilip yeniden gönderilmesi — video eklenecek.</span>
+<div class="guide-video">
+  <video controls preload="metadata" playsinline aria-label="Reddedilen bölümü düzeltme video anlatımı">
+    <source src="../../assets/videos/uyelik-basvurusu-reddedilen-bolum.mp4" type="video/mp4">
+    Tarayıcınız video oynatmayı desteklemiyor.
+  </video>
 </div>
 
 Bir bölüm reddedildiğinde, yalnızca o bölümü düzeltip yeniden göndermeniz yeterlidir. Onaylanan bölümlerde işlem yapmanız gerekmez.
+
+<figure class="guide-shot">
+  <img src="../../assets/screens/basvuru-red-01.webp" width="600" alt="Reddedilen bölüm, red nedeni ve kalem simgesi" loading="lazy">
+  <figcaption>Reddedilen bölüm: (1) düzeltme için kalem simgesi, (2) Reddedildi durumu, (3) TÖDEB’in red nedeni.</figcaption>
+</figure>
 
 1. **Başvurunuz İncelemede** ekranında, reddedilen bölümün altındaki **Red nedeni** kutusunda TÖDEB’in açıklamasını okuyun.
 2. Bölüm adının yanındaki kalem simgesine tıklayın. Bölümün adını taşıyan bir pencere açılır. Pencerenin üstünde Red nedeni yer alır, alanlar mevcut bilgilerinizle dolu gelir.

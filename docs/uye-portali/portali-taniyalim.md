@@ -2,20 +2,24 @@
 
 Bu bölüm, portala giriş yaptıktan sonra karşınıza çıkan ekranın genel düzenini anlatır.
 
-## Video anlatım
-
-<div class="guide-video guide-video--placeholder" role="note" aria-label="Video henüz eklenmedi">
-  <span>Portalı tanıyalım — video eklenecek.</span>
-</div>
-
 ## Ekranın bölümleri
 
-- **Sol menü:** Portaldaki tüm modüllere buradan ulaşırsınız. Menü üç gruptan oluşur:
+<figure class="guide-shot">
+  <img src="../../assets/screens/portal-ekran-01.webp" width="1440" alt="Portal ana ekranı: sol menü, sayfa adı, bildirimler, profil ve hesap bilgisi" loading="lazy">
+  <figcaption>Portalın ana ekranı: (1) sol menü, (2) bulunduğunuz sayfanın adı, (3) Bildirimler (zil), (4) profil fotoğrafı, (5) hesap bilgisi.</figcaption>
+</figure>
+
+- **(1) Sol menü:** Portaldaki tüm modüllere buradan ulaşırsınız. Menü üç gruptan oluşur:
   - **Genel:** Genel Bilgiler
   - **İşlemler:** Destek Talepleri, Duyurular, Anketler, Takvim, Etkinlikler, Dosya Alanı
   - **Kuruluş:** Kullanıcılar, Roller, Komite / Çalışma Grupları
-- **Üst çubuk:** Solda bulunduğunuz sayfanın adı, sağda **Bildirimler** (zil) simgesi ve profil fotoğrafınız yer alır.
-- **Sol alt köşe:** Adınız ve e-posta adresiniz. Tıkladığınızda **Profil** ve **Çıkış Yap** seçenekleri açılır.
+- **Üst çubuk:** Solda **(2)** bulunduğunuz sayfanın adı, sağda **(3) Bildirimler** (zil) simgesi ve **(4)** profil fotoğrafınız yer alır.
+- **(5) Sol alt köşe:** Adınız ve e-posta adresiniz. Tıkladığınızda **Profil** ve **Çıkış Yap** seçenekleri açılır.
+
+<figure class="guide-shot">
+  <img src="../../assets/screens/portal-hesap-menusu-01.webp" width="520" alt="Sol alttaki hesap menüsü: Profil ve Çıkış Yap" loading="lazy">
+  <figcaption>Hesap menüsü: (1) Profil, (2) Çıkış Yap.</figcaption>
+</figure>
 
 
 ## Menüde neden bazı modülleri göremiyorum?

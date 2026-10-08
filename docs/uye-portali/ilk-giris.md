@@ -6,6 +6,11 @@ Bu rehber, kuruluş ana hesabınızla Üye Portalı’na ilk girişinizi gerçek
 
 Hesabınız oluşturulduğunda, giriş için kullanacağınız e-posta adresi ve parola tarafınıza e-posta yoluyla iletilir. Üye Portalı’na giriş yaparken bu bilgileri kullanmanız gerekecektir.
 
+<figure class="guide-shot guide-shot--narrow">
+  <img src="../../assets/screens/ilk-giris-e01.webp" alt="TÖDEB’den gelen “Hesabınız Oluşturuldu” e-postası: e-posta adresi ve parola" loading="lazy">
+  <figcaption>Hesabınız oluşturulduğunda size gelen e-posta. Parola, bu örnekte gizlenmiştir.</figcaption>
+</figure>
+
 ## Video anlatım
 
 <div class="guide-video">
@@ -23,8 +28,23 @@ Hesabınız oluşturulduğunda, giriş için kullanacağınız e-posta adresi ve
 2. **Hesabınıza giriş yapın.**  
    Açılan ekranda, size gönderilen e-postada belirtilen adresi **İş e-posta adresinizi girin** alanına, parolayı ise **Şifre** alanına yazın. **Giriş Yap** düğmesine tıklayın.
 
+    <figure class="guide-shot">
+      <img src="../../assets/screens/ilk-giris-01.webp" alt="Giriş ekranı: e-posta ve şifre alanları ile Giriş Yap düğmesi" loading="lazy">
+      <figcaption>Giriş ekranı: (1) e-posta adresi, (2) şifre, (3) Giriş Yap düğmesi.</figcaption>
+    </figure>
+
 3. **Taahhütname ve KVKK metinlerini inceleyin.**  
    Giriş sonrasında taahhütname ve KVKK metinleri ayrı pencerelerde sırayla açılır. Her metni, pencere içinde aşağı doğru ilerleyerek sonuna kadar okuyun. Onaylıyorsanız **Onayla ve Gönder** düğmesine tıklayarak sonraki metne geçin. Gösterilen tüm metinler için bu adımı tamamlayın.
+
+    <figure class="guide-shot guide-shot--pending">
+      <div class="guide-shot__box">Görüntü bekleniyor</div>
+      <figcaption>Taahhütname penceresi. <span class="guide-shot__badge">⚠ Güncellenecek</span></figcaption>
+    </figure>
+
+    <figure class="guide-shot">
+      <img src="../../assets/screens/ilk-giris-02.webp" alt="KVKK aydınlatma metni penceresi: Reddet ve Onayla ve Gönder düğmeleri" loading="lazy">
+      <figcaption>KVKK aydınlatma metni penceresi: (1) Reddet, (2) Onayla ve Gönder. <span class="guide-shot__badge">⚠ Güncellenecek</span></figcaption>
+    </figure>
 
 ## Metinleri reddederseniz
 

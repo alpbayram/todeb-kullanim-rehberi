@@ -442,6 +442,11 @@ input {
   margin: 0.4rem 0 0;
 }
 
+/* Menüdeki karar kartı sayısı rozeti şimdilik gizli (hook çalışmaya devam eder). */
+.md-nav__link .review-count {
+  display: none;
+}
+
 /* GEÇİCİ: karar bekleyen kartı olan sayfaların soluna sayı rozeti (inceleme bitince silinecek). */
 .md-nav[data-md-level="1"] > .md-nav__list {
   overflow: visible;
@@ -478,11 +483,16 @@ input {
 
 .guide-shot img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
+  margin-inline: auto;
   border: 1px solid var(--todeb-border);
   border-radius: 6px;
   box-shadow: 0 2px 10px rgba(45, 57, 66, 0.08);
+}
+
+.guide-shot--narrow img {
+  max-width: min(100%, 520px);
 }
 
 .guide-shot figcaption {

@@ -26,6 +26,11 @@ Sayfanın üst kısmında “Hoş geldiniz” başlığı ve kuruluşunuzun adı
 - **Birlik Temsilcisi:** Adı, ünvanı, e-posta adresi, telefonu ve doğum tarihi. Bu kart yalnızca görüntülenir.
 - **İletişim Kişileri:** Başvuruda bildirdiğiniz irtibat kişilerinin bilgileri.
 
+<figure class="guide-shot">
+  <img src="../../assets/screens/genel-bilgiler-01.webp" width="1184" alt="Genel Bilgiler sayfasındaki kartlar" loading="lazy">
+  <figcaption>Genel Bilgiler sayfasındaki kartlar: (1) Firma Bilgileri, (2) Mali ve Kurumsal Bilgiler, (3) Faaliyet İzinleri, (4) Alan Adları, (5) Yöneticiler, (6) Hazine ve Maliye Bakanlığına Yapılan Raporlama Bilgileri, (7) Sosyal Medya Hesapları, (8) Birlik Temsilcisi, (9) İletişim Kişileri.</figcaption>
+</figure>
+
 ### Gizlenen bilgiler
 
 Telefon numaraları, e-posta adresleri, vergi ve MERSİS numaraları, IP adresleri ve doğum tarihi gibi hassas bilgiler yıldızlarla (ör. `+90555******`) gizlenerek gösterilir. Bilgiyi görmek için, bilginin yanındaki **göz simgesine** tıklayın.
@@ -49,6 +54,11 @@ Değiştirilebilen kartların sağ üst köşesinde **kalem simgesi** bulunur. A
 | **Hazine ve Maliye Bakanlığına Yapılan Raporlama Bilgileri** | Raporlama e-posta adresi ve IP adresleri |
 | **Sosyal Medya Hesapları** | Sosyal medya bağlantıları |
 | **İletişim Kişileri** | **İletişim Kişileri** penceresi: irtibat kişileri ve görevlendirmeleri |
+
+<figure class="guide-shot">
+  <img src="../../assets/screens/genel-bilgiler-duzenle-01.webp" width="705" alt="Kalem simgesiyle açılan Kuruluşa İlişkin Diğer Bilgiler penceresi" loading="lazy">
+  <figcaption>Kalem simgesiyle açılan düzenleme penceresi: (1) Faaliyet İzin Türü soluk görünür ve değiştirilemez, (2) değişiklikleri onaya göndermek için Kaydet.</figcaption>
+</figure>
 
 ### Adımlar
 
